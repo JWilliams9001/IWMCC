@@ -61,6 +61,7 @@ h3 {
   display: grid;
   grid-template-columns: auto auto;
   padding: 5%;
+  align-content: center;
 }
 .grid-item {
   border: none;
@@ -74,6 +75,8 @@ h3 {
 img {
   max-width: 100%;
   height: auto;
+  text-align: center;
+
 }
 
 footer {
