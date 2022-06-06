@@ -223,10 +223,10 @@
          </div>
 
          <div n="article_1.3">
-            <head>Slade Scramble</head>
-            <byline>By <persName>BASIL BRINDLEY</persName></byline>
+            <div n="head_1.3.1"><head>Slade Scramble</head>
+            <byline>By <persName>BASIL BRINDLEY</persName></byline></div>
 
-            <p>
+          <div n="section 1.3.2">  <p>
                <hi rend="case (allcaps)">LONG</hi> handicap man, Stan Tracey,<lb/> scored a
                comfortable win from<lb/> the near scratch pair, Freddie Dickson<lb/> and Edmund
                Gill, in the Nicholson<lb/> Memorial Scramble at, the Slade<lb/> yesterday.</p>
@@ -234,9 +234,9 @@
             <p>The event was run over fifteen laps<lb/> and was preceded by the<lb/> distance <name
                   type="race">Carville Cup</name> race,<lb/> honours went to <persName>C.
                   Childs</persName> on an<lb/>
-               <objectName type="motorcycle">Ariel</objectName>.</p>
+               <objectName type="motorcycle">Ariel</objectName>.</p></div>
 
-            <p n="results"><hi rend="bold">Results—<name type="race">Nicholson Memorial
+            <div n="section(results)_1.3.3"><p><hi rend="bold">Results—<name type="race">Nicholson Memorial
                      Trophy</name> . .<lb/> (15 laps)</hi>—<num type="cardinal" rend="first place"
                   >1</num>, <persName>S. A. Tracey</persName> (<objectName type="motorcycle"
                   >Sun</objectName>) (loss<lb/> obsv. 36)(lost time 16) (h’cap. 70)<lb/> (net 518)
@@ -272,7 +272,7 @@
                   <unclear>(463)</unclear></unit>; <num type="cardinal" rend="third place">3</num>.
                   <persName>D. Cullen</persName> (<objectName type="motorcycle">Norton</objectName>)
                   <unit type="score">(88) (1)<lb/>
-                  <unclear><supplied>(501)</supplied></unclear> (461)</unit>.</p>
+                  <unclear><supplied>(501)</supplied></unclear> (461)</unit>.</p></div>
          </div>
 
         <div n="photograph_1.4"> 
@@ -877,7 +877,7 @@
 
 
             <div n="head_10.2.2"><head type="section">MOTOR-CYCLING...</head>
-               <!--find tag here-->
+            
                <byline>BY BR<gap rend="missing"/></byline>
 
                <head type="article">Big Test<lb/> Nenagh</head></div>
