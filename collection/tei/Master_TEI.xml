@@ -37,8 +37,8 @@
                <figDesc rend="photograph">A black and white image, which is loacted at the top, centre of the article, of two motorcycle racers; Ian Williams
                   (foreground), who is raising up the front wheel of his bike, and an unidentified
                   man (background).</figDesc>
-               <graphic xml:id="sb_03_01_cut.jpg" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/JPG/sb_03_01_cut.jpg"/>
-               <graphic xml:id="sb_03_01_cut.png" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/Thumbnails/sb_03_TN_C _01_cut.png"/>
+               <graphic xml:id="cut_1.1.1_JPEG" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/JPG/sb_03_01_cut.jpg"/>
+               <graphic xml:id="cut_1.1.1_thumb" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/Thumbnails/sb_03_TN_C _01_cut.png"/>
                <head ><hi rend="case (allcaps)">CHAMPIONSHIP CHALLENGER . . .</hi></head>
                <p>Dublin rider <persName ref="#IW">Ian Williams</persName>
                   <objectName type="motorcycle">(Ariel) </objectName>who rides in to-morrow’s <name
@@ -277,20 +277,20 @@
 
         <div n="photograph_1.4"> 
            <figure>
-            <figDesc>Two men ride motorcycles in a race along a grassy track. The man in the
+            <figDesc>A black and white photograph of two men riding motorcycles in a race along a grassy track. The man in the
                foreground (unidentified) is on a motorcycle marked number '47'. The man in the
                background (Ian Williams) is on a motorcyle marked number '49'</figDesc>
-              <graphic xml:id="sb_03_04.jpg" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/JPG/sb_03_04.jpg"/>
-              <graphic xml:id="sb_03_TN_C_04.png" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/Thumbnails/sb_03_TN_C_04.png"/>
+              <graphic xml:id="photo_1.4_JPEG" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/JPG/sb_03_04.jpg"/>
+              <graphic xml:id="photo_1.4_thumb" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/Thumbnails/sb_03_TN_C_04.png"/>
 
          </figure></div>
 
         <div n="photograph_1.5"> <figure>
-            <figDesc>Two men race motorcyles in a grass field, in the lead is Ian Williams, riding a
+            <figDesc>A black and white photograph of two men race motorcyles in a grass field, in the lead is Ian Williams, riding a
                motorcycle marked number '34' the man behind (unidentified) rides a motorbike marked
-               number '45'. In the background Two onlookers stand next to a parked car</figDesc>
-            <graphic xml:id="" url=""/>
-            <graphic xml:id="" url=""/>
+               number '45'. In the background Two onlookers stand next to a parked car. </figDesc>
+           <graphic xml:id="photo_1.5_JPEG" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/JPG/sb_03_05.jpg"/>
+           <graphic xml:id="photo_1.5_thumb" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/Thumbnails/sb_03_TN_C_05.png"/>
 
          </figure></div>
       
@@ -302,8 +302,8 @@
             <figure>
                <figDesc>A black and white photograph of David Tye (left) Ian Williams (right)
                   sitting on stationary mud-clad motorbikes</figDesc>
-               <graphic xml:id="" url=""/>
-               <graphic xml:id="" url=""/>
+               <graphic xml:id="photo_2.1_JPEG" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/JPG/sb_04_01.jpg"/>
+               <graphic xml:id="photo_2.1_thumb" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/Thumbnails/sb_04_TN_C_01.png"/>
                <!--find correct tag for handwritten-->
                <p rend="handwritten text, case(allcaps)">SMILES FROM DAVID TYE AND <lb/> MYSELF AT
                   BRAY SCRAMBLE</p>
@@ -377,10 +377,10 @@
 
          <div n="photograph_3.1"><figure>
             <figDesc>A black and white photograph of a man (possibly Ian Williams) rides a
-               motorcycle (marked number 5), which has it's front wheel lifted off the ground, over
-               a rocky path. The motorcycle </figDesc>
-            <graphic xml:id="" url=""/>
-            <graphic xml:id="" url=""/>
+               motorcycle (marked number 5), which has it's front and back wheels lifted off the ground, over
+               a rocky path. </figDesc>
+            <graphic xml:id="photo_3.1.JPEG" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/JPG/sb_06_01.jpg"/>
+            <graphic xml:id="photo_3.1_thumb" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/Thumbnails/sb_06_TN_C_01.png"/>
          </figure></div>
 
          <div n="article_3.2" >
@@ -410,7 +410,7 @@
                factory.</p>
 
 
-            <p rend="bold"><quote xml:id="#IW">The most obvious things that<lb/> our men have to
+            <p rend="bold"><quote source="#IW">The most obvious things that<lb/> our men have to
                   learn are. keep-<lb/> ing the taps open and front wheel<lb/> control. It was
                   wonderful to see<lb/> how the British experts could con-<lb/> trol their bikes at
                   higher speeds<lb/> than those at which many of our<lb/> men were losing control of
@@ -582,31 +582,33 @@
                    well supported fixture.</p>
             </div>
          </div>  
-
+         
+         
+         <pb n="5"/>
 <!--page 5 (sb_09) -->
-
+         
 <div type="article" n="5.1">
-<pb n="5"/>
+
    
    <figure>
       <figDesc>A black and white photograph of a motorcycle racer; Ian Williams
          (foreground), and an unidentified group of people watching (background)</figDesc>
-      <graphic xml:id="" url=""/>
-      <graphic xml:id="" url=""/>
+      <graphic xml:id="photo_5.1_JPEG" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/JPG/sb_09_01.jpg"/>
+      <graphic xml:id="photo_5.1_thumb" url="../../docs/assets/img/documents/Thumbnails/sb_09_TN_C_01.png"/>
    </figure>  
    
    <figure>
       <figDesc>A black and white photograph of a motorcycle racer; Ian Williams
          (foreground), and an unidentified man watching (background)</figDesc>
-      <graphic xml:id="" url=""/>
-      <graphic xml:id="" url=""/>
+      <graphic xml:id="photo_5.2_JPEG" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/JPG/sb_09_02.jpg"/>
+      <graphic xml:id="photo_5.2_thumb" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/Thumbnails/sb_09_TN_C_02.png"/>
    </figure>
 
    <div n="article 1"> 
    <head rend="case (allcaps)"><persName>WILLIAMS BROTHERS IN FORM</persName></head>
    <p>The <name type="org">Dublin University Club</name> held a grass-<lb/> track race meeting in <placeName>Powerscourt</placeName> on Satur-<lb/>
       day. The <persName>Williams Brother</persName> had a good <lb/> day with three wins and three places between <lb/>
-      them. <persName xml:id="#IW">Ian Williams</persName> and <persName>Ernie Lyons</persName> again <lb/> had some close tussles, <persName>Lyons</persName> winning the <lb/>
+      them. <persName ref="#IW">Ian Williams</persName> and <persName>Ernie Lyons</persName> again <lb/> had some close tussles, <persName>Lyons</persName> winning the <lb/>
       <name type="race">graded scratch race</name> and <persName ref="#IW">Williams</persName> the <name type="race">500 <lb/>c.c. scratch</name> in the best time of the day.<lb/>
       Results:–</p>
 
@@ -620,10 +622,10 @@
          Scarlett </persName> (<name type="motorcycle">Sun</name>).
       </p>
       <p> <hi rend="bold"><hi rend="indentation"><name type="race">Graded Scratch 3 </name></hi></hi> – 1, <persName>E. Lyons</persName>(<name type="motorcycle">Triumph-<lb/>
-         J.A.P.</name>), 4m. 48. s.; 2. <persName xml:id="#IW">I. Williams</persName> (<name type="motorcycle">Ariel</name>); <lb/> 3, <persName>>E.A. Callaghan </persName> (<name type="motorcycle">R./Einfield</name>).
+         J.A.P.</name>), 4m. 48. s.; 2. <persName ref="#IW">I. Williams</persName> (<name type="motorcycle">Ariel</name>); <lb/> 3, <persName>>E.A. Callaghan </persName> (<name type="motorcycle">R./Einfield</name>).
       </p>
       <p> <hi rend="bold"><hi rend="indentation"><name type="race">Open Handicap</name></hi></hi> – 1, <persName>E. Williams</persName>(<name type="motorcycle">Ariel</name>),<lb/>
-         handicap 30s., time 5m. 0s.; 2. <persName xml:id="#IW">I. Williams</persName> <lb/> (<name type="motorcycle">Ariel</name>), 2s.;
+         handicap 30s., time 5m. 0s.; 2. <persName ref="#IW">I. Williams</persName> <lb/> (<name type="motorcycle">Ariel</name>), 2s.;
          3. <persName>G.T. Scarlett</persName> (<name type="motorcycle">Sun</name>), 35s.
       </p>
       <p> <hi rend="bold"><hi rend="indentation"><name type="race">200 c.c. Scratch</name></hi></hi> – 1, <persName>F.C. Dickinson</persName><lb/> (<name type="motorcycle">Sun</name>),
@@ -634,7 +636,7 @@
          5m. 8s.; 2. <persName>C. Pearson</persName> <lb/> (<name type="motorcycle">B.S.A.</name>); <lb/>
          3, <persName>R. Rennicks</persName> (<name type="motorcycle">B.S.A.</name>).
       </p>
-      <p> <hi rend="bold"><hi rend="indentation"><name type="race">500 c.c. Scratch</name></hi></hi> – 1, <persName xml:id="#IW">I. Williams</persName>(<name type="motorcycle">Ariel</name>),<lb/>
+      <p> <hi rend="bold"><hi rend="indentation"><name type="race">500 c.c. Scratch</name></hi></hi> – 1, <persName ref="#IW">I. Williams</persName>(<name type="motorcycle">Ariel</name>),<lb/>
          4m. 39s.; 2. <persName>E. Lyons</persName> <lb/> (<name type="motorcycle">Triumph-J.A.P.</name>); <lb/>
          3, <persName>E. Williams</persName> (<name type="motorcycle">Ariel</name>).
       </p>
@@ -643,11 +645,11 @@
    <div n="article 2">
       <head rend="bold">Terrific Motor <lb/> Cycle Finish</head>
       <p><hi rend="case (allcaps)">HIGHLIGHT</hi> of the <placeName>Dun <lb/> Laoghaire</placeName> motor cycle <lb/> club's <name type="race">grass track meeting</name> at <lb/>
-         <placeName>Rochestown Avenue</placeName> yesterday <lb/> was a terrific neck - and - neck <lb/> struggle between <persName xml:id="#IW">Ian Williams</persName> <lb/>
+         <placeName>Rochestown Avenue</placeName> yesterday <lb/> was a terrific neck - and - neck <lb/> struggle between <persName ref="#IW">Ian Williams</persName> <lb/>
          (Ariel) and <persName>Mervyn Hayes</persName> (Royal <lb/> Enfield) in the senior race. For <lb/> lap after lap the pair fought it <lb/>
-         out. <persName xml:id="#IW">Williams</persName> got the verdict by <lb/> a fraction of a second.
+         out. <persName ref="#IW">Williams</persName> got the verdict by <lb/> a fraction of a second.
       </p>
-      <p rend="results"><hi rend="bold"><hi rend="indentation"><name type="race">500 c.c. <abbr>Scr.</abbr></name></hi></hi> – 1, <persName xml:id="#IW">I. Williams</persName>
+      <p rend="results"><hi rend="bold"><hi rend="indentation"><name type="race">500 c.c. <abbr>Scr.</abbr></name></hi></hi> – 1, <persName ref="#IW">I. Williams</persName>
          (<name type="motorcycle">Ariel</name>); <lb/> 2. <persName>M. Hayes</persName> (<name type="motorcycle">Royal Enfield</name>); 3, <persName> E. <lb/> Williams</persName>
          (<name type="motorcycle">Ariel</name>).
       </p>
@@ -690,7 +692,7 @@
          <div n="article 1"> 
             <head rend="case (allcaps)"><persName>WILLIAMS</persName>'S TREBLE</head>
             <p>At the <name type="org">Dublin University Motor-cycle<lb/> and Light Car Club's</name> grass- track race meeting, <lb/>held in <placeName>Powerscourt, <abbr>Co.</abbr> Wicklow</placeName>, on<lb/>
-               Saturday. <persName xml:id="#IW">Ian Williams</persName> (<name type="motorcycle">Ariel</name>) scored a <lb/>treble and made fastest time of the day. <lb/>
+               Saturday. <persName ref="#IW">Ian Williams</persName> (<name type="motorcycle">Ariel</name>) scored a <lb/>treble and made fastest time of the day. <lb/>
                Other winners included <persName>C.F. Scarlett</persName>, <lb/> who won two events. Results:–</p>
             <p rend="results"><hi rend="bold"><hi rend="indentation"><name type="race">Graded Scratch No. 1</name></hi></hi> – 1, <persName>K. Cotter</persName> <lb/>
                (<name type="motorcycle">Excelsior</name>); 2. <persName>M. D. Thornton</persName> (<name type="motorcycle">Dot</name>); 3,<lb/> <persName> J. Poyrton</persName>
@@ -700,11 +702,11 @@
                (<name type="motorcycle">Dot</name>), 2. <persName>F. C. Dickinson</persName> (<name type="motorcycle">Dot</name>); 3,<lb/> <persName> J. Barkley</persName>
                (<name type="motorcycle">Sun</name>)., 5 mins. 28 secs.
             </p>
-            <p rend="results"><hi rend="bold"><hi rend="indentation"><name type="race">Graded Scratch No. 3</name></hi></hi> – 1, <persName xml:id="#IW">I. Williams</persName> <lb/>
+            <p rend="results"><hi rend="bold"><hi rend="indentation"><name type="race">Graded Scratch No. 3</name></hi></hi> – 1, <persName ref="#IW">I. Williams</persName> <lb/>
                (<name type="motorcycle">Ariel</name>), 2. <persName>E. Williams</persName> (<name type="motorcycle">Ariel</name>); 3,<lb/> <persName>D. J. <lb/> Dixon</persName>
                (<name type="motorcycle">Norton/Jap</name>). 5 mins. 5 secs.
             </p>
-            <p rend="results"><hi rend="bold"><hi rend="indentation"><name type="race">Allcomers' Handicap Final</name></hi></hi> – 1, <persName xml:id="#IW">I.<lb/> Williams</persName> 
+            <p rend="results"><hi rend="bold"><hi rend="indentation"><name type="race">Allcomers' Handicap Final</name></hi></hi> – 1, <persName ref="#IW">I.<lb/> Williams</persName> 
                (<name type="motorcycle">Ariel</name>), <abbr>scr</abbr>.; 2. <persName>E. Williams</persName> <lb/>(<name type="motorcycle">Ariel</name>), <abbr>h'cap</abbr> 5 secs.; 3,
                <persName>G. F. Scarlett</persName> <lb/> (<name type="motorcycle">Dot</name>), 18 secs. 5 mins. 0 secs.
             </p>
@@ -716,7 +718,7 @@
                (<name type="motorcycle">Norton/Jap</name>); 2. <persName>S. Foody</persName> (<name type="motorcycle">B.S.A.</name>); 3, <lb/>
                <persName>W. E. Harris</persName>(<name type="motorcycle">B.S.A.</name>) 5 mins, 11 secs.
             </p>
-            <p rend="results"><hi rend="bold"><hi rend="indentation"><name type="race">500 c.c. scratch</name></hi></hi> – 1, <persName xml:id="#IW">I. Williams</persName>
+            <p rend="results"><hi rend="bold"><hi rend="indentation"><name type="race">500 c.c. scratch</name></hi></hi> – 1, <persName ref="#IW">I. Williams</persName>
                (<name type="motorcycle">Ariel</name>); <lb/> 2. <persName>E. Williams</persName> (<name type="motorcycle">Ariel</name>); 3,
                <persName>J. Porter</persName>(<name type="motorcycle">Jap</name>), <lb/> 4 mins, 58 secs.
             </p>
@@ -917,9 +919,9 @@
                         <expan>Associated Motorcycles</expan>
                      </choice></name> engined<lb/>
                   <objectName type="motorcycle">Francis Barnetts</objectName>, ridden by<lb/>
-                  <persName xml:id="#IW">Ian Williams</persName> and <persName> Jim<lb/>
+                  <persName ref="#IW">Ian Williams</persName> and <persName> Jim<lb/>
                      Kavenagh</persName>.</p>
-               <p rend="bold"><persName xml:id="#IW">Ian Williams</persName> is <objectName
+               <p rend="bold"><persName ref="#IW">Ian Williams</persName> is <objectName
                      type="motorcycle">Ariel</objectName>-<lb/> mounted in the 500 c.c. class.</p>
                <p>The competition comes<lb/> from his brother, <persName>Eric</persName>, who<lb/>
                   rides either an <objectName type="motorcycle">Ariel</objectName> or a<lb/>
@@ -1018,15 +1020,15 @@
 
                <figure>
                   <figDesc>A black and white up close photograph of Sammy Miller wearing a white
-                     racing helmet and goggles (positioned on the helmet).</figDesc>
-                  <graphic xml:id="" url=""/>
-                  <graphic xml:id="" url=""/>
+                     racing helmet and goggles (positioned on the helmet). A 'cut' located in the third column (top) of the article 10.3, "Islse of Man for Miller" </figDesc>
+                  <graphic xml:id="cut_20.3_JPEG" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/JPG/sb_20_03_cut.jpg"/>
+                  <graphic xml:id="cut_20.3_thumb" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/Thumbnails/sb_20_TN_C_03 _cut.png"/>
                   <head><hi rend="case (allcaps)"><persName>SAMMY MILLER</persName></hi></head>
 
                </figure>
 
                <p>
-                  <persName xml:id="#IW">Ian Williams</persName>, on the<lb/>
+                  <persName ref ="#IW">Ian Williams</persName>, on the<lb/>
                   <objectName type="motorcycle">Francis Barnett</objectName>, might just<lb/><lb/>
                   manage it in the <name type="race"> 250 race.</name></p>
                <p> Racing starts at 3.30 and<lb/> will conclude at about <lb/> 5.45 p.m.</p>
@@ -1040,8 +1042,8 @@
                      a field posing for a group photograph.Ian Williams is pictured centre wearing
                      overalls. The text "Powerscort '56" has been written by hand directly onto the
                      photograph (top) </figDesc>
-                  <graphic xml:id="" url=""/>
-                  <graphic xml:id="" url=""/>
+                  <graphic xml:id="photo_20.4_JPEG" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/JPG/sb_20_04.jpg"/>
+                  <graphic xml:id="photo_20.4_thumb" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/Thumbnails/sb_20_TN_C_04.png"/>
                   <ab><add rend="text (handwritten) align (top, centre)" hand="unknown"
                            ><placeName>Powerscourt</placeName>
                         <date when="1956">'56</date></add>
