@@ -31,7 +31,7 @@
          <!--page 1 (sb_03) -->
 
 
-<div> so if I do this, you can see it in GitHub, Jackie? Neither Oxygen or Visual Studio Code worked, so this is from Sublime Text. </div>
+
 
 
          <div n="article_1.1">
@@ -308,8 +308,8 @@
                <graphic xml:id="photo_2.1_JPEG" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/JPG/sb_04_01.jpg"/>
                <graphic xml:id="photo_2.1_thumb" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/Thumbnails/sb_04_TN_C_01.png"/>
                <!--find correct tag for handwritten-->
-               <p rend="handwritten text, case(allcaps)">SMILES FROM DAVID TYE AND <lb/> MYSELF AT
-                  BRAY SCRAMBLE</p>
+               <p rend="handwritten text, case(allcaps)"></p>
+               
             </figure>
 
          </div>
@@ -672,27 +672,28 @@
       </p>
    </div>
 </div>
-	      
-        <!--page 6 (sb_10) -->
-         <div n="article_6.1">
-         
          <pb n="6"/>
+        <!--page 6 (sb_10) -->
+        
          
-         <figure>
+           <div n="photograph_6.1"> <figure>
+               <figDesc>A black and white photograph of three motorcycle racers with some unidentified onlookers in the background</figDesc>
+              <graphic xml:id="photo_6.1_JPEG" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/JPG/sb_10_01.jpg"/>
+              <graphic xml:id="photo_6.1.thumb" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/Thumbnails/sb_10_TN_C_01.png"/>
+              
+            </figure></div>
+         
+       <div n="photograph_6.2">  <figure>
             <figDesc>A black and white photograph of a motorcycle racer; Ian Williams</figDesc>
-            <graphic xml:id="" url=""/>
-            <graphic xml:id="" url=""/>
-         </figure>
+            <graphic xml:id="photo_6.2_JPEG" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/JPG/sb_10_02.jpg"/>
+            <graphic xml:id="photo_6.2_thumb" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/Thumbnails/sb_10_TN_C_02.png"/>
+            <head rend="italics">The sky's the limit . . . so thinks <persName ref="#IW">Ian <lb/>Williams</persName> as he directs his
+               <objectName type="motorcycle">Ariel</objectName>into <location>space</location>.</head>
+         </figure></div>
          
-         <figure>
-            <figDesc>A black and white photograph of three motorcycle racers with some unidentified onlookers in the background</figDesc>
-            <graphic xml:id="" url=""/>
-            <graphic xml:id="" url=""/>
-            <p rend="italics">The sky's the limit . . . so thinks <persName ref="#IW">Ian <lb/>Williams</persName> as he directs his
-               <objectName type="motorcycle">Ariel</objectName>into <location>space</location>.</p>
-         </figure>
          
-         <div n="article 1"> 
+         
+         <div n="article_6.3"> 
             <head rend="case (allcaps)"><persName>WILLIAMS</persName>'S TREBLE</head>
             <p>At the <name type="org">Dublin University Motor-cycle<lb/> and Light Car Club's</name> grass- track race meeting, <lb/>held in <placeName>Powerscourt, <abbr>Co.</abbr> Wicklow</placeName>, on<lb/>
                Saturday. <persName ref="#IW">Ian Williams</persName> (<name type="motorcycle">Ariel</name>) scored a <lb/>treble and made fastest time of the day. <lb/>
@@ -726,7 +727,7 @@
                <persName>J. Porter</persName>(<name type="motorcycle">Jap</name>), <lb/> 4 mins, 58 secs.
             </p>
          </div>
-         </div>
+         
          
 
 
@@ -736,8 +737,8 @@
             <figure>
             <figDesc>A black and white photograph of two men racing across a field on motorcyles.
                Shot from behind. </figDesc>
-            <graphic xml:id="" url=""/>
-            <graphic xml:id="" url=""/>
+               <graphic xml:id="photo_7.1_JPEG" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/JPG/sb_11_01.jpg"/>
+               <graphic xml:id="photo_7.1_thumb" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/Thumbnails/sb_11_TN_C_01png.png"/>
 
          </figure></div>
 
@@ -745,8 +746,8 @@
             <figDesc>A balck and white photograph of two men racing motorbikes as a crowd watches
                from the sidelines. The mortorbike in the lead (left) is marked number '38', the
                motorbike in the second position (right) is marked number'39'.</figDesc>
-            <graphic xml:id="" url=""/>
-            <graphic xml:id="" url=""/>
+            <graphic xml:id="photo_7.2_JPEG" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/JPG/sb_11_02.jpg"/>
+            <graphic xml:id="photo_7.2_thumb" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/Thumbnails/sb_11_TN_C_02.png"/>
 
          </figure></div>
 
@@ -806,23 +807,33 @@
                nominations<lb/> continue to pour in at the present.</p>
          </div>
          <pb n="7"/>
+         
+         
          <!--page 8 (sb_15) -->
-         <div n="article_8.1">
+         
+         <div n="photograph_8.1">
             
             <figure>
                <figDesc>A black and white photograph of a motorcycle racer; Ian Williams</figDesc>
-               <graphic xml:id="" url=""/>
-               <graphic xml:id="" url=""/>
+               <graphic xml:id="" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/JPG"/>
+               <graphic xml:id="" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/Thumbnails/sb_15_TN_C_01.png"/>
             </figure>
-            
-            <figure>
+         </div>
+         
+           <div n="photograph_8.2"> <figure>
                <figDesc>A black and white photograph of a motorcycle racer; Ian Williams</figDesc>
-               <graphic xml:id="" url=""/>
-               <graphic xml:id="" url=""/>
-            </figure>
+               <graphic xml:id="" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/JPG/sb_15_03.jpg"/>
+               <graphic xml:id="" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/Thumbnails/sb_15_TN_C_03.png"/>
+            </figure></div>
             
-            <div n="article 1">
-               <cb/>
+          
+      <div n="article_8.3">
+         
+         
+            <div n="head 8.3.1"> <head>MOTOR CYCLE AND SCOOTER NOTES</head></div>
+         
+         
+             <div n="section_8.3.2">
                <head rend="bold">The best Last.</head>
                <p><hi rend="case (allcaps)">For</hi> some reason, as yet un-<lb/> e<damage type="tear"><supplied>xp</supplied>lained,</damage> the <name type="race">graded scratch<lb/>
                   races</name>which normally open the pro-<lb/>gramme, where the last events to be <lb/> contested at Sunday's <name type="race">open grass<lb/> track</name>,
@@ -848,9 +859,9 @@
                   narrowly. The gallant <persName>Harris</persName> was third.... This was a great race!
                   <hi rend="bold">* * *</hi>
                </p>
-               
-            </div>
-            <div n="article 2">
+               </div>
+            
+            <div n="section_8.3.3">
                <head rend="bold">The Other Events.</head>
                <p>Only less exciting by comparison <lb/> with such heart-stopping stuff <lb/>
                   were the other events on the pro-<lb/>gramme. <persName ref="#IW">Ian Williams</persName> had dam-<lb/>aged
@@ -869,8 +880,9 @@
                   an underpowered <name type="motorcycle">James</name>. <lb/>
                   <hi rend="bold">* * *</hi>
                </p>
+            </div>
                
-            <div n="article 3">
+            <div n="section_8.3.4">
                <head rend="bold">* * * <lb/> Spills and Other Things</head>
                <p><persName ref="#IW">Ian Williams</persName> beat <persName>Mervyn Hayes</persName><lb/> in the <name type="race">500 c.c. scratch race</name>.
                   <persName>Eric <lb/> Williams</persName>, on another <name type="motorcycle">J.A.P</name>, was a <lb/>
@@ -904,7 +916,7 @@
               </p>
             </div>
             
-            <div rend="results">
+            <div rend="section(results)_8.3.5">
                <p><name type="race">250 c.c. (<abbr>scr.</abbr>)</name>–<persName>J. M. Kavanagh</persName> <lb/>
                   (<placeName>Dublin</placeName>) (<name type="motorcycle">247 Francis Barnet</name>), 1;<lb/>
                   <persName>M Smurfit</persName> (<placeName>Dublin</placeName>) (<name type="motorcycle">247 Dodder</name>),<lb/>
@@ -935,20 +947,19 @@
                   <hi rend="bold">* * *</hi>
                </p>
             </div>
-               
            
                
             </div>
+     
             
-            
-         </div>
+         
          <pb n="8"/>
 	      
 	      
          <!--page 9 (sb_17) -->
+         
          <div n="article_9.1">
 
-        <div n="article 1">
             
             <head rend="bold">Few finishers <lb/> in scrambles</head>
             <p><damage type="tear"/><supplied rend="case (allcaps)">HEAV</supplied>Y rain made the going <lb/>
@@ -1006,10 +1017,19 @@
                <damage type="fold"><unclear>laps</unclear></damage> and 3m), <hi rend="bold">59m. 10s., 8.</hi>
             </p>
             
-         </div>
-         <div n="article 2">
-            <head><hi rend="case (allcaps)">GRASS TRACK RACING</hi><hi rend="bold"><persName>M. Hayes</persName> takes two <lb/> mile title </hi></head>
-            <p> <hi rend="case (allcaps)">The</hi> two mile <name type="race">500 c.c. grass- <lb/> track championship</name> of the <lb/>
+         
+            
+            
+         <div n="article_9.2">
+            <div n= "heading_9.2.1">
+               <head n="section_head"><hi rend="case (allcaps)">GRASS TRACK RACING</hi></head>
+               
+              
+               <head> <hi rend="bold"><persName>M. Hayes</persName> takes two <lb/> mile title </hi></head>
+            </div>
+            
+            
+           <div n="section_9.2.2"> <p> <hi rend="case (allcaps)">The</hi> two mile <name type="race">500 c.c. grass- <lb/> track championship</name> of the <lb/>
                <name type="org">Southern Centre Motor Cycle Union <lb/> of Ireland</name>, contested at the <name type="race">Irish <lb/> M.C.C. meeting</name>
                at <placeName>Terenure College</placeName>,<lb/> <placeName>Dublin</placeName>. yesterday, was a very fast <lb/>
                race, mainly fought out by <persName ref="#IW"><damage type="tear"><supplied>Ian</supplied></damage> <lb/> Willliams </persName>
@@ -1059,15 +1079,17 @@
             <p><hi rend="bold">Bob Fallon Trophy (interclub team race</hi> – <abbr>M.C.C.</abbr> (<persName ref="#IW">I. Williams</persName>. <persName>D. Dixon</persName>,
                <persName>F. <lb/> O'Reilly</persName>), 14 points; <placeName>Dun Laoghaire</placeName>, 17; <placeName>Leinster</placeName>, 31.
             </p>
-            
+            </div>
          </div>
 
 
-
+<!-- missing Rider, machine, part company-->
 
 
             
          </div>
+         
+         
          <pb n="9"/>
 
 
