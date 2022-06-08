@@ -31,10 +31,7 @@
          <!--page 1 (sb_03) -->
 
 
-
-
-
-         <div n="article_1.1">
+         <pb n="sb_03" facs="sb_03_TN_C_FULL.png"/>
 
             <div n="photograph_1.1.1"><figure>
                <figDesc rend="photograph">A black and white image, which is loacted at the top, centre of the article, of two motorcycle racers; Ian Williams
@@ -209,7 +206,7 @@
                      Spence</persName>, <persName>P. H. Alves</persName>,<lb/>
                   <supplied>J</supplied>. <persName>Giles</persName>, <persName>J. E.
                      Wicken</persName>. </p></div>
-            </div>
+            
 
 
 
@@ -298,7 +295,7 @@
          </figure></div>
       
 
-         <pb n="1"/>
+         <pb n="sb_04" facs="sb_04_TN_C_FULL.png"/>
          <!--page 2 (sb_04) -->
 
          <div n="photograph_2.1">
@@ -374,7 +371,7 @@
             </div>
          
 
-         <pb n="2"/>
+         <pb n="sb_06" facs="sb_06_TN_C_FULL.png"/>
 
          <!--page 3 (sb_06) -->
 
@@ -502,7 +499,7 @@
          </div>
          
          
-         <pb n="3"/>
+         <pb n="sb_08" facs="sb_08_TN_C_FULL.png"/>
 
 
 	<!--page 4 (sb_08) -->
@@ -587,7 +584,7 @@
          </div>  
          
          
-         <pb n="5"/>
+         <pb n="sb_09" facs="sb_09_TN_C_FULL.png"/>
 <!--page 5 (sb_09) -->
          
 <div type="article" n="5.1">
@@ -672,7 +669,7 @@
       </p>
    </div>
 </div>
-         <pb n="6"/>
+         <pb n="sb_10" facs="sb_10_TN_C_FULL.png"/>
         <!--page 6 (sb_10) -->
         
          
@@ -688,7 +685,7 @@
             <graphic xml:id="photo_6.2_JPEG" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/JPG/sb_10_02.jpg"/>
             <graphic xml:id="photo_6.2_thumb" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/Thumbnails/sb_10_TN_C_02.png"/>
             <head rend="italics">The sky's the limit . . . so thinks <persName ref="#IW">Ian <lb/>Williams</persName> as he directs his
-               <objectName type="motorcycle">Ariel</objectName>into <location>space</location>.</head>
+               <objectName type="motorcycle">Ariel</objectName>into space.</head>
          </figure></div>
          
          
@@ -729,7 +726,7 @@
          </div>
          
          
-
+         <pb n="sb_11" facs="sb_11_TN_C_FULL.png"/>
 
          <!--page 7 (sb_11) -->
 
@@ -806,7 +803,9 @@
                prospective<lb/> competitors will have to be included<lb/> amongst the reserves if
                nominations<lb/> continue to pour in at the present.</p>
          </div>
-         <pb n="7"/>
+         
+         
+         <pb n="sb_15" facs="sb_15_TN_C_FULL.png"/>
          
          
          <!--page 8 (sb_15) -->
@@ -814,16 +813,16 @@
          <div n="photograph_8.1">
             
             <figure>
-               <figDesc>A black and white photograph of a motorcycle racer; Ian Williams</figDesc>
-               <graphic xml:id="" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/JPG"/>
-               <graphic xml:id="" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/Thumbnails/sb_15_TN_C_01.png"/>
+               <figDesc>A black and white photograph of two men racing motorcycles. Ian Williams (foreground) and another unidentified racer (background)</figDesc>
+               <graphic xml:id="photo_8.1_JPEG" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/JPG"/>
+               <graphic xml:id="photo_8.1_thumb" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/Thumbnails/sb_15_TN_C_01.png"/>
             </figure>
          </div>
          
            <div n="photograph_8.2"> <figure>
                <figDesc>A black and white photograph of a motorcycle racer; Ian Williams</figDesc>
-               <graphic xml:id="" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/JPG/sb_15_03.jpg"/>
-               <graphic xml:id="" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/Thumbnails/sb_15_TN_C_03.png"/>
+               <graphic xml:id="photo_8.2_JPEG" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/JPG/sb_15_03.jpg"/>
+               <graphic xml:id="photo_8.2_thumb" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/Thumbnails/sb_15_TN_C_03.png"/>
             </figure></div>
             
           
@@ -953,7 +952,7 @@
      
             
          
-         <pb n="8"/>
+         <pb n="sb_17" facs="sb_17_TN_C_FULL.png"/>
 	      
 	      
          <!--page 9 (sb_17) -->
@@ -1013,7 +1012,7 @@
                (1 lap), 47 m. 50s., (<damage type="scratch">2m.</damage> 30s). <lb/>
                <damage type="spill"><unclear>49m. 2s.,</unclear></damage> 4; <persName>D. C. Ewen.</persName>. <name type="motorcycle">347 A.J.S.</name> <lb/>
                <damage type="spill"><unclear>(1 lap)</unclear>and 1m</damage> 45s.) 54m. 57s., 7;<lb/>
-               <persName>R. R. Thompson</persName>. <name type="motorcycle"><damage type="missing part">1</damage>99 Triumph</name> (2 <lb/>
+               <persName>R. R. Thompson</persName>. <name type="motorcycle"><damage type="missing">1</damage>99 Triumph</name> (2 <lb/>
                <damage type="fold"><unclear>laps</unclear></damage> and 3m), <hi rend="bold">59m. 10s., 8.</hi>
             </p>
             
@@ -1090,7 +1089,7 @@
          </div>
          
          
-         <pb n="9"/>
+         <pb n="sb_20" facs="sb_20_TN_C_FULL.png"/>
 
 
          <!--page 10 (sb_20) -->
