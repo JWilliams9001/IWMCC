@@ -22,37 +22,100 @@
          </handNotes>
       </profileDesc>
    </teiHeader>
-   <text>
-
-      <front/>
-
-      <body>
+  
 
          <!--page 1 (sb_03) -->
+         
+   <facsimile xml:id="page_01" facs="sb_03_TN_C_FULL.png">
+            <surfaceGrp>
+               
+               <surface xml:id="surface_1_1"><figure type="article">
+                  <label>Surface 1_1 of page 1 (sb_03)</label>
+                  <figDesc>
+                     A newspaper article cutting featuring an in-article photograph
+                  </figDesc>
+                  <graphic xml:id="sb_03_FULL_jpg" url="assets/img/documents/JPG/sb_03_FULL.jpg"/>
+                  <graphic xml:id="sb_03_TN_C_01_thumb" url="assets/img/documents/Thumbnails/sb_03_TN_C_01.png"/>
+               </figure></surface>
+               
+               <surface xml:id="surface_1_2"><figure type="text">
+                  <label>Surface 1_2 of page 1 (sb_03)</label>
+                  <figDesc>
+                     A photograph of a post-it with a simple example phrase.
+                  </figDesc>
+                  <graphic xml:id="postit01_full" url="assets/img/documents/postit01.png"/>
+                  <graphic xml:id="postit01_thumb" url="assets/img/documents/postit01_thumb.png"/>
+               </figure></surface>
+               
+               
+               <surface xml:id="surface_1_3">
+                  <figure type="article">
+                  <label>Surface 1_3 of page 1 (sb_03)</label>
+                  <figDesc>
+                     A photograph of a post-it with a simple example phrase.
+                  </figDesc>
+                  <graphic xml:id="postit01_full" url="assets/img/documents/postit01.png"/>
+                  <graphic xml:id="postit01_thumb" url="assets/img/documents/postit01_thumb.png"/>
+               </figure></surface>
+               
+               
+               
+               <surface  xml:id="surface_1_4">
+                  <figure type="photograph">
+                     <label>Surface 1_4 of page 1 (sb_03)</label>
+                     <figDesc>A black and white photograph of two men riding motorcycles in a race along a grassy track. The man in the
+                        foreground (unidentified) is on a motorcycle marked number '47'. The man in the
+                        background (Ian Williams) is on a motorcyle marked number '49'</figDesc>
+                     <graphic xml:id="photo_1.4_JPEG" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/JPG/sb_03_04.jpg"/>
+                     <graphic xml:id="photo_1.4_thumb" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/Thumbnails/sb_03_TN_C_04.png"/>
+                  </figure>
+                  </surface>
+               
+               
+               <surface  xml:id="surface_1_5"><figure type="photograph">
+                  <label>Surface 1_5 of page 1 (sb_03)</label> 
+                     <figDesc>A black and white photograph of two men race motorcyles in a grass field, in the lead is Ian Williams, riding a
+                        motorcycle marked number '34' the man behind (unidentified) rides a motorbike marked
+                        number '45'. In the background Two onlookers stand next to a parked car. </figDesc>
+                     <graphic xml:id="photo_1.5_JPEG" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/JPG/sb_03_05.jpg"/>
+                     <graphic xml:id="photo_1.5_thumb" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/Thumbnails/sb_03_TN_C_05.png"/>
+                     
+                  
+                  
+                  </figure>
+               </surface>
+                    
+            </surfaceGrp>
+         </facsimile>
 
 
-         <pb n="sb_03" facs="sb_03_TN_C_FULL.png"/>
 
+   <text>
+      <body>
+         <pb facs="#page_01"/>
+         
+         <div facs="#surface_1_1">
+            
             <div n="photograph_1.1.1"><figure>
-               <figDesc rend="photograph">A black and white image, which is loacted at the top, centre of the article, of two motorcycle racers; Ian Williams
-                  (foreground), who is raising up the front wheel of his bike, and an unidentified
-                  man (background).</figDesc>
-               <graphic xml:id="cut_1.1.1_JPEG" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/JPG/sb_03_01_cut.jpg"/>
-               <graphic xml:id="cut_1.1.1_thumb" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/Thumbnails/sb_03_TN_C _01_cut.png"/>
-               <head ><hi rend="case (allcaps)">CHAMPIONSHIP CHALLENGER . . .</hi></head>
-               <p>Dublin rider <persName ref="#IW">Ian Williams</persName>
-                  <objectName type="motorcycle">(Ariel) </objectName>who rides in to-morrow’s <name
-                     type="race">Hurst Cup International Trial</name> at <placeName>Conling,
+            <figDesc rend="photograph">A black and white image, which is loacted at the top, centre of the article, of two motorcycle racers; Ian Williams
+               (foreground), who is raising up the front wheel of his bike, and an unidentified
+               man (background).</figDesc>
+            <graphic xml:id="cut_1.1.1_JPEG" url="assets/img/documents/JPG/sb_03_01_cut.jpg"/>
+            <graphic xml:id="cut_1.1.1_thumb" url="assets/img/documents/Thumbnails/sb_03_TN_C _01_cut.png"/>
+            <head ><hi rend="case (allcaps)">CHAMPIONSHIP CHALLENGER . . .</hi></head>
+            <p>Dublin rider <persName ref="#IW">Ian Williams</persName>
+               <objectName type="motorcycle">(Ariel) </objectName>who rides in to-morrow’s <name
+                  type="race">Hurst Cup International Trial</name> at <placeName>Conling,
                      Belfast</placeName>.</p>
-            </figure></div>
-
-           <div n="head_1.1.2"> <head>Hurst Cup Trial Has<lb/> Big English Entry</head>
-
-            <byline>By <persName role="journalist" type="person">BASIL BRINDLEY</persName></byline></div>
-
+         </figure></div>
+            
+            <div n="head_1.1.2"> <head>Hurst Cup Trial Has<lb/> Big English Entry</head>
+               
+               <byline>By <persName role="journalist" type="person">BASIL BRINDLEY</persName></byline></div>
+            
             <div n="lead_1.1.3">
                <p><hi rend="case (allcaps)">WITH</hi> an entry of 79 for to-morrow’s <name
-                     type="race">Hurst Cup Trial</name>,<lb/> officials of the <name type="org"
+                  type="race">Hurst Cup Trial</name>,<lb/> officials of the <name type="org"
                      >Knock Motor Cycle Club</name> must be<lb/> feeling very happy, as 80 is the
                   maximum figure<lb/> specified on the regulations.</p>
             </div>
@@ -73,11 +136,11 @@
                   <objectName type="motorcycle">(Triumph)</objectName>, <persName>B. W.
                      Martin</persName><lb/>
                   <objectName type="motorcycle"> (B.S.A.)</objectName> and the
-                     <persName>Wicken</persName> brothers<lb/> who will be <objectName
+                  <persName>Wicken</persName> brothers<lb/> who will be <objectName
                      type="motorcycle">Norman</objectName> and <objectName type="motorcycle"
-                     >Triumph</objectName>-<lb/> mounted.</p>
+                        >Triumph</objectName>-<lb/> mounted.</p>
                <p>Scotsman <persName>J. H. Birrell</persName> has entered<lb/> a junior <objectName
-                     type="motorcycle">"Gold Star"</objectName> while other<lb/> visitors of note
+                  type="motorcycle">"Gold Star"</objectName> while other<lb/> visitors of note
                   are <persName>E. Usher</persName>
                   <objectName type="motorcycle">(Match-<lb/> less)</objectName>, <persName>G. L.
                      Jackson</persName>
@@ -100,24 +163,24 @@
                   acquit themselves well.</p>
             </div>
             
-
-
+            
+            
             <div n="section_1.1.5">
                <head> Strong Ulster Bid</head>
                <p>Travelling up from the south also<lb/> with good reputations are
-                     <persName>Dave<lb/> Felton</persName>
+                  <persName>Dave<lb/> Felton</persName>
                   <objectName type="motorcycle"> (Francis Barnett)</objectName>, <persName ref="#IW"
                      >Ian<lb/> Williams</persName>, <persName>Reg Armstrong</persName>
                   <objectName type="motorcycle">(Gilera)</objectName><lb/>
                   <cb/>and <objectName type="motorcycle">James</objectName> exponents
-                     <persName>Ernie Lyons</persName>,<lb/>
+                  <persName>Ernie Lyons</persName>,<lb/>
                   <persName>Doug Ewen</persName> and <persName>Aubrey Archer</persName>.</p>
                <p rend="bold">With over 50 p.c. of the entry,<lb/>
                   <placeName>Ulster</placeName> is in a strong position and<lb/> if a Six-County man
                   <!-- term that refers to a man from Northern Ireland--> is to win the<lb/> event,
                   it’s odds on <persName>Sammy Miller</persName><lb/> from
-                     <placeName>Belfast</placeName> being the one to do<lb/> it. Riding a
-                     <objectName type="motorcycle">197 c.c, James</objectName>, this<lb/> road
+                  <placeName>Belfast</placeName> being the one to do<lb/> it. Riding a
+                  <objectName type="motorcycle">197 c.c, James</objectName>, this<lb/> road
                   racing and trials star has<lb/> proved himself almost invincible<lb/> during the
                   season and he must<lb/> have an outstanding chance to-<lb/> morrow.</p>
                <p>Able support will come from <persName>Bill<lb/> Clark</persName>
@@ -130,169 +193,164 @@
                   <objectName type="motorcycle">(B.S.A.)</objectName>, <persName>Brian<lb/>
                      McClery</persName>
                   <objectName type="motorcycle">(Royal Enfield)</objectName> and
-                     <persName>Bertie<lb/> Mann</persName>
+                  <persName>Bertie<lb/> Mann</persName>
                   <objectName type="motorcycle">(Francis Barnett)</objectName>, all of whom<lb/>
                   have been figuring well in this year’s<lb/> events.</p>
                <p>The trial begins at 12 o’clock and<lb/> starting point is near the <placeName>Lead
-                     Mines,<lb/> Conling.</placeName></p></div>
-
-               <div n="section(entries)_1.1.6"><p> Entries: <objectName type="motorcycle" rend="bold"
-                     >A.J.S.</objectName> —-<persName>G. L. Jackson</persName>,<persName> H. <lb/>
-                     N. Niblock</persName>. <objectName type="motorcycle" rend="bold"
+                  Mines,<lb/> Conling.</placeName></p></div>
+            
+            <div n="section(entries)_1.1.6"><p> Entries: <objectName type="motorcycle" rend="bold"
+               >A.J.S.</objectName> —-<persName>G. L. Jackson</persName>,<persName> H. <lb/>
+                  N. Niblock</persName>. <objectName type="motorcycle" rend="bold"
                      >Ariel</objectName> — <persName> D. Bradley</persName>, <persName ref="#IW">I.
-                     <lb/> Williams</persName>, <persName>W. Stewart</persName>.<objectName
-                     type="motorcycle" rend="bold">B.S.A.</objectName> — <persName>A. <lb/>
-                     Woods</persName> (or <objectName type="motorcycle">James</objectName>),
-                     <persName>J. H. Birrell</persName>, <persName>R.<lb/> T. Hill</persName>,
-                     <persName>J. V. Smith</persName>, <persName>B. W. Martin</persName>,<lb/>
-                  <persName>G. J. Draper</persName>, <persName>J. L. Crossle</persName>,
-                     <persName>E. Gill</persName>,<lb/>
-                  <persName> I. Creighton</persName>, <persName>J. C. Dawson</persName>.
-                     <persName>K.<lb/> Keegan</persName>, <persName>P. C. O. Stanfield</persName>.
-                     <lb rend="indentation"/><objectName type="motorcycle" rend="bold"
-                     >Dot</objectName>—<persName>A Clarke</persName>, <persName>T. J. B.
+                        <lb/> Williams</persName>, <persName>W. Stewart</persName>.<objectName
+                           type="motorcycle" rend="bold">B.S.A.</objectName> — <persName>A. <lb/>
+                              Woods</persName> (or <objectName type="motorcycle">James</objectName>),
+               <persName>J. H. Birrell</persName>, <persName>R.<lb/> T. Hill</persName>,
+               <persName>J. V. Smith</persName>, <persName>B. W. Martin</persName>,<lb/>
+               <persName>G. J. Draper</persName>, <persName>J. L. Crossle</persName>,
+               <persName>E. Gill</persName>,<lb/>
+               <persName> I. Creighton</persName>, <persName>J. C. Dawson</persName>.
+               <persName>K.<lb/> Keegan</persName>, <persName>P. C. O. Stanfield</persName>.
+               <lb rend="indentation"/><objectName type="motorcycle" rend="bold"
+                  >Dot</objectName>—<persName>A Clarke</persName>, <persName>T. J. B.
                      Stronge</persName>, <persName>I<lb/> Millar</persName>. <lb rend="indentation"
                      /><objectName type="motorcycle" rend="bold"
-                     >Francis-Barnett</objectName>—<persName>N. D. Metcalfe</persName>:
-                     <persName>B.<lb/> Crawford</persName>, <persName>G. E. Fisher</persName>,
-                     <persName>T. H. Robb</persName>,<lb/>
-                  <persName>B Mann</persName>
-                  <persName>C. Bell</persName>, B. J Andrews,<lb/>
-                  <persName>D. R. Felton</persName>, <persName>E. W. Smith</persName>. <persName>A
-                     Shutt</persName>,<lb/>
-                  <persName>D. J. Campbell</persName>, <persName>R. Jackson</persName>, <persName>N
-                     Bell</persName>. <lb rend="indentation"/><objectName type="motorcycle"
+                        >Francis-Barnett</objectName>—<persName>N. D. Metcalfe</persName>:
+               <persName>B.<lb/> Crawford</persName>, <persName>G. E. Fisher</persName>,
+               <persName>T. H. Robb</persName>,<lb/>
+               <persName>B Mann</persName>
+               <persName>C. Bell</persName>, B. J Andrews,<lb/>
+               <persName>D. R. Felton</persName>, <persName>E. W. Smith</persName>. <persName>A
+                  Shutt</persName>,<lb/>
+               <persName>D. J. Campbell</persName>, <persName>R. Jackson</persName>, <persName>N
+                  Bell</persName>. <lb rend="indentation"/><objectName type="motorcycle"
                      rend="bold">Gilera</objectName>—<persName>R. Armstrong</persName>. <lb
-                     rend="indentation"/><objectName type="motorcycle" rend="bold"
-                     >Greeves</objectName>—<persName>H. C. Parkinson</persName>, <persName>W.
-                     J.<lb/> Hutton</persName>, <persName>D. G. Mayne</persName>, <persName>R.
-                     Stewart</persName>. <lb rend="indentation"/><objectName type="motorcycle"
-                     rend="bold">H.J.H</objectName>.—<persName>D. Andrews</persName>. <lb
-                     rend="indentation"/>
-                  <objectName type="motorcycle" rend="bold">James</objectName>—<persName>R.
-                     Stevenson</persName>, <persName>M. Brosnan</persName>,<lb/>
-                  <persName>H. Dunlop</persName>. <persName>S. H. Miller</persName>
-                  <persName>N. W. Green-<lb/>away</persName>, <persName>S. Moore</persName>,
-                     <persName>D. C. Ewen</persName>, <persName>A. H. L.<lb/> Archer</persName>,
-                     <persName>E. Lyons</persName>, <persName>B. McConnell</persName> (or<lb/>
-                  <objectName type="motorcycle">B.S.A.</objectName>). <persName>J. M.
-                     Simpson</persName>. <persName>W. H. Martin</persName>,<lb/>
-                  <persName>J. B. Haughton</persName>. <lb rend="indentation"/><objectName
-                     type="motorcycle" rend="bold">Lambretta</objectName>—<persName>W.
+                        rend="indentation"/><objectName type="motorcycle" rend="bold"
+                           >Greeves</objectName>—<persName>H. C. Parkinson</persName>, <persName>W.
+                              J.<lb/> Hutton</persName>, <persName>D. G. Mayne</persName>, <persName>R.
+                                 Stewart</persName>. <lb rend="indentation"/><objectName type="motorcycle"
+                                    rend="bold">H.J.H</objectName>.—<persName>D. Andrews</persName>. <lb
+                                       rend="indentation"/>
+               <objectName type="motorcycle" rend="bold">James</objectName>—<persName>R.
+                  Stevenson</persName>, <persName>M. Brosnan</persName>,<lb/>
+               <persName>H. Dunlop</persName>. <persName>S. H. Miller</persName>
+               <persName>N. W. Green-<lb/>away</persName>, <persName>S. Moore</persName>,
+               <persName>D. C. Ewen</persName>, <persName>A. H. L.<lb/> Archer</persName>,
+               <persName>E. Lyons</persName>, <persName>B. McConnell</persName> (or<lb/>
+               <objectName type="motorcycle">B.S.A.</objectName>). <persName>J. M.
+                  Simpson</persName>. <persName>W. H. Martin</persName>,<lb/>
+               <persName>J. B. Haughton</persName>. <lb rend="indentation"/><objectName
+                  type="motorcycle" rend="bold">Lambretta</objectName>—<persName>W.
                      Peden</persName>.<lb rend="indentation"/>
-                  <objectName type="motorcycle" rend="bold">Matchless</objectName>—<persName>E.
-                     Usher</persName>, <persName>D. F. Ryder</persName>,<lb/>
-                  <persName>D. R. O’Neill</persName>. <persName>H. Dickson</persName>.<lb
-                     rend="indentation"/><objectName type="motorcycle" rend="bold">
+               <objectName type="motorcycle" rend="bold">Matchless</objectName>—<persName>E.
+                  Usher</persName>, <persName>D. F. Ryder</persName>,<lb/>
+               <persName>D. R. O’Neill</persName>. <persName>H. Dickson</persName>.<lb
+                  rend="indentation"/><objectName type="motorcycle" rend="bold">
                      Norman</objectName>—<damage agent="crease" extent="mininmal"><persName>R. W.
-                           <supplied>P</supplied>eacock </persName>, <persName>S. Wicken</persName>,<lb/>
-                     <persName>I. <choice>
+                        <supplied>P</supplied>eacock </persName>, <persName>S. Wicken</persName>,<lb/>
+                        <persName>I. <choice>
                            <unclear>Boal</unclear>
                            <unclear>Beal</unclear>
                         </choice></persName>,<persName>J. S. Quigg</persName></damage>.<lb
-                     rend="indentation"/>
-                  <objectName type="motorcycle" rend="bold"> Norton</objectName>—<persName>R J.
-                     McKee</persName>. <persName>M. G. Tracey</persName>,<lb/>
-                  <persName>J. S Tyrrell</persName>. <persName>E. L. Theorin</persName>.
-                     <persName>W. R.<lb/> Chamberlain</persName><lb rend="indentation"/>
-                  <objectName type="motorcycle" rend="bold">O.E.C</objectName>.-<persName>N.
-                     McKeag</persName>.<lb rend="indentation"/>
-                  <objectName type="motorcycle" rend="bold">Royal Enfield</objectName>-<persName>J.
-                     Brittain</persName>, <persName>W. J. M. <lb/> Clark</persName>, <persName>B. H.
+                           rend="indentation"/>
+               <objectName type="motorcycle" rend="bold"> Norton</objectName>—<persName>R J.
+                  McKee</persName>. <persName>M. G. Tracey</persName>,<lb/>
+               <persName>J. S Tyrrell</persName>. <persName>E. L. Theorin</persName>.
+               <persName>W. R.<lb/> Chamberlain</persName><lb rend="indentation"/>
+               <objectName type="motorcycle" rend="bold">O.E.C</objectName>.-<persName>N.
+                  McKeag</persName>.<lb rend="indentation"/>
+               <objectName type="motorcycle" rend="bold">Royal Enfield</objectName>-<persName>J.
+                  Brittain</persName>, <persName>W. J. M. <lb/> Clark</persName>, <persName>B. H.
                      McClery</persName>, <persName>C. D. Metcalfe</persName>. <lb rend="indentation"/>
-                  <objectName type="motorcycle" rend="bold">Sun</objectName>- <persName>F. C.
-                     Dickson</persName>, <persName>E. Rice</persName>.<lb rend="indentation"/>
-                  <objectName type="motorcycle" rend="bold">Triumph</objectName>-<persName>S.
-                     Spence</persName>, <persName>P. H. Alves</persName>,<lb/>
-                  <supplied>J</supplied>. <persName>Giles</persName>, <persName>J. E.
-                     Wicken</persName>. </p></div>
-            
-
-
-
-         <div n="article_1.2">
+               <objectName type="motorcycle" rend="bold">Sun</objectName>- <persName>F. C.
+                  Dickson</persName>, <persName>E. Rice</persName>.<lb rend="indentation"/>
+               <objectName type="motorcycle" rend="bold">Triumph</objectName>-<persName>S.
+                  Spence</persName>, <persName>P. H. Alves</persName>,<lb/>
+               <supplied>J</supplied>. <persName>Giles</persName>, <persName>J. E.
+                  Wicken</persName>. </p></div></div>
+         
+         
+         <div facs="#surface_1_2">
             <p>
-               <hi rend="ul">"B.B.. RUSSEL" TROPHY</hi>: The winner this year is
-                     <persName>Ia<supplied>n</supplied></persName><damage type="missing"/><lb/>
-               deserved,he was placed at every<lb/> meeting except the <damage type="missing"/><lb/>
-               20 1/2 points. Runner-up is <persName>Ernie Lyons</persName> who won the
-                  cu<supplied>p</supplied><damage type="missing"/><lb/> with 15<lb/> 1/2 points;
-               followed by <persName>D. C. Ewen</persName>, 8 points; F<damage type="missing"/><lb/>
-               <persName>C. Coard</persName>, <persName>E. Callaghan</persName> and <persName>M.
-                  Tracey</persName> with 6 points.</p>
-         </div>
-
-         <div n="article_1.3">
-            <div n="head_1.3.1"><head>Slade Scramble</head>
+            <hi rend="ul">"B.B.. RUSSEL" TROPHY</hi>: The winner this year is
+            <persName>Ia<supplied>n</supplied></persName><damage type="missing"/><lb/>
+            deserved,he was placed at every<lb/> meeting except the <damage type="missing"/><lb/>
+            20 1/2 points. Runner-up is <persName>Ernie Lyons</persName> who won the
+            cu<supplied>p</supplied><damage type="missing"/><lb/> with 15<lb/> 1/2 points;
+            followed by <persName>D. C. Ewen</persName>, 8 points; F<damage type="missing"/><lb/>
+            <persName>C. Coard</persName>, <persName>E. Callaghan</persName> and <persName>M.
+               Tracey</persName> with 6 points.</p></div>      
+         
+         
+         <div facs="#surface_1_3"> <div n="head_1.3.1"><head>Slade Scramble</head>
             <byline>By <persName>BASIL BRINDLEY</persName></byline></div>
-
-          <div n="section 1.3.2">  <p>
+            
+            <div n="section 1.3.2">  <p>
                <hi rend="case (allcaps)">LONG</hi> handicap man, Stan Tracey,<lb/> scored a
                comfortable win from<lb/> the near scratch pair, Freddie Dickson<lb/> and Edmund
                Gill, in the Nicholson<lb/> Memorial Scramble at, the Slade<lb/> yesterday.</p>
-
-            <p>The event was run over fifteen laps<lb/> and was preceded by the<lb/> distance <name
+               
+               <p>The event was run over fifteen laps<lb/> and was preceded by the<lb/> distance <name
                   type="race">Carville Cup</name> race,<lb/> honours went to <persName>C.
-                  Childs</persName> on an<lb/>
-               <objectName type="motorcycle">Ariel</objectName>.</p></div>
-
+                     Childs</persName> on an<lb/>
+                  <objectName type="motorcycle">Ariel</objectName>.</p></div>
+            
             <div n="section(results)_1.3.3"><p><hi rend="bold">Results—<name type="race">Nicholson Memorial
-                     Trophy</name> . .<lb/> (15 laps)</hi>—<num type="cardinal" rend="first place"
+               Trophy</name> . .<lb/> (15 laps)</hi>—<num type="cardinal" rend="first place"
                   >1</num>, <persName>S. A. Tracey</persName> (<objectName type="motorcycle"
-                  >Sun</objectName>) (loss<lb/> obsv. 36)(lost time 16) (h’cap. 70)<lb/> (net 518)
-                  <num type="cardinal" rend="second place">2</num>, <persName>F. C.
+                     >Sun</objectName>) (loss<lb/> obsv. 36)(lost time 16) (h’cap. 70)<lb/> (net 518)
+               <num type="cardinal" rend="second place">2</num>, <persName>F. C.
                   Dickson</persName> (<objectName type="motorcycle">Sun</objectName>)<lb/>
                <unit type="score">(47) (nil) (30) (483)</unit>; <num type="cardinal"
                   rend="third place">3</num>, <persName>E. P. Gill</persName><lb/> (<objectName
-                  type="motorcycle">B.S.A.</objectName>) <unit type="score">(37) (13)
-                  (480)</unit>.<lb rend="indentation"/>
+                     type="motorcycle">B.S.A.</objectName>) <unit type="score">(37) (13)
+                        (480)</unit>.<lb rend="indentation"/>
                <name type="award" rend="bold">Best on time</name>—-<persName>M. G. Tracey</persName>
-                  (<objectName type="motocycle">Nor-<lb/> ton</objectName>) <unit type="score">(35)
+               (<objectName type="motocycle">Nor-<lb/> ton</objectName>) <unit type="score">(35)
                   (10) (scr.) (455)</unit>. <name type="award" rend="bold">Best on<lb/>
-                  observation</name>—<persName>I. Creighton</persName> (<objectName
-                  type="motorcycle">B.S.A.</objectName>) <lb/>
+                     observation</name>—<persName>I. Creighton</persName> (<objectName
+                        type="motorcycle">B.S.A.</objectName>) <lb/>
                <unit type="score">(30) (27) (30) (473).</unit>
                <name type="award" rend="bold">250 c.c. class</name>— <persName>A.<lb/> H. L.
                   Archer</persName> (<objectName type="motorcycle">James</objectName>) <unit
-                  type="score">(49) (32) (40)<lb/> (4559)</unit>. <name type="award" rend="bold">350
-                  c.c. class</name> - <persName>D. Ryder</persName><lb/>
+                     type="score">(49) (32) (40)<lb/> (4559)</unit>. <name type="award" rend="bold">350
+                        c.c. class</name> - <persName>D. Ryder</persName><lb/>
                <objectName type="motorcycle"> Matchless</objectName>) <unit type="score">(39) (14)
                   (scr.) (447)</unit>. <name type="award" rend="bold">500<lb/> c.c.
-                  class</name>—<persName ref="#IW">I. <choice>
-                     <sic>Williamson</sic>
-                     <corr>Williams</corr>
-                  </choice></persName> (<objectName type="motorcycle">Ariel</objectName>) <unit
-                  type="score"> (88)<lb/> (25) (50) (437)</unit>.<lb rend="indentation"/>
+                     class</name>—<persName ref="#IW">I. <choice>
+                        <sic>Williamson</sic>
+                        <corr>Williams</corr>
+                     </choice></persName> (<objectName type="motorcycle">Ariel</objectName>) <unit
+                        type="score"> (88)<lb/> (25) (50) (437)</unit>.<lb rend="indentation"/>
                <name type="race" rend="bold">CARVILLE CUP (8 laps)</name> — <num type="cardinal"
                   rend="first place">1</num>, <persName>C.<lb/> Childs</persName> (<objectName
-                  type="motorcycle">Ariel</objectName>) <unit type="score"> (58) (25) (70)
-                  (487)</unit> ; <num type="cardinal" rend="second place">2</num>,<lb/>
+                     type="motorcycle">Ariel</objectName>) <unit type="score"> (58) (25) (70)
+                        (487)</unit> ; <num type="cardinal" rend="second place">2</num>,<lb/>
                <persName>G. F. Scarlett</persName> (<objectName type="motorcycle">Dot</objectName>)
-                  <unit type="score">(46) (1) (10)<lb/>
+               <unit type="score">(46) (1) (10)<lb/>
                   <unclear>(463)</unclear></unit>; <num type="cardinal" rend="third place">3</num>.
-                  <persName>D. Cullen</persName> (<objectName type="motorcycle">Norton</objectName>)
-                  <unit type="score">(88) (1)<lb/>
-                  <unclear><supplied>(501)</supplied></unclear> (461)</unit>.</p></div>
-         </div>
+               <persName>D. Cullen</persName> (<objectName type="motorcycle">Norton</objectName>)
+               <unit type="score">(88) (1)<lb/>
+                  <unclear><supplied>(501)</supplied></unclear> (461)</unit>.</p></div></div>       
+         <div facs="#surface_1_4"></div>       
+         <div facs="#surface_1_5"></div>
+         
+      </body>
+   </text>
+   
+   
+     
+        
+            
+         
 
-        <div n="photograph_1.4"> 
-           <figure>
-            <figDesc>A black and white photograph of two men riding motorcycles in a race along a grassy track. The man in the
-               foreground (unidentified) is on a motorcycle marked number '47'. The man in the
-               background (Ian Williams) is on a motorcyle marked number '49'</figDesc>
-              <graphic xml:id="photo_1.4_JPEG" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/JPG/sb_03_04.jpg"/>
-              <graphic xml:id="photo_1.4_thumb" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/Thumbnails/sb_03_TN_C_04.png"/>
+        
+           
+         
 
-         </figure></div>
-
-        <div n="photograph_1.5"> <figure>
-            <figDesc>A black and white photograph of two men race motorcyles in a grass field, in the lead is Ian Williams, riding a
-               motorcycle marked number '34' the man behind (unidentified) rides a motorbike marked
-               number '45'. In the background Two onlookers stand next to a parked car. </figDesc>
-           <graphic xml:id="photo_1.5_JPEG" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/JPG/sb_03_05.jpg"/>
-           <graphic xml:id="photo_1.5_thumb" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/Thumbnails/sb_03_TN_C_05.png"/>
-
-         </figure></div>
+       
+           
       
 
          <pb n="sb_04" facs="sb_04_TN_C_FULL.png"/>
