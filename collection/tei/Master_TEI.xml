@@ -354,6 +354,9 @@
       
 
          <pb n="sb_04" facs="sb_04_TN_C_FULL.png"/>
+
+
+
          <!--page 2 (sb_04) -->
 
          <div n="photograph_2.1">
@@ -430,6 +433,8 @@
          
 
          <pb n="sb_06" facs="sb_06_TN_C_FULL.png"/>
+
+
 
          <!--page 3 (sb_06) -->
 
@@ -560,6 +565,8 @@
          <pb n="sb_08" facs="sb_08_TN_C_FULL.png"/>
 
 
+
+
 	<!--page 4 (sb_08) -->
          
          <div type="article" n="1.1">
@@ -624,7 +631,7 @@
                   the most successful of them being <lb/> <persName>Alex McFarland Woods</persName> from <placeName>Bel-
                   <lb/>fast</placeName> who finished fourth to <name type="org">the <objectName type="motorcycle">B.S.A.</objectName> team</name> in the <name type="race">350 c.c. scratch<lb/>
                   race</name> fifth to <persName ref="#IW">Ian Williams</persName> and the <lb/> same trio in the <name type="race">Senior event</name> and <lb/>
-                  sixth in the genereal handicap all on a <name type="motorcycle">Junior 'Gold Star"</name>.</p>
+                  sixth in the genereal handicap all on a <objectName type="motorcycle">Junior 'Gold Star"</objectName>.</p>
                <p><persName>Alan Bradshaw</persName> made news with his <lb/> <objectName type="motorcycle">Francis-Barnett</objectName> when taking a very <lb/>
                   creditable sixth in the opening en-<lb/> counter and he finished up the day <lb/> as eight man home in the general <lb/>
                   handicap with a comparatively <lb/> short allowance of one lap.</p>
@@ -966,7 +973,7 @@
                <p><persName>Byrne</persName>, in fact, had a real field <lb/> day, because he also took first <lb/>
                   place in <name type="race">graded scratch race A</name>, <lb/> and <placeName>Limerick</placeName>'s <persName>Dan Kelly</persName> had the<lb/>
                   distinction of running into more<lb/> places than any other rider. Of <lb/> the remaining Limerickmen, <persName>Mick<lb/> MacEoin</persName>
-                  was foolish enough to <lb/> meddle in a major way with his <lb/> peak-conquering <name type="motorcycle">James</name> on the day<lb/>
+                  was foolish enough to <lb/> meddle in a major way with his <lb/> peak-conquering <objectName type="motorcycle">James</objectName> on the day<lb/>
                   before the event, in quest of more <lb/> speed, with the result that the un-<lb/> fortunate engine gave up the ghost<lb/>
                   of Sunday during the first practice <lb/> lap. <persName>Matt Murphy</persName> did his best with <lb/>
                   the same detuned <objectName type="motorcycle">James</objectName> as <persName>Joe <lb/> McMahon.</persName>
@@ -1158,6 +1165,8 @@
 
 
          <!--page 10 (sb_20) -->
+
+         
          <div n="article_10.1">
             
            <div n="head_10.1.1"> <head rend="section heading, ul">Motor cycling</head>
