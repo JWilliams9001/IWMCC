@@ -274,7 +274,7 @@
          <div facs="#surface_1_2">
             <p>
             <hi rend="ul">"B.B.. RUSSEL" TROPHY</hi>: The winner this year is
-            <persName>Ia<supplied>n</supplied></persName><damage type="missing"/><lb/>
+            <persName>Ia<supplied>n</supplied></persName><damage type="missing"/><lb/> <!-- Should IW be tagged here? -->
             deserved,he was placed at every<lb/> meeting except the <damage type="missing"/><lb/>
             20 1/2 points. Runner-up is <persName>Ernie Lyons</persName> who won the
             cu<supplied>p</supplied><damage type="missing"/><lb/> with 15<lb/> 1/2 points;
