@@ -56,86 +56,23 @@
          <surface xml:id="surface_1_3">
             <figure type="article">
                <label>Surface 1_3 of page 1 (sb_03)</label>
-               <figDesc> A photograph of a post-it with a simple example phrase. </figDesc>
+               <figDesc> A newspaper article cutting. </figDesc>
                <graphic xml:id="sb_03_03_jpg" url="assets/img/documents/JPG/sb_03_03.jpg"/>
                <graphic xml:id="sb_03_03_thumb"
                   url="assets/img/documents/Thumbnails/sb_03_TN_C_03.png"/>
             </figure>
          </surface>
 
-            <surfaceGrp>
-               
-               <surface xml:id="surface_1_4"><figure type="article">
-                  <label>Surface 1_1 of page 1 (sb_03)</label>
-                  <figDesc>
-                     A newspaper article cutting featuring an in-article photograph
-                  </figDesc>
-                  <graphic xml:id="sb_03_FULL_jpg" url="assets/img/documents/JPG/sb_03_FULL.jpg"/>
-                  <graphic xml:id="sb_03_TN_C_01_thumb" url="assets/img/documents/Thumbnails/sb_03_TN_C_01.png"/>
-               </figure></surface>
-               
-               <surface xml:id="surface_1_2"><figure type="text">
-                  <label>Surface 1_2 of page 1 (sb_03)</label>
-                  <figDesc>
-                     A photograph of a post-it with a simple example phrase.
-                  </figDesc>
-                  <graphic xml:id="postit01_full" url="assets/img/documents/postit01.png"/>
-                  <graphic xml:id="postit01_thumb" url="assets/img/documents/postit01_thumb.png"/>
-               </figure></surface>
-               
-               
-               <surface xml:id="surface_1_3">
-                  <figure type="article">
-                  <label>Surface 1_3 of page 1 (sb_03)</label>
-                  <figDesc>
-                     A photograph of a post-it with a simple example phrase.
-                  </figDesc>
-                  <graphic xml:id="postit01_full" url="assets/img/documents/postit01.png"/>
-                  <graphic xml:id="postit01_thumb" url="assets/img/documents/postit01_thumb.png"/>
-               </figure></surface>
-               
-               
-               
-               <surface  xml:id="surface_1_4">
-                  <figure type="photograph">
-                     <label>Surface 1_4 of page 1 (sb_03)</label>
-                     <figDesc>A black and white photograph of two men riding motorcycles in a race along a grassy track. The man in the
-                        foreground (unidentified) is on a motorcycle marked number '47'. The man in the
-                        background (Ian Williams) is on a motorcyle marked number '49'</figDesc>
-                     <graphic xml:id="photo_1.4_JPEG" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/JPG/sb_03_04.jpg"/>
-                     <graphic xml:id="photo_1.4_thumb" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/Thumbnails/sb_03_TN_C_04.png"/>
-                  </figure>
-                  </surface>
-               
-               
-               <surface  xml:id="surface_1_5"><figure type="photograph">
-                  <label>Surface 1_5 of page 1 (sb_03)</label> 
-                     <figDesc>A black and white photograph of two men race motorcyles in a grass field, in the lead is Ian Williams, riding a
-                        motorcycle marked number '34' the man behind (unidentified) rides a motorbike marked
-                        number '45'. In the background Two onlookers stand next to a parked car. </figDesc>
-                     <graphic xml:id="photo_1.5_JPEG" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/JPG/sb_03_05.jpg"/>
-                     <graphic xml:id="photo_1.5_thumb" url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/Thumbnails/sb_03_TN_C_05.png"/>
-                     
-                  
-                  
-                  </figure>
-               </surface>
-                    
-            </surfaceGrp>
-         </facsimile>
->>>>>>> parent of 1329f95 (Update Master_TEI.xml)
-
-
 
          <surface xml:id="surface_1_4">
             <figure type="photograph">
                <label>Surface 1_4 of page 1 (sb_03)</label>
-               <figDesc>A black and white photograph of two men riding motorcycles in a race along a
-                  grassy track. The man in the foreground (unidentified) is on a motorcycle marked
-                  number '47'. The man in the background (Ian Williams) is on a motorcyle marked
-                  number '49'</figDesc>
-               <graphic xml:id="sb_03_04_jpg" url="assets/img/documents/JPG/sb_03_04.jpg"/>
-               <graphic xml:id="sb_03_04_thumb"
+               <figDesc>A black and white photograph of two men race motorcyles in a grass field, in
+                  the lead is Ian Williams, riding a motorcycle marked number '34' the man behind
+                  (unidentified) rides a motorbike marked number '45'. In the background Two
+                  onlookers stand next to a parked car. </figDesc>
+               <graphic xml:id="photo_1.4_JPEG" url="assets/img/documents/JPG/sb_03_04.jpg"/>
+               <graphic xml:id="photo_1.4_thumb"
                   url="assets/img/documents/Thumbnails/sb_03_TN_C_04.png"/>
             </figure>
          </surface>
@@ -144,26 +81,28 @@
          <surface xml:id="surface_1_5">
             <figure type="photograph">
                <label>Surface 1_5 of page 1 (sb_03)</label>
-               <figDesc>A black and white photograph of two men race motorcyles in a grass field, in
-                  the lead is Ian Williams, riding a motorcycle marked number '34' the man behind
-                  (unidentified) rides a motorbike marked number '45'. In the background Two
-                  onlookers stand next to a parked car. </figDesc>
-               <graphic xml:id="sb_03_05_jpg" url="assets/img/documents/JPG/sb_03_05.jpg"/>
-               <graphic xml:id="SB_03_05_thumb"
+               <figDesc>A black and white photograph of two men riding motorcycles in a race along a
+                  grassy track. The man in the foreground (unidentified) is on a motorcycle marked
+                  number '47'. The man in the background (Ian Williams) is on a motorcyle marked
+                  number '49'</figDesc>
+               <graphic xml:id="photo_1.5_JPEG" url="assets/img/documents/JPG/sb_03_05.jpg"/>
+               <graphic xml:id="photo_1.5_thumb"
                   url="assets/img/documents/Thumbnails/sb_03_TN_C_05.png"/>
+
+
+
             </figure>
          </surface>
 
       </surfaceGrp>
    </facsimile>
+
    <text>
       <body>
 
          <pb facs="#page_01"/>
 
          <div facs="#surface_1_1">
-
-
             <div n="photograph_1.1.1">
                <figure>
                   <figDesc rend="photograph">A black and white image, which is loacted at the top,
@@ -182,34 +121,12 @@
                         <placeName>Conling, Belfast</placeName>.</p>
                </figure>
             </div>
-
             <div n="head_1.1.2">
                <head>Hurst Cup Trial Has<lb/> Big English Entry</head>
 
                <byline>By <persName role="journalist" type="person">BASIL
                   BRINDLEY</persName></byline>
             </div>
-
-
-            
-            <div n="photograph_1.1.1"><figure>
-            <figDesc rend="photograph">A black and white image, which is loacted at the top, centre of the article, of two motorcycle racers; Ian Williams
-               (foreground), who is raising up the front wheel of his bike, and an unidentified
-               man (background).</figDesc>
-            <graphic xml:id="cut_1.1.1_JPEG" url="assets/img/documents/JPG/sb_03_01_cut.jpg"/>
-            <graphic xml:id="cut_1.1.1_thumb" url="assets/img/documents/Thumbnails/sb_03_TN_C _01_cut.png"/>
-            <head ><hi rend="case (allcaps)">CHAMPIONSHIP CHALLENGER . . .</hi></head>
-            <p>Dublin rider <persName ref="#IW">Ian Williams</persName>
-               <objectName type="motorcycle">(Ariel) </objectName>who rides in to-morrow’s <name
-                  type="race">Hurst Cup International Trial</name> at <placeName>Conling,
-                     Belfast</placeName>.</p>
-         </figure></div>
-            
-            <div n="head_1.1.2"> <head>Hurst Cup Trial Has<lb/> Big English Entry</head>
-               
-               <byline>By <persName role="journalist" type="person">BASIL BRINDLEY</persName></byline></div>
-            
->>>>>>> parent of 1329f95 (Update Master_TEI.xml)
             <div n="lead_1.1.3">
                <p><hi rend="case (allcaps)">WITH</hi> an entry of 79 for to-morrow’s <name
                      type="race">Hurst Cup Trial</name>,<lb/> officials of the <name type="org"
@@ -258,12 +175,9 @@
                      Keegan</persName>
                   <objectName type="motorcycle">(B.S.A.)</objectName> may be relied upon<lb/> to
                   acquit themselves well.</p>
-            </div>
-
+            </div> 
             
             
-            
->>>>>>> parent of 1329f95 (Update Master_TEI.xml)
             <div n="section_1.1.5">
                <head> Strong Ulster Bid</head>
                <p>Travelling up from the south also<lb/> with good reputations are
@@ -282,6 +196,7 @@
                      <objectName type="motorcycle">197 c.c, James</objectName>, this<lb/> road
                   racing and trials star has<lb/> proved himself almost invincible<lb/> during the
                   season and he must<lb/> have an outstanding chance to-<lb/> morrow.</p>
+               
                <p>Able support will come from <persName>Bill<lb/> Clark</persName>
                   <objectName type="motorcycle">(Royal Enfield)</objectName>. <persName>Tommy
                      Robb</persName><lb/>
@@ -298,7 +213,6 @@
                <p>The trial begins at 12 o’clock and<lb/> starting point is near the <placeName>Lead
                      Mines,<lb/> Conling.</placeName></p>
             </div>
-
             <div n="section(entries)_1.1.6">
                <p> Entries: <objectName type="motorcycle" rend="bold">A.J.S.</objectName>
                      —-<persName>G. L. Jackson</persName>,<persName> H. <lb/> N. Niblock</persName>.
@@ -348,7 +262,7 @@
                      Usher</persName>, <persName>D. F. Ryder</persName>,<lb/>
                   <persName>D. R. O’Neill</persName>. <persName>H. Dickson</persName>.<lb
                      rend="indentation"/><objectName type="motorcycle" rend="bold">
-                     Norman</objectName>—<damage agent="crease" degree="mininmal"><persName>R. W.
+                     Norman</objectName>—<damage agent="crease" degree="low"><persName>R. W.
                            <supplied>P</supplied>eacock </persName>, <persName>S. Wicken</persName>,<lb/>
                      <persName>I. <choice>
                            <unclear>Boal</unclear>
@@ -374,13 +288,12 @@
          </div>
 
 
-
          <div facs="#surface_1_2">
             <p>
-               <hi rend="ul">"B.B.. RUSSEL" TROPHY</hi>: The winner this year is
-                     <persName>Ia<supplied>n</supplied></persName><damage type="missing"/><lb/>
-               deserved,he was placed at every<lb/> meeting except the <damage type="missing"/><lb/>
-               20 1/2 points. Runner-up is <persName>Ernie Lyons</persName> who won the
+               <hi rend="ul">"B.B.. RUSSEL" TROPHY</hi>: The winner this year is <persName ref="#IW"
+                     >Ia<supplied>n</supplied></persName><damage type="missing"/><lb/> deserved,he
+               was placed at every<lb/> meeting except the <damage type="missing"/><lb/> 20 1/2
+               points. Runner-up is <persName>Ernie Lyons</persName> who won the
                   cu<supplied>p</supplied><damage type="missing"/><lb/> with 15<lb/> 1/2 points;
                followed by <persName>D. C. Ewen</persName>, 8 points; F<damage type="missing"/><lb/>
                <persName>C. Coard</persName>, <persName>E. Callaghan</persName> and <persName>M.
@@ -388,11 +301,10 @@
          </div>
 
 
-
          <div facs="#surface_1_3">
-
             <div n="head_1.3.1">
                <head>Slade Scramble</head>
+
                <byline>By <persName>BASIL BRINDLEY</persName></byline>
             </div>
 
@@ -402,40 +314,9 @@
                   comfortable win from<lb/> the near scratch pair, Freddie Dickson<lb/> and Edmund
                   Gill, in the Nicholson<lb/> Memorial Scramble at, the Slade<lb/> yesterday.</p>
 
-               <p>The event was run over fifteen laps<lb/> and was preceded by the<lb/> distance
-                     <name type="race">Carville Cup</name> race,<lb/> honours went to <persName>C.
-        <objectName type="motorcycle" rend="bold">Sun</objectName>- <persName>F. C.
-                  Dickson</persName>, <persName>E. Rice</persName>.<lb rend="indentation"/>
-               <objectName type="motorcycle" rend="bold">Triumph</objectName>-<persName>S.
-                  Spence</persName>, <persName>P. H. Alves</persName>,<lb/>
-               <supplied>J</supplied>. <persName>Giles</persName>, <persName>J. E.
-                  Wicken</persName>. </p></div></div>
-         
-         
-         <div facs="#surface_1_2">
-            <p>
-            <hi rend="ul">"B.B.. RUSSEL" TROPHY</hi>: The winner this year is
-            <persName ref="#IW">Ia<supplied>n</supplied></persName><damage type="missing"/><lb/>
-            deserved,he was placed at every<lb/> meeting except the <damage type="missing"/><lb/>
-            20 1/2 points. Runner-up is <persName>Ernie Lyons</persName> who won the
-            cu<supplied>p</supplied><damage type="missing"/><lb/> with 15<lb/> 1/2 points;
-            followed by <persName>D. C. Ewen</persName>, 8 points; F<damage type="missing"/><lb/>
-            <persName>C. Coard</persName>, <persName>E. Callaghan</persName> and <persName>M.
-               Tracey</persName> with 6 points.</p></div>      
-         
-         
-         <div facs="#surface_1_3"> <div n="head_1.3.1"><head>Slade Scramble</head>
-            <byline>By <persName>BASIL BRINDLEY</persName></byline></div>
-            
-            <div n="section 1.3.2">  <p>
-               <hi rend="case (allcaps)">LONG</hi> handicap man, Stan Tracey,<lb/> scored a
-               comfortable win from<lb/> the near scratch pair, Freddie Dickson<lb/> and Edmund
-               Gill, in the Nicholson<lb/> Memorial Scramble at, the Slade<lb/> yesterday.</p>
-               
-               <p>The event was run over fifteen laps<lb/> and was preceded by the<lb/> distance <name
-                  type="race">Carville Cup</name> race,<lb/> honours went to <persName>C.
->>>>>>> parent of 1329f95 (Update Master_TEI.xml)
-                     Childs</persName> on an<lb/>
+               <p>The event was run over fifteen laps<lb/> and was preceded by the shorter<lb/>
+                  distance <name type="race">Carville Cup</name> race, where<lb/> honours went to
+                     <persName>C. Childs</persName> on an<lb/>
                   <objectName type="motorcycle">Ariel</objectName>.</p>
             </div>
 
@@ -543,11 +424,9 @@
                MYSELF AT <name type="race"><placeName>BRAY</placeName> SCRAMBLE</name></p>
          </div>
 
-
-
          <div facs="#surface_2_3">
 
-            <div n="section_2.2.1">
+            <div n="section_2.3.1">
                <head>Ian W<damage degree="medium" type="tear">i</damage>lliams <lb/> Bea<damage
                      degree="medium" type="tear">ts</damage> Brother</head>
 
@@ -556,61 +435,9 @@
                   grass<lb/> track races at Powerscourt yester-<lb/> day his victories included
                   an<lb/> exciting finish in the handicap final<lb/> where he beat his brother Eric
                   by<lb/> half a wheel.</p>
-
-                  by<lb/> half a wheel.</p></div>
-
-
-               <div n="section(results)_2.2.2">
-                  <p><hi rend="bold">Graded Scratch Race A </hi>-- 1. K.<lb/> Cotter (248
-                     Excelsior); 2, M. D.<lb/> Thornton (197 Dot); 3, J. D.<lb/> Poynton (197 Dot).
-                     5 mips. 42 secs.<lb/>
-                     <hi rend="bold">Graded Scratch Race B </hi>-- 1, G. F.<lb/> Scarlett (197 Dot);
-                     2, F. C. Dickson<lb/> (197 Dot); 3, J. Barkley (197 Dot).<lb/> 5 mins 28 secs.
-                        <hi rend="bold">Graded Scratch<lb/> Race C</hi>-—1, R. Williams (197
-                     Aerial);<lb/> 2 E. Williams (497 Aerial); 3, D. J.<lb/> Dixon (344 Norton Jap).
-                     5 mins.<lb/> 5 secs.</p>
-
-                  <p>
-                     <hi rend="bold">Open Handicap- Heat 1 -</hi> 1 W.<lb/> Hogan (197 Dot); 2, I.
-                     Williams<lb/> 497 Aerial); 3 L, Armstrong (500<lb/> Jap). 5 mins. 47 secs. <hi
-                        rend="bold">Heat 2—1</hi>.<lb/> F. C. Dixon (197 Dot); 2. S. Foody<lb/> (348
-                     B.S.A.); 3. J- D. Roche (348<lb/> B.S.A.). 5 mins. 22 secs. <hi rend="bold"
-                        >Heat 3—</hi><lb/> I E Williams (497 Aerial); 2, G. B.<lb/> S-arlett (197
-                     Dot): 3. K. Cotter (244<lb/> Excelsior). 5 mins. 7 secs. <hi rend="bold"
-                        >Handi-<lb/> can Final</hi> — 1. I Williams (497<lb/> Aerial); 2 E. Williams
-                     (497 Aerial);<lb/> 3, G. F. Scarlett (197 Dot). 5 mins.<lb/> dead.</p>
-
-                  <p>
-                     <hi rend="bold">250 c.c. Scratch Race—Heat 1—</hi>
-                     <lb/> 1s, D. Pearson (248 N.S.U.). <hi rend="bold"> Heat<lb/> 2-</hi> G. F.
-                     Scarlett (197 Dot.). <hi rend="bold">Final<lb/> --1</hi>, G. F. Scarlett (197
-                     Dot.); 2. F<lb/> C. ’Dickson (197 Dot.): 3. D. Pear-<lb/> son (248 N.S.U.). 5
-                     mins. 17s.<lb/>
-                     <hi rend="bold"> 350 c.c. scratch race—</hi>1, D. Dixon<lb/> (344 Norton Jap.);
-                     2, S. Foody<lb/> (348 B.S.A.); 3, W. E. Harris (348<lb/> B.S.A.). 5 mins. 11s.
-                     500 c.c. scratch<lb/> race—1. I. Williams (497 Aerial); 2,<lb/> E. Williams
-                     (497 Ariel); 3, J. Porter<lb/> (500 Jap.). 4 mins 58 secs.</p>
-               </div>
-
-
-               <div n="section_2.2.3">
-                  <head>Results of Autocross</head>
-                  <p>THE M.G. Car Club held an<lb/> autocross At Lynch Dark. Sag-<lb/> gart, Co.
-                     Dublin yesterday. The<lb/> course was 1/2 mile long and each<lb/> race was over
-                     4 laps. Results: -<lb rend="indent"/> Saloon Class — Scratch — J. C.<lb/>
-                     Millarad (Fiat 600). 4 mins. 17 secs.<lb/> Handicap—Miss E. Penston
-                     (V.W.),<lb/> 4 mins. 22 secs. ,<lb rend="indent"/> Open Class—Scratch—M.
-                     Hayes<lb/> (Triumph TR2). 4 mins, 46 secs.<lb/> Handicap—M. Kennedy
-                     (Triumph<lb/> TR2). 4 mins. 45 secs.<lb rend="indent"/> Specials—Scratch—B. K.
-                     Hood<lb/> (Ford Special), 4 mins. 9 secs.<lb/> Handicap—S. V. Baker (Ford<lb/>
-                     Special). 4 mins. 17 secs; R. Red-<lb/> mond (Ford Special), 4 mms. 18<lb/>
-                     secs. </p>
-               </div>
->>>>>>> parent of 1329f95 (Update Master_TEI.xml)
             </div>
 
-
-            <div n="section(results)_2.2.2">
+            <div n="section(results)_2.3.2">
                <p><hi rend="bold"><name n="race">Graded Scratch Race A</name>
                   </hi>-- <num type="cardinal" rend="first place">1.</num>
                   <persName>K.<lb/> Cotter</persName>
@@ -698,10 +525,10 @@
                      <persName>J. Porter</persName><lb/> (<objectName n="motorcycle">500
                      Jap.</objectName>). 4 mins 58 secs.</p>
             </div>
-
+         </div>
             <!---not related to main content-->
 
-            <div n="section_2.2.3">
+            <div n="section_2.3.3">
                <head>Results of Autocross</head>
                <p>THE M.G. Car Club held an<lb/> autocross At Lynch Dark. Sag-<lb/> gart, Co. Dublin
                   yesterday. The<lb/> course was 1/2 mile long and each<lb/> race was over 4 laps.
@@ -713,11 +540,12 @@
                   secs.<lb/> Handicap—S. V. Baker (Ford<lb/> Special). 4 mins. 17 secs; R. Red-<lb/>
                   mond (Ford Special), 4 mms. 18<lb/> secs. </p>
             </div>
-         </div>
+         
 
 
       </body>
    </text>
+
 
    <!--page 3 (sb_06) -->
 
@@ -1213,7 +1041,7 @@
 
       </body>
    </text>
-   
+
    <!--page 6 (sb_10) -->
 
    <facsimile xml:id="page_06" facs="sb_10_TN_C_FULL.png">
@@ -1266,11 +1094,7 @@
                   >Ariel</objectName>into space.</head>
          </div>
 
-
-
          <div facs="#surface_6_2"/>
-
-
 
 
          <div facs="#surface_6_3">
