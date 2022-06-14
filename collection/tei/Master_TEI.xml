@@ -16,11 +16,62 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
+         <abstract resp="#EN">
+            <p> A scrapbook containing newspaper clippings and photographs documenting the experiences
+               of Ian Williams in his motorcross days in Dublin, Ireland, in the 1950's.
+            </p>
+         </abstract>
+         <creation>
+            <origPlace type="city">Dublin, Ireland </origPlace>
+            <origDate>c. 1956</origDate>
+         </creation>
          <handNotes>
-            <handNote xml:id="IW" medium="blue-ink">Original text in blue ink, written by Ian
-               Williams.</handNote>
+            <handNote xml:id="IW" medium="blue-ink">Original text in blue ink, written by Ian Williams.</handNote>
          </handNotes>
+         <langUsage>
+            <lang ident="en-ie" usage="100">British English</lang>
+         </langUsage>
+         <particDesc>
+            <listPerson>
+               <listPerson>
+                  <person xml:id="IW">
+                     <persName>
+                        <foreName>Ian</foreName>
+                        <lastName>Williams</lastName>
+                     </persName>
+                  </person>
+            </listPerson>
+         </particDesc>
+         <textDesc>
+            <channel mode="w">Scrapbook</channel>
+            <constitution type="composite">Newspaper clippings</constitution>
+            <derivation type="original"/>
+            <domain type="domestic">Local newspapers</domain>
+            <factuality type="fact"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <textClass>
+            <category xml:id="article"><catDesc>Article</catDesc></category>
+            <category xml:id="results"><catDesc>Results list</catDesc></category>
+            <category xml:id="handNotes"><catDesc>Handwritten notes</catDesc></category>
+            <category xml:id="byline"><catDesc>Byline</catDesc></category>
+            <keywords>
+               <list>
+               <item>Motor cross</item>
+               <item>Moto cross</item>
+               <item>Motorsport</item>
+               <item>Rider</item>
+               <item>Sport</item>
+               <item>Motorcycle</item>
+               <item>Dublin</item>
+               <item>Ireland</item>
+               <item>Photograph</item>
+               <item>Scrapbook</item>
+            </list>
+            </keywords>
+         </textClass>
       </profileDesc>
+
    </teiHeader>
 
 
