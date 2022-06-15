@@ -6,21 +6,158 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Title</title>
+            <title>The <persName ref="#IW">Ian Williams</persName> Motocross Collection: A Digital
+               Transcription</title>
+            <author>Various authors, most unknown. Known authors include; <persName
+                  role="journalist">Basil Brindley</persName> and <persName role="journalist">Barry
+                  Mason</persName></author>
+            <editor corresp="#IW">Ian Williams</editor>
+            <principal>Jacqueline Williams</principal>
+            <respStmt>
+               <resp>Materials selected and encoded by,</resp>
+               <name>Jacqueline Williams</name>
+               <name>Elisabeth Nonstad</name>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <authority><name>Jacqueline Williams</name>
+               <name>Elisabeth Nonstad</name></authority>
+            <date when="2022-06-30">30 June 2022<!--change date--></date>
+            <pubPlace>
+               <address>
+                  <street>Boschetsrieder Strasse 53</street>
+                  <settlement>Munich</settlement>
+                  <postCode>81379</postCode>
+                  <country>Germany</country>
+               </address>
+            </pubPlace>
+            <distributor>The University of Borås</distributor>
+            <availability status="restricted">
+               <p>Produced and available for academic purposes only</p>
+               <p>Ongoing efforts are being made to secure the copyright permission to share this
+                  document publicly. Issues related to securing copyright persmission relate to
+                  i)lack of information regarding publication source ii)publications being out of
+                  print iii)journalists/photographers desceased iv)difficulties in securing a
+                  response from the Irish Independent Newspaper</p>
+            </availability>
          </publicationStmt>
+         <notesStmt>
+            <note>Transcribed for Digitising Cultural Heritage Material 32LDK1 B12V2 VT2022</note>
+         </notesStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <msDesc>
+               <msIdentifier>
+                  <repository>From the private possession of <persName ref="#IW">Ian
+                        Williams</persName>, currently in the possesion of <persName>Josephine
+                        Williams</persName></repository>
+                  <objectName><persName ref="#IW">Ian Williams</persName>' motocross
+                     scrapbook</objectName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="scrapbook">
+                     <supportDesc material="mixed">
+                        <support>
+                           <material>Black card with a plastic textured coating, heavy black
+                              scrapbook paper, newspaper paper, photographic paper, notbook paper,
+                              pink paper and tape</material>
+                           <p>The digitised material includes both pages from the scrapbook
+                              manuscript and a selection of photographs which have been kept in a
+                              plastic pocket,stored between the pages of the scrapbook. Some of the
+                              photographs appear to have come lose from the scrapbook over time.</p>
+                           <note>The outer cover of the document is not yet included in the selected
+                              pages for this project, as of June 2022</note>
+                        </support>
+                        <extent> Scrapbook pages <dimensions scope="all" type="leaves" unit="cm">
+                              <height>24</height>
+                              <width>35</width>
+                           </dimensions> Photographs <dimensions scope="range" type="photographs"
+                              unit="cm">
+                              <height max="16.5" min="9"/>
+                              <width max="21.5" min="6.5"/>
+                           </dimensions>
+                           <note>For the purpose of this project, a selection of ten pages and ten
+                              photographs have been selected, as of June 2022. The maximum and
+                              minimum measurements apply to both the selected photographs and the
+                              larger collection.</note>
+                        </extent>
+                        <foliation>
+                           <p corresp="leaves">The leaves are not arranged in any order, it could be
+                              logically assumed that the leaves have been filled chronologically in
+                              order from front to back.</p>
+                           <p corresp="photographs">The photographs are not organised in any way</p>
+                        </foliation>
+                        <collation>
+                           <p corresp="leaves">The leaves are bound together in a black, hard,
+                              carboard cover which has a synthetic, textured surface. The leaves and
+                              cover are bound by a two whole punch and a dark green piece of string.
+                              The contents of the leaves have been fixed using glue and/or clear
+                              tape. </p>
+                           <p corresp="photographs">The photographs have been stored in a plastic
+                              pocket, kept within the scrapbbok</p>
+                        </collation>
+                        <condition>
+                           <p corresp="leaves"> The condition of the content of the leaves is quite
+                              good. They all intact, except for some fraying around the edges and
+                              slight tears. The condition of the content of the leaves is quite poor
+                              (i.e. newspaper clippings and photographs). Many of the newspaper
+                              clippings are torn, creased, stained or worn and illegible in parts. </p>
+                           <p corresp="photographs"> The condition of the photographs are fair, some
+                              are stained and marked by the use of clear tape. </p>
+                        </condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote xml:id="IW" corresp="#page_02" medium="blue-ink"
+                        rend="case (allcaps)">
+                        <p>There is one piece of written text in the scrapbook, that serves as a
+                           descriptive caption to photograph written in blue ink in all capital
+                           letters by <persName ref="#IW">Ian Williams</persName>.</p></handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>This scrapbook was compiled by <persName ref="#IW">Ian Williams</persName>
+                        sometime in the <date>late 50's</date>, c.<date>1956</date>. It chronicals
+                        his time as a motocross racer in <placeName>Dublin</placeName>, along with
+                        his brother, <persName ref="#EW">Eric Williams</persName>. The majority of
+                        content refers to races and events held in <placeName>Ireland</placeName>
+                        and the <placeName>United Kingdom</placeName>. The majority of newspaper
+                        clippings do not have a date or source publication name, therefore their
+                        origin is unknow.<persName ref="#IW"> Ian Williams</persName> kept the
+                        scrapbook until his passing in <date when="2022-01">January 2022</date>. The
+                        scrapbook is now in the possession of his wife, <persName>Jospehine
+                           Williams</persName> and has been loaned for the use of this project. An
+                        ongoing effort is being made to discover the source of the newspaper
+                        articles contained within the scrpabook. </p>
+                  </origin>
+               </history>
+            </msDesc>
+            <biblStruct>
+               <analytic>
+                  <title>The<persName ref="#IW">Ian Williams</persName> Motocross Collection: A
+                     Digital Transcription</title>
+                  <author>various authors</author>
+               </analytic>
+               <monogr>
+                  <title>The <persName ref="#IW">Ian Williams</persName> Motocross
+                     Collection</title>
+                  <ref target="www.site.com"><!--insert website here--></ref>
+                  <imprint>
+                     <pubPlace>Germany</pubPlace>
+                     <biblScope unit="leaves_and_photographs" n="20">Ten scrapbook pages, ten
+                        photographs</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
          </sourceDesc>
+
+
       </fileDesc>
-      <profileDesc>
-         <handNotes>
-            <handNote xml:id="IW" medium="blue-ink">Original text in blue ink, written by Ian
-               Williams.</handNote>
-         </handNotes>
-      </profileDesc>
+
+
+
+
+
    </teiHeader>
 
 
