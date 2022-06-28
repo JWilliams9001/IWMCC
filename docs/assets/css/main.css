@@ -7,6 +7,11 @@ body {
   background-color: #fffafa;
 }
 
+p {font-family: 'Courier New', Courier, monospace;
+  line-height: 1.5;
+  font-size: 12;
+  width: 100%;}
+
 h1
 {text-align: center;
   padding: 1vw;
@@ -26,11 +31,13 @@ nav {
   background-color: #e6cfa6;
 }
 
-a {
-  color: #494c45;
+.sitenav {color: #494c45;
   font-size: 1.5vw;
   font-weight: bold;
+  
 }
+
+a {color: #494c45}
 #transcriptNav {
   text-align: center;
   padding: 1.5vw;
@@ -78,27 +85,29 @@ h4 {
   text-align: center;
 }
 #about {
-  background-size: cover;
   background-color: #bd8d67
 }
 
 
-.column {
-  float: left;
-  width: 50%;
-  padding: 5%;
-  text-align: left;
-}
-
-
-
 .row {
   content: "";
-  display: table;
+
   clear: both;
   text-align: center;
   padding: 5%;
 }
+
+.column {
+  content: "";
+ 
+  float: left;
+  width: 50%;
+  padding: 5%;
+  text-align: center;
+}
+
+
+
 
 .grid-container {
   display: grid;
