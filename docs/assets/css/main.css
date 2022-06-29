@@ -215,6 +215,7 @@ footer {
   padding: 1.5vw;
   background-color: #e6cfa6;
   border-top: double;
+  border-bottom: double;
   border-width: thick;
   padding-top: 1vw;
   margin-top: 1vw;
