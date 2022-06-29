@@ -11,7 +11,8 @@ p {font-family: 'Courier New', Courier, monospace;
   line-height: 1.5;
   font-size: 12;
   width: 100%;
-text-align: left;}
+text-align: left;
+text-indent: 50px;}
 
 h1
 {text-align: center;
@@ -28,6 +29,8 @@ nav {
   border-top: double;
   border-bottom: double;
   border-width: thick;
+  font-size: 1.5vw;
+  font-weight: bold;
   border-color: #494c45;
   background-color: #e6cfa6;
 }
@@ -35,25 +38,21 @@ nav {
 .sitenav {color: #494c45;
   font-size: 1.5vw;
   font-weight: bold;
-  
-}
-
-a {color: #494c45}
-#transcriptNav {
+  font-family: 'Courier New', Courier, monospace;
   text-align: center;
   padding: 1.5vw;
   margin-bottom: 2vw;
   border-top: none;
   border-bottom: none;
   background-color: #fffafa;
-
 }
+
+a {color: #494c45}
 
 .backToTop {
   float: right;
   text-decoration-line: underline; 
   font-size: medium
-  
 }
 
 h2 {
@@ -79,7 +78,6 @@ h4 {
 }
 
 
-
 #details {
   padding: 2vw;
   margin: 1vw;
@@ -88,7 +86,6 @@ h4 {
 #about {
   background-color: #bd8d67
 }
-
 
 .row {
   content: "";
@@ -106,8 +103,6 @@ h4 {
   padding: 5%;
   text-align: center;
 }
-
-
 
 
 .grid-container {
