@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>The <persName ref="#IW">Ian Williams</persName> Motocross Collection: A Digital
+            <title>The <persName xml:id="IW">Ian Williams</persName> Motocross Collection: A Digital
                Transcription</title>
             <author>Various authors, most unknown. Known authors include; <persName
                   role="journalist">Basil Brindley</persName> and <persName role="journalist">Barry
@@ -107,7 +107,7 @@
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote xml:id="IW" corresp="#page_02" medium="blue-ink"
+                     <handNote scribe="IW" corresp="#page_02" medium="blue-ink"
                         rend="case (allcaps)">
                         <p>There is one piece of written text in the scrapbook, that serves as a
                            descriptive caption to photograph written in blue ink in all capital
@@ -170,18 +170,17 @@
             <origDate>c. 1956</origDate>
          </creation>
          <handNotes>
-            <handNote xml:id="IW" medium="blue-ink">Original text in blue ink, written by Ian Williams.</handNote>
+            <handNote corresp="#IW" medium="blue-ink">Original text in blue ink, written by Ian Williams.</handNote>
          </handNotes>
          <langUsage>
-            <lang ident="en-ie" usage="100">British English</lang>
+            <language ident="en-ie" usage="100">British English</language>
          </langUsage>
          <particDesc>
             <listPerson>
-               <listPerson>
-                  <person xml:id="IW">
-                     <persName>
-                        <foreName>Ian</foreName>
-                        <lastName>Williams</lastName>
+                  <person>
+                     <persName ref="#IW">
+                        <forename>Ian</forename>
+                      <surname>Williams</surname>
                      </persName>
                   </person>
             </listPerson>
@@ -192,13 +191,21 @@
             <derivation type="original"/>
             <domain type="domestic">Local newspapers</domain>
             <factuality type="fact"/>
+            <interaction type="inapplicable"/>
+            <preparedness type="none"/>
             <purpose type="inform"/>
          </textDesc>
-         <textClass>
-            <category xml:id="article"><catDesc>Article</catDesc></category>
-            <category xml:id="results"><catDesc>Results list</catDesc></category>
-            <category xml:id="handNotes"><catDesc>Handwritten notes</catDesc></category>
-            <category xml:id="byline"><catDesc>Byline</catDesc></category>
+         
+       <textClass>
+            <category xml:id="article"><catDesc>Article</catDesc>
+            </category>
+            <category xml:id="results"><catDesc>Results list</catDesc>
+            </category>
+            <category xml:id="handNotes"><catDesc>Handwritten notes</catDesc>
+            </category>
+             <category xml:id="byline"><catDesc></catDesc>
+             </category>
+         
             <keywords>
                <list>
                <item>Motor cross</item>
@@ -213,7 +220,7 @@
                <item>Scrapbook</item>
             </list>
             </keywords>
-         </textClass>
+       </textClass>
       </profileDesc>
 
    </teiHeader>
