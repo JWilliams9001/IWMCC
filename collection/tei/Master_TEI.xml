@@ -22,7 +22,7 @@
          <publicationStmt>
             <authority><name>Jacqueline Williams</name>
                <name>Elisabeth Nonstad</name></authority>
-            <date when="2022-06-30">30 June 2022<!--change date--></date>
+            <date when="2022-07-04">04 July 2022</date>
             <pubPlace>
                <address>
                   <street>Boschetsrieder Strasse 53</street>
@@ -141,7 +141,7 @@
                <monogr>
                   <title>The <persName ref="#IW">Ian Williams</persName> Motocross
                      Collection</title>
-                  <ref target="www.site.com"><!--insert website here--></ref>
+                  <ref target="/docs/home.html"/>
                   <imprint>
                      <pubPlace>Germany</pubPlace>
                      <biblScope unit="leaves_and_photographs" n="20">Ten scrapbook pages, ten
