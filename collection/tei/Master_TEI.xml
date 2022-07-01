@@ -197,15 +197,6 @@
          </textDesc>
          
        <textClass>
-            <category xml:id="article"><catDesc>Article</catDesc>
-            </category>
-            <category xml:id="results"><catDesc>Results list</catDesc>
-            </category>
-            <category xml:id="handNotes"><catDesc>Handwritten notes</catDesc>
-            </category>
-             <category xml:id="byline"><catDesc></catDesc>
-             </category>
-         
             <keywords>
                <list>
                <item>Motor cross</item>
