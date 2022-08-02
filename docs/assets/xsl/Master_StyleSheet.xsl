@@ -334,7 +334,7 @@
                                     </xsl:attribute>
                                     <xsl:attribute name="title">
                                         <xsl:value-of
-                                            select="/TEI/facsimile[4]/surface[1]/figure[1]/graphic[2]"
+                                            select="/TEI/facsimile[4]/surfaceGrp[1]/surface[1]/figure[1]/label[1]"
                                         />
                                     </xsl:attribute>
                                     <xsl:attribute name="alt">
@@ -358,19 +358,51 @@
                     <div class="container" id="page_5">
                         <h2>Page 5</h2>
                         <div class="row">
-                            <img id="sb_09_full"><!--enter xsl transform here--></img>
+                            <img id="sb_09_full">          <xsl:attribute name="src">
+                                <xsl:value-of select="/TEI/facsimile[5]"/>
+                            </xsl:attribute>
+                                <xsl:attribute name="title">
+                                    <xsl:value-of select="/TEI/facsimile[5]/surfaceGrp[1]/surface[1]/figure[1]/label[1]"/>
+                                </xsl:attribute>
+                                <xsl:attribute name="alt">
+                                    <xsl:value-of select="/TEI/facsimile[5]/surfaceGrp[1]/surface[1]/figure[1]/figDesc[1]"/>
+                                </xsl:attribute></img>
                         </div>
                         <div class="row">
                             <div class="column">
-                                <img id="sb_09_01"><!--enter xsl transform here--></img>
+                                <img id="sb_09_01"><xsl:attribute name="src">
+                                    <xsl:value-of select="/TEI/facsimile[5]/surfaceGrp[1]/surface[2]/figure[1]@url"/>
+                                </xsl:attribute>
+                                    <xsl:attribute name="title">
+                                        <xsl:value-of select="/TEI/facsimile[5]/surfaceGrp[1]/surface[1]/figure[1]/graphic[1]"/>
+                                    </xsl:attribute>
+                                    <xsl:attribute name="alt">
+                                        <xsl:value-of select="/TEI/facsimile[5]/surfaceGrp[1]/surface[1]/figure[1]/figDesc[1]//tei:figDesc"/>
+                                    </xsl:attribute></img></img>
                             </div>
                             <div class="column">
-                                <img id="sb_09_02"><!--enter xsl transform here--></img>
+                                <img id="sb_09_02">                 <xsl:attribute name="src">
+                                    <xsl:value-of select="/TEI/facsimile[5]/surfaceGrp[1]/surface[2]/figure[1]/graphic[1]"/>
+                                </xsl:attribute>
+                                    <xsl:attribute name="title">
+                                        <xsl:value-of select="/TEI/facsimile[5]/surfaceGrp[1]/surface[2]/figure[1]/label[1]"/>
+                                    </xsl:attribute>
+                                    <xsl:attribute name="alt">
+                                        <xsl:value-of select="/TEI/facsimile[5]/surfaceGrp[1]/surface[2]/figure[1]/figDesc[1]"/>
+                                    </xsl:attribute></img>
                             </div>
                         </div>
                         <div class="row">
                             <div class="column">
-                                <img id="sb_09_03"><!--enter xsl transform here--></img>
+                                <img id="sb_09_03">                 <xsl:attribute name="src">
+                                    <xsl:value-of select="/TEI/facsimile[5]/surfaceGrp[1]/surface[3]/figure[1]"/>
+                                </xsl:attribute>
+                                    <xsl:attribute name="title">
+                                        <xsl:value-of select="/TEI/facsimile[5]/surfaceGrp[1]/surface[3]/figure[1]/label[1]"/>
+                                    </xsl:attribute>
+                                    <xsl:attribute name="alt">
+                                        <xsl:value-of select="/TEI/facsimile[5]/surfaceGrp[1]/surface[3]/figure[1]/figDesc[1]"/>
+                                    </xsl:attribute></img>
                             </div>
                             <div class="column easyRead" id="transcription_09_03">
                                 <xsl:apply-templates select="/TEI/text[5]/body[1]/div[3]/@facs"/>
@@ -378,7 +410,15 @@
                         </div>
                         <div class="row">
                             <div class="column">
-                                <img id="sb_09_04"><!--enter xsl transform here--></img>
+                                <img id="sb_09_04"> <xsl:attribute name="src">
+                                    <xsl:value-of select="/TEI/facsimile[5]/surfaceGrp[1]/surface[4]/figure[1]/graphic[2]"/>
+                                </xsl:attribute>
+                                    <xsl:attribute name="title">
+                                        <xsl:value-of select="/TEI/facsimile[5]/surfaceGrp[1]/surface[4]/figure[1]/label[1]"/>
+                                    </xsl:attribute>
+                                    <xsl:attribute name="alt">
+                                        <xsl:value-of select="/TEI/facsimile[5]/surfaceGrp[1]/surface[4]/figure[1]/figDesc[1]"/>
+                                    </xsl:attribute></img>
                             </div>
                             <div class="column easyRead" id="transcription_09_04">
                                 <xsl:apply-templates select="/TEI/text[5]/body[1]/div[4]/@facs"/>
