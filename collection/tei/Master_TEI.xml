@@ -311,8 +311,8 @@
                      url="assets/img/documents/Thumbnails/sb_03_TN_C _01_cut.png"/>
 
 
-                  <head><hi rend="case (allcaps)">CHAMPIONSHIP CHALLENGER . . .</hi></head>
-                  <p>Dublin rider <persName ref="#IW">Ian Williams</persName> (<objectName
+                  <p><hi rend="case (allcaps)">CHAMPIONSHIP CHALLENGER . . .</hi>
+                  Dublin rider <persName ref="#IW">Ian Williams</persName> (<objectName
                         type="motorcycle">Ariel </objectName>) who rides in to-morrow’s <name
                         type="race">Hurst Cup International Trial</name> at <placeName>Conling,
                         Belfast</placeName>.</p>
@@ -368,7 +368,7 @@
 
 
             <div n="section_1.1.5">
-               <head> Strong Ulster Bid</head>
+               <head type="subhead">Strong Ulster Bid</head>
                <p>Travelling up from the south also<lb/> with good reputations are
                      <persName>Dave<lb/> Felton</persName> (<objectName type="motorcycle"> Francis
                      Barnett</objectName>), <persName ref="#IW">Ian<lb/> Williams</persName>,
@@ -716,7 +716,7 @@
          <!---not related to main content-->
 
          <div n="section_2.3.3">
-            <head>Results of Autocross</head>
+            <head type="subhead">Results of Autocross</head>
             <p>THE M.G. Car Club held an<lb/> autocross At Lynch Dark. Sag-<lb/> gart, Co. Dublin
                yesterday. The<lb/> course was 1/2 mile long and each<lb/> race was over 4 laps.
                Results: -<lb rend="indent"/> Saloon Class — Scratch — J. C.<lb/> Millarad (Fiat
@@ -780,14 +780,14 @@
             <div n="folio_3.2.1">
                <ab>
                   <num type="page">12</num>
-                  <name type="publication">Irish Independent</name>, Wednesday, <date
+                  <name rend="publication">Irish Independent</name>, Wednesday, <date
                      when="1956-10-03">October 3, 1956</date></ab>
             </div>
 
             <div n="heading_3.2.2">
-               <head rend="section heading">Motor Sport Review</head>
+               <head type="section_head">Motor Sport Review</head>
 
-               <head rend="article heading"> Moto-Cross Was<lb/> Great Success</head>
+               <head> Moto-Cross Was<lb/> Great Success</head>
 
                <byline> BY <persName role="journalist">BARRY MASON</persName></byline>
             </div>
@@ -821,7 +821,7 @@
 
             <div n="section_3.2.4">
 
-               <head rend="ul">MUCH QUICKER</head>
+               <head type="subhead" rend="ul" >MUCH QUICKER</head>
 
                <p>
                   <hi rend="case (allcaps)">THE</hi> experts took it much faster,<lb/> cleared the
@@ -852,7 +852,7 @@
 
             <div n="section_3.2.5">
 
-               <head rend="ul">BIG ATTENDANCE</head>
+               <head type="subhead" rend="ul">BIG ATTENDANCE</head>
 
                <p><hi rend="italics"><hi rend="case (allcaps)">THIS</hi> type of sport is a novelty
                      to<lb/> Irish people, but there was<lb/> quite a big attendance on
@@ -963,7 +963,7 @@
             </div>
             <div type="section">
                <head rend="bold">
-                  <hi rend="case (allcaps)"> FIGURED PROMINENTLY</hi></head>
+                  <hi rend=" subhead case (allcaps)"> FIGURED PROMINENTLY</hi></head>
                <p rend="bold"> If he continues to improve at <lb/> the present rate there is little
                   <lb/> doubt that <persName>Frank O'Reilly</persName> could <lb/> turn out to be a
                   really top class <lb/> Moto Cross and Road Racing star <lb/> He has certainly put
@@ -999,7 +999,7 @@
                   <lb/> part in the proceedings</p>
             </div>
             <div type="section">
-               <head rend="case (allcaps)"><hi rend="bold">NORTHERN SUCCESSES</hi></head>
+               <head type="subhead" rend="case (allcaps)"><hi rend="bold">NORTHERN SUCCESSES</hi></head>
                <p rend="bold">Several Ulster riders hit the <lb/> headlines during the
                   afternoon.<lb/> the most successful of them being <lb/>
                   <persName>Alex McFarland Woods</persName> from <placeName>Bel-
@@ -1282,9 +1282,9 @@
          <pb facs="#page_06"/>
 
          <div facs="#surface_6_1">
-            <head rend="italics">The sky's the limit . . . so thinks <persName ref="#IW">Ian
+            <p rend="italics">The sky's the limit . . . so thinks <persName ref="#IW">Ian
                   <lb/>Williams</persName> as he directs his <objectName type="motorcycle"
-                  >Ariel</objectName>into space.</head>
+                  >Ariel</objectName>into space.</p>
          </div>
 
          <div facs="#surface_6_2"/>
@@ -1526,7 +1526,7 @@
 
 
             <div n="section_8.3.2">
-               <head rend="bold">The best Last.</head>
+               <head type="subhead" rend="bold">The best Last.</head>
                <p><hi rend="case (allcaps)">For</hi> some reason, as yet un-<lb/> e<damage
                      type="tear"><supplied>xp</supplied>lained,</damage> the <name type="race"
                      >graded scratch<lb/> races</name>which normally open the pro-<lb/>gramme, where
@@ -1572,7 +1572,7 @@
             </div>
 
             <div n="section_8.3.3">
-               <head rend="bold">The Other Events.</head>
+               <head type="subhead" rend="bold">The Other Events.</head>
                <p>Only less exciting by comparison <lb/> with such heart-stopping stuff <lb/> were
                   the other events on the pro-<lb/>gramme. <persName ref="#IW">Ian
                      Williams</persName> had dam-<lb/>aged the rear suspension of his <lb/>
@@ -1598,11 +1598,12 @@
                   <persName>Joe MacMahon</persName> could do little on <lb/> an underpowered
                      <objectName type="motorcycle">James</objectName>. <lb/>
                   <hi rend="bold">* * *</hi>
+                  <lb/><hi rend="bold">* * *</hi>
                </p>
             </div>
 
             <div n="section_8.3.4">
-               <head rend="bold">* * * <lb/> Spills and Other Things</head>
+                <head type="subhead"> Spills and Other Things</head>
                <p><persName ref="#IW">Ian Williams</persName> beat <persName>Mervyn
                   Hayes</persName><lb/> in the <name type="race">500 c.c. scratch race</name>.
                      <persName ref="#EW">Eric <lb/> Williams</persName>, on another <objectName
@@ -1853,7 +1854,7 @@
          <div facs="#surface_9_2">
 
             <div n="head_9.2.1">
-               <head n="section_head"><hi rend="case (allcaps)">GRASS TRACK RACING</hi></head>
+               <head type="section_head"><hi rend="case (allcaps)">GRASS TRACK RACING</hi></head>
 
 
                <head>
@@ -2043,7 +2044,7 @@
 
          <div facs="#surface_10_1">
             <div n="head_10.1.1">
-               <head rend="section heading, ul">Motor cycling</head>
+               <head type="section_head" rend="ul">Motor cycling</head>
 
                <head><persName>Long</persName> just<lb/> misses<lb/> hat-trick</head>
             </div>
@@ -2163,11 +2164,11 @@
 
 
             <div n="head_10.2.2">
-               <head type="section">MOTOR-CYCLING...</head>
+               <head type="section_head">MOTOR-CYCLING...</head>
 
                <byline>BY BR<gap rend="missing"/></byline>
 
-               <head type="article">Big Test<lb/> Nenagh</head>
+               <head>Big Test<lb/> Nenagh</head>
             </div>
 
             <div n="lead_10.2.3">
@@ -2197,7 +2198,7 @@
 
 
             <div n="section_10.2.5">
-               <head>DOT TWINS</head>
+               <head type="subhead">DOT TWINS</head>
                <p>Some idea of the fare to<lb/> be expected can be had from<lb/> the performances in
                   last<lb/> week’s <name type="race">Dunlop scramble.</name></p>
                <p>Chief interest is in the<lb/>
@@ -2224,7 +2225,7 @@
 
 
             <div n="section_10.2.6">
-               <head>LOCAL MEN</head>
+               <head type="subhead">LOCAL MEN</head>
                <p>Local interest is in<lb/>
                   <name type="org">Dalcassian<choice>
                         <expan>Dalcassian Motorcycle Club</expan>
@@ -2246,7 +2247,7 @@
 
             <!--- the following div appears in the source document but is not relevant to the source material (that of motorsports)-->
             <div type="section_omitted">
-               <head>BIG ENTRY</head>
+               <head type="subhead">BIG ENTRY</head>
                <p><hi rend="case (allcaps)">THERE</hi> is a big entry for<lb/> the Athlone
                   Hockey<lb/> Club’s annual mixed 6-a-side<lb/> tournament at Grace Park,<lb/>
                   Athlone, to-day.</p>
@@ -2287,7 +2288,7 @@
             </div>
 
             <div n="section_10.3.4">
-               <head>FAVOURITE</head>
+               <head type="subhead">FAVOURITE</head>
                <p> Another Ulsterman rides<lb/> in both senior and junior<lb/> events on an A.J.S.
                   (350)<lb/> and a Norton (500).</p>
                <p rend="bold">Judging by practice times<lb/> last week, it seems that John<lb/>
@@ -2307,7 +2308,7 @@
             </div>
 
             <div n="section_10.3.5">
-               <head>BIG SURPRISE</head>
+               <head type="subhead">BIG SURPRISE</head>
                <p>Included in the programme<lb/> will be the <name type="race">National two-<lb/>
                      mile 500 c.c. and 250 c.c.<lb/> championships</name>, as well as<lb/> the <name
                      type="race">350 c.c. southern centre</name><lb/> one.</p>
@@ -2324,7 +2325,7 @@
                      url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/JPG/sb_20_03_cut.jpg"/>
                   <graphic xml:id="sb_20.3_cut_thumb"
                      url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/Thumbnails/sb_20_TN_C_03 _cut.png"/>
-                  <head><hi rend="case (allcaps)"><persName>SAMMY MILLER</persName></hi></head>
+                  <p><hi rend="case (allcaps)"><persName>SAMMY MILLER</persName></hi></p>
 
                </figure>
 

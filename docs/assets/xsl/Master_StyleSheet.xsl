@@ -693,24 +693,66 @@
 
 
     </xsl:template>
+    
+    <xsl:template match="tei:byline">
+        <h5>
+            <xsl:apply-templates/>
+        </h5>
+    </xsl:template>
+    
+  
+    <xsl:template match="tei:head">
+        <h2>
+            <xsl:apply-templates/>
+        </h2>
+    </xsl:template>
+    <xsl:template match="tei:head[@type ='section heading', 'publication']">
+        <h4>
+            <xsl:apply-templates/>
+        </h4>
+        
+    </xsl:template>
+        <xsl:template match="tei:head[@type ='subhead', 'section_head']">
+            <h5>
+                <xsl:apply-templates/>
+            </h5>
+       
+    </xsl:template>
+    <xsl:template match="tei:lb">
+        <br/>
+    </xsl:template>
+    
+    <xsl:template match="tei:p">
+        <p>
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+    
+    <xsl:template match="tei:add">
+        <sup>
+            <xsl:apply-templates/>
+        </sup>
+    </xsl:template>
+    
+    <xsl:template match="tei:hi[@rend = 'ul']">
+  
+        <u>
+            <xsl:apply-templates/>
+        </u>
+    </xsl:template>
+        <xsl:template match="tei:hi[@rend = 'bold']">
+            
+            <b>
+                <xsl:apply-templates/>
+            </b>
 
-    <!-- TEMPLATES PROVIDED<xsl:template match="tei:dateline">
-        <p class="dateline"><xsl:apply-templates/></p>    
-    </xsl:template>
-    
-    <xsl:template match="tei:lb|tei:l">
-        <xsl:apply-templates/> <br/>   
-    </xsl:template>
-    
-    <xsl:template match="tei:emph">
-        <xsl:choose>
-            <xsl:when test="@rend ='ul'">
-                <em style="text-decoration : underline"><xsl:apply-templates/></em>  
-            </xsl:when>
-            <xsl:otherwise>
-                <em><xsl:apply-templates/></em>
-            </xsl:otherwise>
-        </xsl:choose>
-    </xsl:template> -->
+        </xsl:template>
+        <xsl:template match="tei:hi[@rend = 'italics']">
+            
+            <i>
+                <xsl:apply-templates/>
+            </i>
+        </xsl:template>
+   
 
 </xsl:stylesheet>
