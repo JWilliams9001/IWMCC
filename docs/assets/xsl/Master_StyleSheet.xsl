@@ -279,11 +279,19 @@
                     <div class="container" id="page_4">
                         <h2>Page 4</h2>
                         <div class="row">
-                            <img id="sb_08_full"><!--enter xsl transform here--></img>
+                            <img id="sb_08_full"><xsl:apply-templates select="/TEI/facsimile[1]"/></img>
                         </div>
                         <div class="row">
                             <div class="column">
-                                <img id="sb_08_01"><!--enter xsl transform here--></img>
+                                <img id="sb_08_01"><xsl:attribute name="src">
+                                <xsl:value-of select="/TEI/facsimile[1]/surfaceGrp[1]/surface[1]/figure[1]/graphic[2][@xml:id='sb_08_TN_C_01']/@url"/>
+                                </xsl:attribute>
+                                <xsl:attribute name="title">
+                                <xsl:value-of select="/TEI/facsimile[1]/surfaceGrp[1]/surface[1]/figure[1]/label[1]"/>
+                                </xsl:attribute>
+                                <xsl:attribute name="alt">
+                                <xsl:value-of select="/TEI/facsimile[1]/surfaceGrp[1]/surface[1]/figure[1]/figDesc[1]"/>
+                                </xsl:attribute></img></img>
                             </div>
                             <div class="column easyRead" id="transcription_08_01">
                                 <xsl:apply-templates select="/TEI/text[4]/body[1]/div[1]/@facs"/>
