@@ -291,7 +291,7 @@
                                 </xsl:attribute>
                                 <xsl:attribute name="alt">
                                 <xsl:value-of select="/TEI/facsimile[1]/surfaceGrp[1]/surface[1]/figure[1]/figDesc[1]"/>
-                                </xsl:attribute></img></img>
+                                </xsl:attribute></img>
                             </div>
                             <div class="column easyRead" id="transcription_08_01">
                                 <xsl:apply-templates select="/TEI/text[4]/body[1]/div[1]/@facs"/>
