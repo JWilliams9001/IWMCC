@@ -38,23 +38,33 @@
                             href="#page_9">9</a> | <a href="#page_10">10</a>
                     </nav>
                     <!--PAGE 1-->
-                    
+
                     <div class="container" id="page_1">
                         <h2>Page 1</h2>
                         <div class="row">
-                            <img id="sb_03_01"><xsl:apply-templates select="/TEI/facsimile[1]"/></img>
+                            <img id="sb_03_01">
+                                <xsl:apply-templates select="/TEI/facsimile[1]"/>
+                            </img>
                         </div>
                         <div class="row">
                             <div class="column">
-                                <img> <xsl:attribute name="src">
-                                    <xsl:value-of select="/TEI/facsimile[1]/surfaceGrp[1]/surface[1]/figure[1]/graphic[2][@xml:id='sb_03_01']/@url"/>
-                                </xsl:attribute>
+                                <img>
+                                    <xsl:attribute name="src">
+                                        <xsl:value-of
+                                            select="/TEI/facsimile[1]/surfaceGrp[1]/surface[1]/figure[1]/graphic[2][@xml:id = 'sb_03_01']/@url"
+                                        />
+                                    </xsl:attribute>
                                     <xsl:attribute name="title">
-                                        <xsl:value-of select="/TEI/facsimile[1]/surfaceGrp[1]/surface[1]/figure[1]/label[1]"/>
+                                        <xsl:value-of
+                                            select="/TEI/facsimile[1]/surfaceGrp[1]/surface[1]/figure[1]/label[1]"
+                                        />
                                     </xsl:attribute>
                                     <xsl:attribute name="alt">
-                                        <xsl:value-of select="/TEI/facsimile[1]/surfaceGrp[1]/surface[1]/figure[1]/figDesc[1]"/>
-                                    </xsl:attribute></img>
+                                        <xsl:value-of
+                                            select="/TEI/facsimile[1]/surfaceGrp[1]/surface[1]/figure[1]/figDesc[1]"
+                                        />
+                                    </xsl:attribute>
+                                </img>
                             </div>
                             <div class="column easyRead" id="transcription_03_01">
                                 <xsl:apply-templates select="/TEI/text[1]/body[1]/div[1]"/>
@@ -62,15 +72,23 @@
                         </div>
                         <div class="row">
                             <div class="column">
-                                <img id="sb_03_02"><xsl:attribute name="src">
-                                    <xsl:value-of select="/TEI/facsimile[1]/surfaceGrp[1]/surface[2]/figure[1]/graphic[2][@xml:id='sb_03_02']/@url"/>
-                                </xsl:attribute>
+                                <img id="sb_03_02">
+                                    <xsl:attribute name="src">
+                                        <xsl:value-of
+                                            select="/TEI/facsimile[1]/surfaceGrp[1]/surface[2]/figure[1]/graphic[2][@xml:id = 'sb_03_02']/@url"
+                                        />
+                                    </xsl:attribute>
                                     <xsl:attribute name="title">
-                                        <xsl:value-of select="/TEI/facsimile[1]/surfaceGrp[1]/surface[2]/figure[1]/label[1]"/>
+                                        <xsl:value-of
+                                            select="/TEI/facsimile[1]/surfaceGrp[1]/surface[2]/figure[1]/label[1]"
+                                        />
                                     </xsl:attribute>
                                     <xsl:attribute name="alt">
-                                        <xsl:value-of select="/TEI/facsimile[1]/surfaceGrp[1]/surface[2]/figure[1]/figDesc[1]"/>
-                                    </xsl:attribute></img>
+                                        <xsl:value-of
+                                            select="/TEI/facsimile[1]/surfaceGrp[1]/surface[2]/figure[1]/figDesc[1]"
+                                        />
+                                    </xsl:attribute>
+                                </img>
                             </div>
                             <div class="column easyRead" id="transcription_03_02">
                                 <xsl:apply-templates select="/TEI/text[1]/body[1]/div[2]/@facs"/>
@@ -78,14 +96,23 @@
                         </div>
                         <div class="row">
                             <div class="column">
-                                <img id="sb_03_03"> <xsl:attribute name="src"> <xsl:value-of select="/TEI/facsimile[1]/surfaceGrp[1]/surface[3]/figure[1]/graphic[2][@xml:id='sb_03_03']/@url"/>
-                                </xsl:attribute>
+                                <img id="sb_03_03">
+                                    <xsl:attribute name="src">
+                                        <xsl:value-of
+                                            select="/TEI/facsimile[1]/surfaceGrp[1]/surface[3]/figure[1]/graphic[2][@xml:id = 'sb_03_03']/@url"
+                                        />
+                                    </xsl:attribute>
                                     <xsl:attribute name="title">
-                                        <xsl:value-of select="/TEI/facsimile[1]/surfaceGrp[1]/surface[3]/figure[1]/label[1]"/>
+                                        <xsl:value-of
+                                            select="/TEI/facsimile[1]/surfaceGrp[1]/surface[3]/figure[1]/label[1]"
+                                        />
                                     </xsl:attribute>
                                     <xsl:attribute name="alt">
-                                        <xsl:value-of select="/TEI/facsimile[1]/surfaceGrp[1]/surface[3]/figure[1]/figDesc[1]"/>
-                                    </xsl:attribute></img>
+                                        <xsl:value-of
+                                            select="/TEI/facsimile[1]/surfaceGrp[1]/surface[3]/figure[1]/figDesc[1]"
+                                        />
+                                    </xsl:attribute>
+                                </img>
                             </div>
                             <div class="column easyRead" id="transcription_03_03">
                                 <xsl:apply-templates select="/TEI/text[1]/body[1]/div[3]/@facs"/>
@@ -93,28 +120,43 @@
                         </div>
                         <div class="row">
                             <div class="column">
-                                <img id="sb_03_04"><xsl:attribute name="src">
-                                    <xsl:value-of select="/TEI/facsimile[1]/surfaceGrp[1]/surface[4]/figure[1]/graphic[2][@xml:id='sb_03_04']/@url"/>
-                                </xsl:attribute>
+                                <img id="sb_03_04">
+                                    <xsl:attribute name="src">
+                                        <xsl:value-of
+                                            select="/TEI/facsimile[1]/surfaceGrp[1]/surface[4]/figure[1]/graphic[2][@xml:id = 'sb_03_04']/@url"
+                                        />
+                                    </xsl:attribute>
                                     <xsl:attribute name="title">
-                                        <xsl:value-of select="/TEI/facsimile[1]/surfaceGrp[1]/surface[4]/figure[1]/label[1]"/>
+                                        <xsl:value-of
+                                            select="/TEI/facsimile[1]/surfaceGrp[1]/surface[4]/figure[1]/label[1]"
+                                        />
                                     </xsl:attribute>
                                     <xsl:attribute name="alt">
-                                        <xsl:value-of select="/TEI/facsimile[1]/surfaceGrp[1]/surface[4]/figure[1]/figDesc[1]"/>
-                                    </xsl:attribute></img>
-                            </div>
-                            <div class="column">
-                                <img id="sb_03_05"> <xsl:attribute name="src">
-                                    <xsl:value-of select="/TEI/facsimile[1]/surfaceGrp[1]/surface[5]/figure[1]/graphic[2][@xml:id='sb_03_05']/@url"/>
-                                </xsl:attribute>
-                                    <xsl:attribute name="title">
-                                        <xsl:value-of select="/TEI/facsimile[1]/surfaceGrp[1]/surface[5]/figure[1]/label[1]"/>
-                                    </xsl:attribute>
-                                    <xsl:attribute name="alt">
-                                        <xsl:value-of select="/TEI/facsimile[1]/surfaceGrp[1]/surface[5]/figure[1]/figDesc[1]"/>
+                                        <xsl:value-of
+                                            select="/TEI/facsimile[1]/surfaceGrp[1]/surface[4]/figure[1]/figDesc[1]"
+                                        />
                                     </xsl:attribute>
                                 </img>
-                                    
+                            </div>
+                            <div class="column">
+                                <img id="sb_03_05">
+                                    <xsl:attribute name="src">
+                                        <xsl:value-of
+                                            select="/TEI/facsimile[1]/surfaceGrp[1]/surface[5]/figure[1]/graphic[2][@xml:id = 'sb_03_05']/@url"
+                                        />
+                                    </xsl:attribute>
+                                    <xsl:attribute name="title">
+                                        <xsl:value-of
+                                            select="/TEI/facsimile[1]/surfaceGrp[1]/surface[5]/figure[1]/label[1]"
+                                        />
+                                    </xsl:attribute>
+                                    <xsl:attribute name="alt">
+                                        <xsl:value-of
+                                            select="/TEI/facsimile[1]/surfaceGrp[1]/surface[5]/figure[1]/figDesc[1]"
+                                        />
+                                    </xsl:attribute>
+                                </img>
+
                             </div>
                         </div>
                     </div>
@@ -127,52 +169,80 @@
                     <div class="container" id="page_2">
                         <h2>Page 2</h2>
                         <div class="row">
-                            <img id="sb_04_full"><xsl:apply-templates select="/TEI/facsimile[2]"/></img>
-                    
+                            <img id="sb_04_full">
+                                <xsl:apply-templates select="/TEI/facsimile[2]"/>
+                            </img>
+
                         </div>
                         <div class="row">
                             <div class="column">
-                                <img id="sb_04_01"><xsl:attribute name="src">
-                                    <xsl:value-of select="/TEI/facsimile[2]/surfaceGrp[1]/surface[1]/figure[1]/graphic[2][@xml:id='sb_04_01']/@url"/>
-                                </xsl:attribute>
+                                <img id="sb_04_01">
+                                    <xsl:attribute name="src">
+                                        <xsl:value-of
+                                            select="/TEI/facsimile[2]/surfaceGrp[1]/surface[1]/figure[1]/graphic[2][@xml:id = 'sb_04_01']/@url"
+                                        />
+                                    </xsl:attribute>
                                     <xsl:attribute name="title">
-                                        <xsl:value-of select="/TEI/facsimile[2]/surfaceGrp[1]/surface[1]/figure[1]/label[1]"/>
+                                        <xsl:value-of
+                                            select="/TEI/facsimile[2]/surfaceGrp[1]/surface[1]/figure[1]/label[1]"
+                                        />
                                     </xsl:attribute>
                                     <xsl:attribute name="alt">
-                                        <xsl:value-of select="/TEI/facsimile[2]/surfaceGrp[1]/surface[1]/figure[1]/figDesc[1]"/>
-                                    </xsl:attribute> </img>
-                                
-                                <img id="sb_04_02"><xsl:attribute name="src">
-                                    <xsl:value-of select="/TEI/facsimile[2]/surfaceGrp[1]/surface[2]/figure[1]/graphic[2][@xml:id='sb_04_02']/@url"/>
-                                </xsl:attribute>
+                                        <xsl:value-of
+                                            select="/TEI/facsimile[2]/surfaceGrp[1]/surface[1]/figure[1]/figDesc[1]"
+                                        />
+                                    </xsl:attribute>
+                                </img>
+
+                                <img id="sb_04_02">
+                                    <xsl:attribute name="src">
+                                        <xsl:value-of
+                                            select="/TEI/facsimile[2]/surfaceGrp[1]/surface[2]/figure[1]/graphic[2][@xml:id = 'sb_04_02']/@url"
+                                        />
+                                    </xsl:attribute>
                                     <xsl:attribute name="title">
-                                        <xsl:value-of select="/TEI/facsimile[2]/surfaceGrp[1]/surface[2]/figure[1]/label[1]"/>
+                                        <xsl:value-of
+                                            select="/TEI/facsimile[2]/surfaceGrp[1]/surface[2]/figure[1]/label[1]"
+                                        />
                                     </xsl:attribute>
                                     <xsl:attribute name="alt">
-                                        <xsl:value-of select="/TEI/facsimile[2]/surfaceGrp[1]/surface[2]/figure[1]/figDesc[1]"/>
-                                    </xsl:attribute></img>
-                              
+                                        <xsl:value-of
+                                            select="/TEI/facsimile[2]/surfaceGrp[1]/surface[2]/figure[1]/figDesc[1]"
+                                        />
+                                    </xsl:attribute>
+                                </img>
+
                             </div>
-                            <div class="column easyRead" id="transcription_04_02"> <xsl:apply-templates select="/TEI/text[2]/body[1]/div[2]/@facs"/> </div>
+                            <div class="column easyRead" id="transcription_04_02">
+                                <xsl:apply-templates select="/TEI/text[2]/body[1]/div[2]/@facs"/>
+                            </div>
                         </div>
                         <div class="row">
                             <div class="column">
-                                <img id="sb_04_03"><xsl:attribute name="src">
-                                    <xsl:value-of select="/TEI/facsimile[2]/surfaceGrp[1]/surface[3]/figure[1]/graphic[2][@xml:id='sb_04_03']/@url"/>
-                                </xsl:attribute>
+                                <img id="sb_04_03">
+                                    <xsl:attribute name="src">
+                                        <xsl:value-of
+                                            select="/TEI/facsimile[2]/surfaceGrp[1]/surface[3]/figure[1]/graphic[2][@xml:id = 'sb_04_03']/@url"
+                                        />
+                                    </xsl:attribute>
                                     <xsl:attribute name="title">
-                                        <xsl:value-of select="/TEI/facsimile[2]/surfaceGrp[1]/surface[3]/figure[1]/label[1]"/>
+                                        <xsl:value-of
+                                            select="/TEI/facsimile[2]/surfaceGrp[1]/surface[3]/figure[1]/label[1]"
+                                        />
                                     </xsl:attribute>
                                     <xsl:attribute name="alt">
-                                        <xsl:value-of select="/TEI/facsimile[2]/surfaceGrp[1]/surface[3]/figure[1]/figDesc[1]"/>
-                                    </xsl:attribute></img>
+                                        <xsl:value-of
+                                            select="/TEI/facsimile[2]/surfaceGrp[1]/surface[3]/figure[1]/figDesc[1]"
+                                        />
+                                    </xsl:attribute>
+                                </img>
                             </div>
                             <div class="column easyRead" id="transcription_04_03">
                                 <xsl:apply-templates select="/TEI/text[2]/body[1]/div[3]/@facs"/>
                             </div>
                         </div>
                     </div>
-                  <p>
+                    <p>
                         <a href="#" class="backToTop">back to top</a>
                     </p>
                     <br/>
@@ -196,10 +266,10 @@
                                 </div>
                             </div>
                             <div class="column easyRead" id="transcription_06_02">
-                                <xsl:apply-templates select="/TEI/text[3]/body[1]/div[2]/@facs"/>  
+                                <xsl:apply-templates select="/TEI/text[3]/body[1]/div[2]/@facs"/>
                             </div>
                         </div>
-                  </div>
+                    </div>
                     <p>
                         <a href="#" class="backToTop">back to top</a>
                     </p>
@@ -216,7 +286,7 @@
                                 <img id="sb_08_01"><!--enter xsl transform here--></img>
                             </div>
                             <div class="column easyRead" id="transcription_08_01">
-                                <xsl:apply-templates select="/TEI/text[4]/body[1]/div[1]/@facs"/>   
+                                <xsl:apply-templates select="/TEI/text[4]/body[1]/div[1]/@facs"/>
                             </div>
                         </div>
                     </div>
@@ -244,7 +314,7 @@
                                 <img id="sb_09_03"><!--enter xsl transform here--></img>
                             </div>
                             <div class="column easyRead" id="transcription_09_03">
-                                <xsl:apply-templates select="/TEI/text[5]/body[1]/div[3]/@facs"/>     
+                                <xsl:apply-templates select="/TEI/text[5]/body[1]/div[3]/@facs"/>
                             </div>
                         </div>
                         <div class="row">
@@ -252,11 +322,11 @@
                                 <img id="sb_09_04"><!--enter xsl transform here--></img>
                             </div>
                             <div class="column easyRead" id="transcription_09_04">
-                                <xsl:apply-templates select="/TEI/text[5]/body[1]/div[4]/@facs"/> 
+                                <xsl:apply-templates select="/TEI/text[5]/body[1]/div[4]/@facs"/>
                             </div>
                         </div>
                     </div>
-                  <p>
+                    <p>
                         <a href="#" class="backToTop">back to top</a>
                     </p>
                     <br/>
@@ -269,175 +339,189 @@
                         </div>
                         <div class="row">
                             <div class="column">
-                                <img id="sb_10_01"><!--enter xsl transform here--></img>
-                            div>
-                            <div class="column"><!--leave empty--></div>
-                        </div>
-                        <div class="row">
-                            <div class="column">
-                                <img id="sb_10_02"><!--enter xsl transform here--></img>
+                                <img id="sb_10_01"><!--enter xsl transform here--></img> div> <div
+                                    class="column"><!--leave empty--></div>
                             </div>
-                            <div class="column easyRead">
-                                <xsl:apply-templates select="/TEI/text[6]/body[1]/div[1]/@facs"/>   
+                            <div class="row">
+                                <div class="column">
+                                    <img id="sb_10_02"><!--enter xsl transform here--></img>
+                                </div>
+                                <div class="column easyRead">
+                                    <xsl:apply-templates select="/TEI/text[6]/body[1]/div[1]/@facs"
+                                    />
+                                </div>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="column">
-                                <img id="sb_10_03"><!--enter xsl transform here--></img>
+                            <div class="row">
+                                <div class="column">
+                                    <img id="sb_10_03"><!--enter xsl transform here--></img>
+                                </div>
+                                <div class="column easyRead" id="transcription_10_03">
+                                    <xsl:apply-templates select="/TEI/text[6]/body[1]/div[3]/@facs"
+                                    />
+                                </div>
                             </div>
-                            <div class="column easyRead" id="transcription_10_03">
-                                <xsl:apply-templates select="/TEI/text[6]/body[1]/div[3]/@facs"/>    
-                            </div>
-                        </div>
-                    <div>
-                    <p>
-                        <a href="#" class="backToTop">back to top</a>
-                    </p>
-                    <br/>
-                    <hr/>
-                    <!--PAGE 7-->
-                    <div class="container" id="page_7">
-                        <h2>Page 7</h2>
-                        <div class="row">
-                            <img id="sb_11_full"><!--enter xsl transform here--></img>
-                        </div>
-                        <div class="row">
-                            <div class="column">
-                                <img id="sb_11_01"><!--enter xsl transform here--></img>
-                            </div>
-                            <div class="column">
-                                <img id="sb_11_02"><!--enter xsl transform here--></img>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="column">
-                                <img id="sb_11_03"><!--enter xsl transform here--></img>
-                            </div>
-                            <div class="column easyRead" id="transcription_11_03">
-                                <xsl:apply-templates select="/TEI/text[7]/body[1]/div[3]/@facs"/>    
-                            </div>
-                        </div>
-                    </div>
-                  <p>
-                        <a href="#" class="backToTop">back to top</a>
-                    </p>
-                    <br/>
-                    <hr/>
+                            <div>
+                                <p>
+                                    <a href="#" class="backToTop">back to top</a>
+                                </p>
+                                <br/>
+                                <hr/>
+                                <!--PAGE 7-->
+                                <div class="container" id="page_7">
+                                    <h2>Page 7</h2>
+                                    <div class="row">
+                                        <img id="sb_11_full"><!--enter xsl transform here--></img>
+                                    </div>
+                                    <div class="row">
+                                        <div class="column">
+                                            <img id="sb_11_01"><!--enter xsl transform here--></img>
+                                        </div>
+                                        <div class="column">
+                                            <img id="sb_11_02"><!--enter xsl transform here--></img>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="column">
+                                            <img id="sb_11_03"><!--enter xsl transform here--></img>
+                                        </div>
+                                        <div class="column easyRead" id="transcription_11_03">
+                                            <xsl:apply-templates
+                                                select="/TEI/text[7]/body[1]/div[3]/@facs"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p>
+                                    <a href="#" class="backToTop">back to top</a>
+                                </p>
+                                <br/>
+                                <hr/>
 
-                    <!--PAGE 8-->
-                    <div class="container" id="page_8">
-                        <h2>Page 8</h2>
-                        <div class="row">
-                            <img id="sb_15_full"><!--enter xsl transform here--></img>
-                        </div>
+                                <!--PAGE 8-->
+                                <div class="container" id="page_8">
+                                    <h2>Page 8</h2>
+                                    <div class="row">
+                                        <img id="sb_15_full"><!--enter xsl transform here--></img>
+                                    </div>
 
 
-                        <div class="row">
-                            <div class="column">
-                                <img id="sb_15_02"><!--enter xsl transform here--></img>
-                            </div>
+                                    <div class="row">
+                                        <div class="column">
+                                            <img id="sb_15_02"><!--enter xsl transform here--></img>
+                                        </div>
 
-                            <div class="column" id="transcription_15_02">
-                                 <xsl:apply-templates select="/TEI/text[8]/body[1]/div[2]/@facs"/> </div>
-                        </div>
-                        <div class="row">
-                            <div class="column">
-                                <img id="sb_15_01"><!--enter xsl transform here--></img>
-                            </div>
-                            <div class="column">
-                                <img id="sb_15_03"><!--enter xsl transform here--></img>
-                            </div>
-                        </div>
-                    </div>
-                    <p>
-                        <a href="#" class="backToTop">back to top</a>
-                    </p>
-                    <br/>
-                    <hr/>
-                    <!--PAGE 9-->
-                    <div class="contain" id="page_9">
-                        <h2>Page 9</h2>
-                        <div class="row">
-                            <img id="sb_17_full"><!--enter xsl transform here--></img>
-                        </div>
-                        <div class="row">
-                            <div class="column">
-                                <img id="sb_17_01"><!--enter xsl transform here--></img>
-                            </div>
-                            <div class="column" id="transcription_17_01"
-                                ><xsl:apply-templates select="/TEI/text[9]/body[1]/div[1]/@facs"/></div>
-                        </div>
-                        <div class="row">
-                            <div class="column">
-                                <img id="sb_17_02"><!--enter xsl transform here--></img>
-                            </div>
-                            <div class="column" id="transcription_17_02"
-                                ><xsl:apply-templates select="/TEI/text[9]/body[1]/div[2]/@facs"/></div>
-                        </div>
-                        <div class="row">
-                            <div class="column">
-                                <img id="sb_17_03"><!--enter xsl transform here--></img>
-                            </div>
-                            <div class="column" id="transcription_17_03"
-                                ><xsl:apply-templates select="//TEI/text[9]/body[1]/div[3]/@facs"/></div>
-                        </div>
-                    </div>
-                    <p>
-                        <a href="#" class="backToTop">back to top</a>
-                    </p>
-                    <br/>
-                    <hr/>
-                    <!--PAGE 10-->
-                  <div class="container" id="page_10">
-                        <h2>Page 10</h2>
-                        <div class="row">
-                            <img id="sb_20_full"><!--enter xsl transform here--></img>
-                        </div>
-                        <div class="row">
-                            <div class="column">
-                                <img id="sb_20_01"><!--enter xsl transform here--></img>
-                                    
-                            </div>
-                            <div class="column easyRead" id="transcription_20_01">
-                                <xsl:apply-templates select="/TEI/text[10]/body[1]/div[1]/@facs"/>   
-                            </div>
-                        </div>
-                        <div class=" row">
-                            <div class="column">
-                                <img id="sb_20_02"><!--enter xsl transform here--></img>
-                                    
-                            </div>
-                            <div class="column easyRead" id="transcription_20_02">
-                                <xsl:apply-templates select="/TEI/text[10]/body[1]/div[2]/@facs"/>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="column">
-                                <img id="sb_20_03"><!--enter xsl transform here--></img>
-                            </div>
-                            <div class="column easyRead" id="transcription_20_03">
-                                <xsl:apply-templates select="/TEI/text[10]/body[1]/div[3]/@facs"/>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="column">
-                                <img id="sb_20_04"><!--enter xsl transform here--></img>
-                            </div>
-                            <div class="column easyRead" id="transcription_20_04">
-                                <xsl:apply-templates select="/TEI/text[10]/body[1]/div[4]/@facs"/> 
-                            </div>
-                        </div>
-                    </div>
-                    <p>
-                        <a href="#" class="backToTop">back to top</a>
-                    </p>
-                    <br/>
-                    <hr/>
+                                        <div class="column" id="transcription_15_02">
+                                            <xsl:apply-templates
+                                                select="/TEI/text[8]/body[1]/div[2]/@facs"/>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="column">
+                                            <img id="sb_15_01"><!--enter xsl transform here--></img>
+                                        </div>
+                                        <div class="column">
+                                            <img id="sb_15_03"><!--enter xsl transform here--></img>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p>
+                                    <a href="#" class="backToTop">back to top</a>
+                                </p>
+                                <br/>
+                                <hr/>
+                                <!--PAGE 9-->
+                                <div class="contain" id="page_9">
+                                    <h2>Page 9</h2>
+                                    <div class="row">
+                                        <img id="sb_17_full"><!--enter xsl transform here--></img>
+                                    </div>
+                                    <div class="row">
+                                        <div class="column">
+                                            <img id="sb_17_01"><!--enter xsl transform here--></img>
+                                        </div>
+                                        <div class="column" id="transcription_17_01">
+                                            <xsl:apply-templates
+                                                select="/TEI/text[9]/body[1]/div[1]/@facs"/>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="column">
+                                            <img id="sb_17_02"><!--enter xsl transform here--></img>
+                                        </div>
+                                        <div class="column" id="transcription_17_02">
+                                            <xsl:apply-templates
+                                                select="/TEI/text[9]/body[1]/div[2]/@facs"/>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="column">
+                                            <img id="sb_17_03"><!--enter xsl transform here--></img>
+                                        </div>
+                                        <div class="column" id="transcription_17_03">
+                                            <xsl:apply-templates
+                                                select="//TEI/text[9]/body[1]/div[3]/@facs"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p>
+                                    <a href="#" class="backToTop">back to top</a>
+                                </p>
+                                <br/>
+                                <hr/>
+                                <!--PAGE 10-->
+                                <div class="container" id="page_10">
+                                    <h2>Page 10</h2>
+                                    <div class="row">
+                                        <img id="sb_20_full"><!--enter xsl transform here--></img>
+                                    </div>
+                                    <div class="row">
+                                        <div class="column">
+                                            <img id="sb_20_01"><!--enter xsl transform here--></img>
 
-                    </div>
+                                        </div>
+                                        <div class="column easyRead" id="transcription_20_01">
+                                            <xsl:apply-templates
+                                                select="/TEI/text[10]/body[1]/div[1]/@facs"/>
+                                        </div>
+                                    </div>
+                                    <div class=" row">
+                                        <div class="column">
+                                            <img id="sb_20_02"><!--enter xsl transform here--></img>
+
+                                        </div>
+                                        <div class="column easyRead" id="transcription_20_02">
+                                            <xsl:apply-templates
+                                                select="/TEI/text[10]/body[1]/div[2]/@facs"/>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="column">
+                                            <img id="sb_20_03"><!--enter xsl transform here--></img>
+                                        </div>
+                                        <div class="column easyRead" id="transcription_20_03">
+                                            <xsl:apply-templates
+                                                select="/TEI/text[10]/body[1]/div[3]/@facs"/>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="column">
+                                            <img id="sb_20_04"><!--enter xsl transform here--></img>
+                                        </div>
+                                        <div class="column easyRead" id="transcription_20_04">
+                                            <xsl:apply-templates
+                                                select="/TEI/text[10]/body[1]/div[4]/@facs"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p>
+                                    <a href="#" class="backToTop">back to top</a>
+                                </p>
+                                <br/>
+                                <hr/>
+
+                            </div>
                         </div>
                     </div>
-                        </main>
+                </main>
                 <footer> Disclaimer: No copyright infringement intended. All content displayed is
                     part of a personal scrapbook made by the subject. The copyright ownership
                     belongs to the publishers and photographers respectively. An ongoing effort if

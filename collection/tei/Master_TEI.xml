@@ -153,16 +153,19 @@
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p>Newspaper clippings and photographs documenting motorsports in 1950s Ireland collected and bound in a scrapbook by Ian Williams. Digitised by Jackie Williams and Elisabeth Nonstad for archival, preservation and publication purposes.</p>
+            <p>Newspaper clippings and photographs documenting motorsports in 1950s Ireland
+               collected and bound in a scrapbook by Ian Williams. Digitised by Jackie Williams and
+               Elisabeth Nonstad for archival, preservation and publication purposes.</p>
          </projectDesc>
          <editorialDecl>
-            <p>Spelling errors not corrected, content only added if the page was damaged and it was possible to ascertain what was missing. Punctuation kept as in the original text.</p>
+            <p>Spelling errors not corrected, content only added if the page was damaged and it was
+               possible to ascertain what was missing. Punctuation kept as in the original text.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <abstract resp="#EN">
-            <p> A scrapbook containing newspaper clippings and photographs documenting the experiences
-               of Ian Williams in his motorcross days in Dublin, Ireland, in the 1950's.
+            <p> A scrapbook containing newspaper clippings and photographs documenting the
+               experiences of Ian Williams in his motorcross days in Dublin, Ireland, in the 1950's.
             </p>
          </abstract>
          <creation>
@@ -170,19 +173,20 @@
             <origDate>c. 1956</origDate>
          </creation>
          <handNotes>
-            <handNote corresp="#IW" medium="blue-ink">Original text in blue ink, written by Ian Williams.</handNote>
+            <handNote corresp="#IW" medium="blue-ink">Original text in blue ink, written by Ian
+               Williams.</handNote>
          </handNotes>
          <langUsage>
             <language ident="en-ie" usage="100">British English</language>
          </langUsage>
          <particDesc>
             <listPerson>
-                  <person>
-                     <persName ref="#IW">
-                        <forename>Ian</forename>
-                      <surname>Williams</surname>
-                     </persName>
-                  </person>
+               <person>
+                  <persName ref="#IW">
+                     <forename>Ian</forename>
+                     <surname>Williams</surname>
+                  </persName>
+               </person>
             </listPerson>
          </particDesc>
          <textDesc>
@@ -195,23 +199,23 @@
             <preparedness type="none"/>
             <purpose type="inform"/>
          </textDesc>
-         
-       <textClass>
+
+         <textClass>
             <keywords>
                <list>
-               <item>Motor cross</item>
-               <item>Moto cross</item>
-               <item>Motorsport</item>
-               <item>Rider</item>
-               <item>Sport</item>
-               <item>Motorcycle</item>
-               <item>Dublin</item>
-               <item>Ireland</item>
-               <item>Photograph</item>
-               <item>Scrapbook</item>
-            </list>
+                  <item>Motor cross</item>
+                  <item>Moto cross</item>
+                  <item>Motorsport</item>
+                  <item>Rider</item>
+                  <item>Sport</item>
+                  <item>Motorcycle</item>
+                  <item>Dublin</item>
+                  <item>Ireland</item>
+                  <item>Photograph</item>
+                  <item>Scrapbook</item>
+               </list>
             </keywords>
-       </textClass>
+         </textClass>
       </profileDesc>
 
    </teiHeader>
