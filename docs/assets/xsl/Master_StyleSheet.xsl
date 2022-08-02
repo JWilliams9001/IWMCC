@@ -329,7 +329,7 @@
                                 <img id="sb_08_01">
                                     <xsl:attribute name="src">
                                         <xsl:value-of
-                                            select="/TEI/facsimile[4]/surface[1]/figure[1]/graphic[1][@xml:id = 'sb_08_TN_C_01']/@url"
+                                            select="/TEI/facsimile[4]/surface[1]/figure[1]/graphic[2][@xml:id = 'sb_08_TN_C_01']/@url"
                                         />
                                     </xsl:attribute>
                                     <xsl:attribute name="title">
@@ -371,14 +371,14 @@
                         <div class="row">
                             <div class="column">
                                 <img id="sb_09_01"><xsl:attribute name="src">
-                                    <xsl:value-of select="/TEI/facsimile[5]/surfaceGrp[1]/surface[2]/figure[1]@url"/>
+                                    <xsl:value-of select="/TEI/facsimile[5]/surfaceGrp[1]/surface[2]/figure[1]"/>
                                 </xsl:attribute>
                                     <xsl:attribute name="title">
                                         <xsl:value-of select="/TEI/facsimile[5]/surfaceGrp[1]/surface[1]/figure[1]/graphic[1]"/>
                                     </xsl:attribute>
                                     <xsl:attribute name="alt">
                                         <xsl:value-of select="/TEI/facsimile[5]/surfaceGrp[1]/surface[1]/figure[1]/figDesc[1]//tei:figDesc"/>
-                                    </xsl:attribute></img></img>
+                                    </xsl:attribute></img>
                             </div>
                             <div class="column">
                                 <img id="sb_09_02">                 <xsl:attribute name="src">
