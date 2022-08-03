@@ -377,7 +377,7 @@
                                         <xsl:value-of select="/TEI/facsimile[5]/surfaceGrp[1]/surface[1]/figure[1]/graphic[1]"/>
                                     </xsl:attribute>
                                     <xsl:attribute name="alt">
-                                        <xsl:value-of select="/TEI/facsimile[5]/surfaceGrp[1]/surface[1]/figure[1]/figDesc[1]/"/>
+                                        <xsl:value-of select="/TEI/facsimile[5]/surfaceGrp[1]/surface[1]/figure[1]/figDesc[1]"/>
                                     </xsl:attribute></img>
                             </div>
                             <div class="column">
@@ -450,7 +450,7 @@
                                     <xsl:value-of select="/TEI/facsimile[6]/surfaceGrp[1]/surface[1]/figure[1]/graphic[2]/@url"/>
                                 </xsl:attribute>
                                     <xsl:attribute name="title">
-                                        <xsl:value-of select="/TEI/facsimile[6]/surfaceGrp[1]/surface[1]/figure[1]/label[1]/>
+                                        <xsl:value-of select="/TEI/facsimile[6]/surfaceGrp[1]/surface[1]/figure[1]/label[1]"/>
                                     </xsl:attribute>
                                     <xsl:attribute name="alt">
                                         <xsl:value-of select="/TEI/facsimile[6]/surfaceGrp[1]/surface[1]/figure[1]/figDesc[1]"/>
@@ -659,7 +659,7 @@
                                                 </xsl:attribute>
                                                 <xsl:attribute name="alt">
                                                     <xsl:value-of select="/TEI/facsimile[9]/surfaceGrp[1]/surface[1]/figure[1]/figDesc[1]"/>
-                                                </xsl:attribute></img></img>
+                                                </xsl:attribute></img>
                                         </div>
                                         <div class="column" id="transcription_17_01">
                                             <xsl:apply-templates
