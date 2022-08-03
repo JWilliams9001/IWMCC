@@ -358,23 +358,15 @@
                     <div class="container" id="page_5">
                         <h2>Page 5</h2>
                         <div class="row">
-                            <img id="sb_09_full">          <xsl:attribute name="src">
-                                <xsl:value-of select="/TEI/facsimile[5]/surfaceGrp[1]/surface[2]/figure[2]/@url"/>
-                            </xsl:attribute>
-                                <xsl:attribute name="title">
-                                    <xsl:value-of select="/TEI/facsimile[5]/surfaceGrp[1]/surface[1]/figure[1]/label[1]"/>
-                                </xsl:attribute>
-                                <xsl:attribute name="alt">
-                                    <xsl:value-of select="/TEI/facsimile[5]/surfaceGrp[1]/surface[1]/figure[1]/figDesc[1]"/>
-                                </xsl:attribute></img>
+                            <img id="sb_09_full">         <xsl:apply-templates select="/TEI/facsimile[5]/@facs"/></img>
                         </div>
                         <div class="row">
                             <div class="column">
                                 <img id="sb_09_01"><xsl:attribute name="src">
-                                    <xsl:value-of select="/TEI/facsimile[5]/surfaceGrp[1]/surface[2]/figure[1]"/>
+                                    <xsl:value-of select="/TEI/facsimile[5]/surfaceGrp[1]/surface[1]/figure[1]/graphic[2][@xml:id = 'sb_09_TN_C_01']/@url"/>
                                 </xsl:attribute>
                                     <xsl:attribute name="title">
-                                        <xsl:value-of select="/TEI/facsimile[5]/surfaceGrp[1]/surface[1]/figure[1]/graphic[1]"/>
+                                        <xsl:value-of select="/TEI/facsimile[5]/surfaceGrp[1]/surface[1]/figure[1]/label[1]"/>
                                     </xsl:attribute>
                                     <xsl:attribute name="alt">
                                         <xsl:value-of select="/TEI/facsimile[5]/surfaceGrp[1]/surface[1]/figure[1]/figDesc[1]"/>
@@ -382,7 +374,7 @@
                             </div>
                             <div class="column">
                                 <img id="sb_09_02">                 <xsl:attribute name="src">
-                                    <xsl:value-of select="/TEI/facsimile[5]/surfaceGrp[1]/surface[2]/figure[1]/graphic[1]"/>
+                                    <xsl:value-of select="/TEI/facsimile[5]/surfaceGrp[1]/surface[2]/figure[1]/graphic[2][@xml:id = 'sb_09_TN_C_02']/@url"/>
                                 </xsl:attribute>
                                     <xsl:attribute name="title">
                                         <xsl:value-of select="/TEI/facsimile[5]/surfaceGrp[1]/surface[2]/figure[1]/label[1]"/>
@@ -395,7 +387,7 @@
                         <div class="row">
                             <div class="column">
                                 <img id="sb_09_03">                 <xsl:attribute name="src">
-                                    <xsl:value-of select="/TEI/facsimile[5]/surfaceGrp[1]/surface[3]/figure[1]"/>
+                                    <xsl:value-of select="/TEI/facsimile[5]/surfaceGrp[1]/surface[3]/figure[1]/graphic[2][@xml:id = 'sb_09_TN_C_03']/@url"/>
                                 </xsl:attribute>
                                     <xsl:attribute name="title">
                                         <xsl:value-of select="/TEI/facsimile[5]/surfaceGrp[1]/surface[3]/figure[1]/label[1]"/>
@@ -411,7 +403,7 @@
                         <div class="row">
                             <div class="column">
                                 <img id="sb_09_04"> <xsl:attribute name="src">
-                                    <xsl:value-of select="/TEI/facsimile[5]/surfaceGrp[1]/surface[4]/figure[1]/graphic[2]"/>
+                                    <xsl:value-of select="/TEI/facsimile[5]/surfaceGrp[1]/surface[4]/figure[1]/graphic[2][@xml:id = 'sb_09_TN_C_04']/@url"/>
                                 </xsl:attribute>
                                     <xsl:attribute name="title">
                                         <xsl:value-of select="/TEI/facsimile[5]/surfaceGrp[1]/surface[4]/figure[1]/label[1]"/>
@@ -434,33 +426,25 @@
                     <div class="container" id="page_6">
                         <h2>Page 6</h2>
                         <div class="row">
-                            <img id="sb_10_full"> <xsl:attribute name="src">
-                                <xsl:value-of select="/TEI/facsimile[6]/surfaceGrp[1]/surface[1]/figure[1]/graphic[2]/@url"/>
-                            </xsl:attribute>
-                                <xsl:attribute name="title">
-                                    <xsl:value-of select="/TEI/facsimile[6]/surfaceGrp[1]/surface[1]/figure[1]/label[1]"/>
-                                </xsl:attribute>
-                                <xsl:attribute name="alt">
-                                    <xsl:value-of select="/TEI/facsimile[6]/surfaceGrp[1]/surface[1]/figure[1]/figDesc[1]"/>
-                                </xsl:attribute></img>
+                            <img id="sb_10_full"> <xsl:apply-templates select="/TEI/facsimile[6]/@facs"/> </img>
                         </div>
                         <div class="row">
                             <div class="column">
                                 <img id="sb_10_01"> <xsl:attribute name="src">
-                                    <xsl:value-of select="/TEI/facsimile[6]/surfaceGrp[1]/surface[1]/figure[1]/graphic[2]/@url"/>
+                                    <xsl:value-of select="/TEI/facsimile[6]/surfaceGrp[1]/surface[1]/figure[1]/graphic[2][@xml:id = 'sb_10_TN_C_01']/@url"/>
                                 </xsl:attribute>
                                     <xsl:attribute name="title">
                                         <xsl:value-of select="/TEI/facsimile[6]/surfaceGrp[1]/surface[1]/figure[1]/label[1]"/>
                                     </xsl:attribute>
                                     <xsl:attribute name="alt">
                                         <xsl:value-of select="/TEI/facsimile[6]/surfaceGrp[1]/surface[1]/figure[1]/figDesc[1]"/>
-                                    </xsl:attribute></img> div> <div
+                                    </xsl:attribute></img>  <div
                                     class="column"><!--leave empty--></div>
                             </div>
                             <div class="row">
                                 <div class="column">
                                     <img id="sb_10_02"> <xsl:attribute name="src">
-                                        <xsl:value-of select="/TEI/facsimile[6]/surfaceGrp[1]/surface[2]/figure[1]/graphic[2]/@url"/>
+                                        <xsl:value-of select="/TEI/facsimile[6]/surfaceGrp[1]/surface[2]/figure[1]/graphic[2][@xml:id = 'sb_10_TN_C_02']/@url"/>
                                     </xsl:attribute>
                                         <xsl:attribute name="title">
                                             <xsl:value-of select="/TEI/facsimile[6]/surfaceGrp[1]/surface[2]/figure[1]/label[1]"/>
@@ -477,7 +461,7 @@
                             <div class="row">
                                 <div class="column">
                                     <img id="sb_10_03"> <xsl:attribute name="src">
-                                        <xsl:value-of select="/TEI/facsimile[6]/surfaceGrp[1]/surface[3]/figure[1]/graphic[2]/@url"/>
+                                        <xsl:value-of select="/TEI/facsimile[6]/surfaceGrp[1]/surface[3]/figure[1]/graphic[2][@xml:id = 'sb_10_TN_C_03']/@url"/>
                                     </xsl:attribute>
                                         <xsl:attribute name="title">
                                             <xsl:value-of select="/TEI/facsimile[6]/surfaceGrp[1]/surface[3]/figure[1]/label[1]"/>
@@ -575,28 +559,20 @@
                                 <div class="container" id="page_8">
                                     <h2>Page 8</h2>
                                     <div class="row">
-                                        <img id="sb_15_full"> <xsl:attribute name="src">
-                                            <xsl:value-of select="/TEI/facsimile[8]/surfaceGrp[1]/surface[1]/figure[1]/graphic[2]/@url"/>
-                                        </xsl:attribute>
-                                            <xsl:attribute name="title">
-                                                <xsl:value-of select="/TEI/facsimile[8]/surfaceGrp[1]/surface[1]/figure[1]/label[1]"/>
-                                            </xsl:attribute>
-                                            <xsl:attribute name="alt">
-                                                <xsl:value-of select="/TEI/facsimile[8]/surfaceGrp[1]/surface[1]/figure[1]/figDesc[1]"/>
-                                            </xsl:attribute></img>
+                                        <img id="sb_15_full"><xsl:apply-templates select="/TEI/facsimile[8]/@facs"/> </img>
                                     </div>
 
 
                                     <div class="row">
                                         <div class="column">
                                             <img id="sb_15_02"> <xsl:attribute name="src">
-                                                <xsl:value-of select="/TEI/facsimile[8]/surfaceGrp[1]/surface[2]/figure[1]/graphic[2]/@url"/>
+                                                <xsl:value-of select="/TEI/facsimile[8]/surfaceGrp[1]/surface[1]/figure[1]/graphic[2][@xml:id ='sb_15_TN_C_01']/@url"/>
                                             </xsl:attribute>
                                                 <xsl:attribute name="title">
-                                                    <xsl:value-of select="/TEI/facsimile[8]/surfaceGrp[1]/surface[2]/figure[1]/label[1]"/>
+                                                    <xsl:value-of select="/TEI/facsimile[8]/surfaceGrp[1]/surface[1]/figure[1]/label[1]"/>
                                                 </xsl:attribute>
                                                 <xsl:attribute name="alt">
-                                                    <xsl:value-of select="/TEI/facsimile[8]/surfaceGrp[1]/surface[2]/figure[1]/figDesc[1]"/>
+                                                    <xsl:value-of select="/TEI/facsimile[8]/surfaceGrp[1]/surface[1]/figure[1]/figDesc[1]"/>
                                                 </xsl:attribute></img>
                                         </div>
 
@@ -608,18 +584,18 @@
                                     <div class="row">
                                         <div class="column">
                                             <img id="sb_15_01"> <xsl:attribute name="src">
-                                                <xsl:value-of select="/TEI/facsimile[8]/surfaceGrp[1]/surface[1]/figure[1]/graphic[2]/@url"/>
+                                                <xsl:value-of select="/TEI/facsimile[8]/surfaceGrp[1]/surface[2]/figure[1]/graphic[2][@xml:id ='sb_15_TN_C_02']/@url"/>
                                             </xsl:attribute>
                                                 <xsl:attribute name="title">
-                                                    <xsl:value-of select="/TEI/facsimile[8]/surfaceGrp[1]/surface[1]/figure[1]/label[1]"/>
+                                                    <xsl:value-of select="/TEI/facsimile[8]/surfaceGrp[1]/surface[2]/figure[1]/label[1]"/>
                                                 </xsl:attribute>
                                                 <xsl:attribute name="alt">
-                                                    <xsl:value-of select="/TEI/facsimile[8]/surfaceGrp[1]/surface[1]/figure[1]/figDesc[1]"/>
+                                                    <xsl:value-of select="/TEI/facsimile[8]/surfaceGrp[1]/surface[2]/figure[1]/figDesc[1]"/>
                                                 </xsl:attribute></img>
                                         </div>
                                         <div class="column">
                                             <img id="sb_15_03"> <xsl:attribute name="src">
-                                                <xsl:value-of select="/TEI/facsimile[8]/surfaceGrp[1]/surface[3]/figure[1]/graphic[2]/@url"/>
+                                                <xsl:value-of select="/TEI/facsimile[8]/surfaceGrp[1]/surface[3]/figure[1]/graphic[2][@xml:id ='sb_15_TN_C_03']/@url"/>
                                             </xsl:attribute>
                                                 <xsl:attribute name="title">
                                                     <xsl:value-of select="/TEI/facsimile[8]/surfaceGrp[1]/surface[3]/figure[1]/label[1]"/>
@@ -639,20 +615,12 @@
                                 <div class="contain" id="page_9">
                                     <h2>Page 9</h2>
                                     <div class="row">
-                                        <img id="sb_17_full"> <xsl:attribute name="src">
-                                            <xsl:value-of select="/TEI/facsimile[9]/surfaceGrp[1]/surface[1]/figure[1]/graphic[2]/@url"/>
-                                        </xsl:attribute>
-                                            <xsl:attribute name="title">
-                                                <xsl:value-of select="/TEI/facsimile[9]/surfaceGrp[1]/surface[1]/figure[1]/label[1]"/>
-                                            </xsl:attribute>
-                                            <xsl:attribute name="alt">
-                                                <xsl:value-of select="/TEI/facsimile[9]/surfaceGrp[1]/surface[1]/figure[1]/figDesc[1]"/>
-                                            </xsl:attribute></img>
+                                        <img id="sb_17_full"><xsl:apply-templates select="/TEI/facsimile[9]/@facs"/> </img>
                                     </div>
                                     <div class="row">
                                         <div class="column">
                                             <img id="sb_17_01"> <xsl:attribute name="src">
-                                                <xsl:value-of select="/TEI/facsimile[9]/surfaceGrp[1]/surface[1]/figure[1]/graphic[2]/@url"/>
+                                                <xsl:value-of select="/TEI/facsimile[9]/surfaceGrp[1]/surface[1]/figure[1]/graphic[2][@xml:id ='sb_17_TN_C_01']/@url"/>
                                             </xsl:attribute>
                                                 <xsl:attribute name="title">
                                                     <xsl:value-of select="/TEI/facsimile[9]/surfaceGrp[1]/surface[1]/figure[1]/label[1]"/>
@@ -669,7 +637,7 @@
                                     <div class="row">
                                         <div class="column">
                                             <img id="sb_17_02"> <xsl:attribute name="src">
-                                                <xsl:value-of select="/TEI/facsimile[9]/surfaceGrp[1]/surface[2]/figure[1]/graphic[2]/@url"/>
+                                                <xsl:value-of select="/TEI/facsimile[9]/surfaceGrp[1]/surface[2]/figure[1]/graphic[2][@xml:id ='sb_17_TN_C_02']/@url"/>
                                             </xsl:attribute>
                                                 <xsl:attribute name="title">
                                                     <xsl:value-of select="/TEI/facsimile[9]/surfaceGrp[1]/surface[2]/figure[1]/label[1]"/>
@@ -686,7 +654,7 @@
                                     <div class="row">
                                         <div class="column">
                                             <img id="sb_17_03"> <xsl:attribute name="src">
-                                                <xsl:value-of select="/TEI/facsimile[9]/surfaceGrp[1]/surface[3]/figure[1]/graphic[2]/@url"/>
+                                                <xsl:value-of select="/TEI/facsimile[9]/surfaceGrp[1]/surface[3]/figure[1]/graphic[2][@xml:id ='sb_17_TN_C_03']/@url"/>
                                             </xsl:attribute>
                                                 <xsl:attribute name="title">
                                                     <xsl:value-of select="/TEI/facsimile[9]/surfaceGrp[1]/surface[3]/figure[1]/label[1]"/>
