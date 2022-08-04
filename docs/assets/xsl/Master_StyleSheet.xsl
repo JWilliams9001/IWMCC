@@ -938,7 +938,8 @@
             <xsl:apply-templates/>
         </h2>
     </xsl:template>
-    <xsl:template match="tei:head[@type = 'section heading', 'publication']">
+    
+    <xsl:template match="tei:head[@type ='publication']">
         <h4>
             <xsl:apply-templates/>
         </h4>
