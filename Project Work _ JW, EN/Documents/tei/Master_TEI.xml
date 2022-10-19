@@ -1,0 +1,2350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The <persName xml:id="IW">Ian Williams</persName> Motocross Collection: A Digital
+               Transcription</title>
+            <author>Various authors, most unknown. Known authors include; <persName
+                  role="journalist">Basil Brindley</persName> and <persName role="journalist">Barry
+                  Mason</persName></author>
+            <editor corresp="#IW">Ian Williams</editor>
+            <principal>Jacqueline Williams</principal>
+            <respStmt>
+               <resp>Materials selected and encoded by,</resp>
+               <name>Jacqueline Williams</name>
+               <name>Elisabeth Nonstad</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority><name>Jacqueline Williams</name>
+               <name>Elisabeth Nonstad</name></authority>
+            <date when="2022-08-04">04 August 2022</date>
+            <pubPlace>
+               <address>
+                  <street>Boschetsrieder Strasse 53</street>
+                  <settlement>Munich</settlement>
+                  <postCode>81379</postCode>
+                  <country>Germany</country>
+               </address>
+            </pubPlace>
+            <distributor>The University of Borås</distributor>
+            <availability status="restricted">
+               <p>Produced and available for academic purposes only</p>
+               <p>Ongoing efforts are being made to secure the copyright permission to share this
+                  document publicly. Issues related to securing copyright persmission relate to
+                  i)lack of information regarding publication source ii)publications being out of
+                  print iii)journalists/photographers desceased iv)difficulties in securing a
+                  response from the Irish Independent Newspaper</p>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note>Transcribed for Digitising Cultural Heritage Material 32LDK1 B12V2 VT2022</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>From the private possession of <persName ref="#IW">Ian
+                        Williams</persName>, currently in the possesion of <persName>Josephine
+                        Williams</persName></repository>
+                  <objectName><persName ref="#IW">Ian Williams</persName>' motocross
+                     scrapbook</objectName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="scrapbook">
+                     <supportDesc material="mixed">
+                        <support>
+                           <material>Black card with a plastic textured coating, heavy black
+                              scrapbook paper, newspaper paper, photographic paper, notbook paper,
+                              pink paper and tape</material>
+                           <p>The digitised material includes both pages from the scrapbook
+                              manuscript and a selection of photographs which have been kept in a
+                              plastic pocket,stored between the pages of the scrapbook. Some of the
+                              photographs appear to have come lose from the scrapbook over time.</p>
+                           <note>The outer cover of the document is not yet included in the selected
+                              pages for this project, as of June 2022</note>
+                        </support>
+                        <extent> Scrapbook pages <dimensions scope="all" type="leaves" unit="cm">
+                              <height>24</height>
+                              <width>35</width>
+                           </dimensions> Photographs <dimensions scope="range" type="photographs"
+                              unit="cm">
+                              <height max="16.5" min="9"/>
+                              <width max="21.5" min="6.5"/>
+                           </dimensions>
+                           <note>For the purpose of this project, a selection of ten pages and ten
+                              photographs have been selected, as of June 2022. The maximum and
+                              minimum measurements apply to both the selected photographs and the
+                              larger collection.</note>
+                        </extent>
+                        <foliation>
+                           <p corresp="leaves">The leaves are not arranged in any order, it could be
+                              logically assumed that the leaves have been filled chronologically in
+                              order from front to back.</p>
+                           <p corresp="photographs">The photographs are not organised in any way</p>
+                        </foliation>
+                        <collation>
+                           <p corresp="leaves">The leaves are bound together in a black, hard,
+                              carboard cover which has a synthetic, textured surface. The leaves and
+                              cover are bound by a two whole punch and a dark green piece of string.
+                              The contents of the leaves have been fixed using glue and/or clear
+                              tape. </p>
+                           <p corresp="photographs">The photographs have been stored in a plastic
+                              pocket, kept within the scrapbbok</p>
+                        </collation>
+                        <condition>
+                           <p corresp="leaves"> The condition of the content of the leaves is quite
+                              good. They all intact, except for some fraying around the edges and
+                              slight tears. The condition of the content of the leaves is quite poor
+                              (i.e. newspaper clippings and photographs). Many of the newspaper
+                              clippings are torn, creased, stained or worn and illegible in parts. </p>
+                           <p corresp="photographs"> The condition of the photographs are fair, some
+                              are stained and marked by the use of clear tape. </p>
+                        </condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote scribe="IW" corresp="#page_02" medium="blue-ink"
+                        rend="case (allcaps)">
+                        <p>There is one piece of written text in the scrapbook, that serves as a
+                           descriptive caption to photograph written in blue ink in all capital
+                           letters by <persName ref="#IW">Ian Williams</persName>.</p></handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>This scrapbook was compiled by <persName ref="#IW">Ian Williams</persName>
+                        sometime in the <date>late 50's</date>, c.<date>1956</date>. It chronicals
+                        his time as a motocross racer in <placeName>Dublin</placeName>, along with
+                        his brother, <persName ref="#EW">Eric Williams</persName>. The majority of
+                        content refers to races and events held in <placeName>Ireland</placeName>
+                        and the <placeName>United Kingdom</placeName>. The majority of newspaper
+                        clippings do not have a date or source publication name, therefore their
+                        origin is unknow.<persName ref="#IW"> Ian Williams</persName> kept the
+                        scrapbook until his passing in <date when="2022-01">January 2022</date>. The
+                        scrapbook is now in the possession of his wife, <persName>Jospehine
+                           Williams</persName> and has been loaned for the use of this project. An
+                        ongoing effort is being made to discover the source of the newspaper
+                        articles contained within the scrpabook. </p>
+                  </origin>
+               </history>
+            </msDesc>
+            <biblStruct>
+               <analytic>
+                  <title>The<persName ref="#IW">Ian Williams</persName> Motocross Collection: A
+                     Digital Transcription</title>
+                  <author>various authors</author>
+               </analytic>
+               <monogr>
+                  <title>The <persName ref="#IW">Ian Williams</persName> Motocross
+                     Collection</title>
+                  <ref target="/docs/home.html"/>
+                  <imprint>
+                     <pubPlace>Germany</pubPlace>
+                     <biblScope unit="leaves_and_photographs" n="20">Ten scrapbook pages, ten
+                        photographs</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Newspaper clippings and photographs documenting motorsports in 1950s Ireland
+               collected and bound in a scrapbook by Ian Williams. Digitised by Jackie Williams and
+               Elisabeth Nonstad for archival, preservation and publication purposes.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Spelling errors not corrected, content only added if the page was damaged and it was
+               possible to ascertain what was missing. Punctuation kept as in the original text.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract resp="#EN">
+            <p> A scrapbook containing newspaper clippings and photographs documenting the
+               experiences of Ian Williams in his motorcross days in Dublin, Ireland, in the 1950's.
+            </p>
+         </abstract>
+         <creation>
+            <origPlace type="city">Dublin, Ireland </origPlace>
+            <origDate>c. 1956</origDate>
+         </creation>
+         <handNotes>
+            <handNote corresp="#IW" medium="blue-ink">Original text in blue ink, written by Ian
+               Williams.</handNote>
+         </handNotes>
+         <langUsage>
+            <language ident="en-ie" usage="100">British English</language>
+         </langUsage>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <persName ref="#IW">
+                     <forename>Ian</forename>
+                     <surname>Williams</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <textDesc>
+            <channel mode="w">Scrapbook</channel>
+            <constitution type="composite">Newspaper clippings</constitution>
+            <derivation type="original"/>
+            <domain type="domestic">Local newspapers</domain>
+            <factuality type="fact"/>
+            <interaction type="inapplicable"/>
+            <preparedness type="none"/>
+            <purpose type="inform"/>
+         </textDesc>
+
+         <textClass>
+            <keywords>
+               <list>
+                  <item>Motor cross</item>
+                  <item>Moto cross</item>
+                  <item>Motorsport</item>
+                  <item>Rider</item>
+                  <item>Sport</item>
+                  <item>Motorcycle</item>
+                  <item>Dublin</item>
+                  <item>Ireland</item>
+                  <item>Photograph</item>
+                  <item>Scrapbook</item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+
+   </teiHeader>
+
+
+   <!--page 1 (sb_03) -->
+
+   <facsimile xml:id="page_01" facs="sb_03_TN_C_FULL.png">
+
+
+      <surfaceGrp>
+
+         <surface xml:id="surface_1_1">
+            <figure type="article">
+               <label>Surface 1_1 of page 1 (sb_03)</label>
+               <figDesc> A newspaper article cutting featuring an in-article photograph </figDesc>
+               <graphic xml:id="sb_03_01_jpg" url="assets/img/documents/JPG/sb_03_01.jpg"/>
+               <graphic xml:id="sb_03_01_thumb"
+                  url="assets/img/documents/Thumbnails/sb_03_TN_C_01.png"/>
+            </figure>
+         </surface>
+
+         <surface xml:id="surface_1_2">
+            <figure type="text">
+               <label>Surface 1_2 of page 1 (sb_03)</label>
+               <figDesc> A piece of pink paper with text that has been cut. The paper is damaged and
+                  missing a section on the right hand side </figDesc>
+               <graphic xml:id="sb_03_02_jpg" url="assets/img/documents/JPG/sb_03_02.jpg"/>
+               <graphic xml:id="sb_03_02_thumb"
+                  url="assets/img/documents/Thumbnails/sb_03_TN_C_02.png"/>
+            </figure>
+         </surface>
+
+
+         <surface xml:id="surface_1_3">
+            <figure type="article">
+               <label>Surface 1_3 of page 1 (sb_03)</label>
+               <figDesc> A newspaper article cutting. </figDesc>
+               <graphic xml:id="sb_03_03_jpg" url="assets/img/documents/JPG/sb_03_03.jpg"/>
+               <graphic xml:id="sb_03_03_thumb"
+                  url="assets/img/documents/Thumbnails/sb_03_TN_C_03.png"/>
+            </figure>
+         </surface>
+
+
+         <surface xml:id="surface_1_4">
+            <figure type="photograph">
+               <label>Surface 1_4 of page 1 (sb_03)</label>
+               <figDesc>A black and white photograph of two men race motorcyles in a grass field, in
+                  the lead is <persName ref="#IW">Ian Williams</persName>, riding a motorcycle
+                  marked number '34' the man behind (unidentified) rides a motorbike marked number
+                  '45'. In the background Two onlookers stand next to a parked car. </figDesc>
+               <graphic xml:id="photo_1.4_JPEG" url="assets/img/documents/JPG/sb_03_04.jpg"/>
+               <graphic xml:id="photo_1.4_thumb"
+                  url="assets/img/documents/Thumbnails/sb_03_TN_C_04.png"/>
+            </figure>
+         </surface>
+
+
+         <surface xml:id="surface_1_5">
+            <figure type="photograph">
+               <label>Surface 1_5 of page 1 (sb_03)</label>
+               <figDesc>A black and white photograph of two men riding motorcycles in a race along a
+                  grassy track. The man in the foreground (unidentified) is on a motorcycle marked
+                  number '47'. The man in the background (<persName ref="#IW">Ian
+                     Williams</persName>) is on a motorcyle marked number '49'</figDesc>
+               <graphic xml:id="photo_1.5_JPEG" url="assets/img/documents/JPG/sb_03_05.jpg"/>
+               <graphic xml:id="photo_1.5_thumb"
+                  url="assets/img/documents/Thumbnails/sb_03_TN_C_05.png"/>
+
+
+
+            </figure>
+         </surface>
+
+      </surfaceGrp>
+   </facsimile>
+
+   <text>
+      <body>
+
+         <pb facs="#page_01"/>
+
+         <div facs="#surface_1_1">
+            <div n="photograph_1.1.1">
+               <figure>
+                  <figDesc rend="photograph">A black and white image, which is loacted at the top,
+                     centre of the article, of two motorcycle racers; <persName ref="#IW">Ian
+                        Williams</persName> (foreground), who is raising up the front wheel of his
+                     bike, and an unidentified man (background).</figDesc>
+                  <graphic xml:id="cut_1.1.1_JPEG" url="assets/img/documents/JPG/sb_03_01_cut.jpg"/>
+                  <graphic xml:id="cut_1.1.1_thumb"
+                     url="assets/img/documents/Thumbnails/sb_03_TN_C _01_cut.png"/>
+
+
+                  <p><hi rend="case (allcaps)">CHAMPIONSHIP CHALLENGER . . .</hi>
+                  Dublin rider <persName ref="#IW">Ian Williams</persName> (<objectName
+                        type="motorcycle">Ariel </objectName>) who rides in to-morrow’s <name
+                        type="race">Hurst Cup International Trial</name> at <placeName>Conling,
+                        Belfast</placeName>.</p>
+               </figure>
+            </div>
+            <div n="head_1.1.2">
+               <head>Hurst Cup Trial Has<lb/> Big English Entry</head>
+
+               <byline>By <persName role="journalist" type="person">BASIL
+                  BRINDLEY</persName></byline>
+            </div>
+            <div n="lead_1.1.3">
+               <p><hi rend="case (allcaps)">WITH</hi> an entry of 79 for to-morrow’s <name
+                     type="race">Hurst Cup Trial</name>,<lb/> officials of the <name type="org"
+                     >Knock Motor Cycle Club</name> must be<lb/> feeling very happy, as 80 is the
+                  maximum figure<lb/> specified on the regulations.</p>
+            </div>
+            <cb/>
+            <div n="section_1.1.4">
+               <p rend="bold">The international event<lb/> will be held over a number of<lb/> laps
+                  in the <placeName>Clandeboye<lb/> Estate, Belfast</placeName>, and total<lb/>
+                  distance will be somewhat<lb/> less than 50 miles.</p>
+               <p>English competitors did excep-<lb/> tionally well last year and,<lb/> judging by
+                  the increase in their<lb/> numbers on this occasion, they<lb/> intend to return
+                  with the valuable<lb/> perpetual trophy for another 12<lb/> months.</p>
+               <p rend="bold">The <name type="org">Sunbeam Motor Cycle Club</name><lb/> is
+                  responsible for no less than<lb/> seven members of the eighteen-<lb/> strong cross
+                  -Channel challenge.<lb/> Included in this team are <persName>Johnny<lb/>
+                     Brittain</persName> (<objectName type="motorcycle">Royal Enfield</objectName>),
+                     <persName>P. H.<lb/> Alves</persName> (<objectName type="motorcycle"
+                     >Triumph</objectName>), <persName>B. W. Martin</persName><lb/> (<objectName
+                     type="motorcycle"> B.S.A.</objectName>) and the <persName>Wicken</persName>
+                  brothers<lb/> who will be <objectName type="motorcycle">Norman</objectName> and
+                     <objectName type="motorcycle">Triumph</objectName>-<lb/> mounted.</p>
+               <p>Scotsman <persName>J. H. Birrell</persName> has entered<lb/> a junior <objectName
+                     type="motorcycle">"Gold Star"</objectName> while other<lb/> visitors of note
+                  are <persName>E. Usher</persName> (<objectName type="motorcycle">Match-<lb/>
+                     less</objectName>), <persName>G. L. Jackson</persName> (<objectName
+                     type="motorcycle">A.J.S.</objectName>), <persName>E. W.<lb/> Smith</persName>
+                     (<objectName type="motorcycle">Francis Barnett</objectName>) and <persName>J.
+                     V.<lb/> Smith</persName> (<objectName type="motorcycle"
+                  >B.S.A.</objectName>)<lb/> Leinster will be represented by<lb/> practically every
+                  outstanding rider in<lb/> the province and regulars like <persName>Dudley<lb/>
+                     Ryder</persName> (<objectName type="motorcycle">Matchless</objectName>),
+                     <persName>Joe Dawson</persName><lb/> (<objectName type="motorcycle">
+                     B.S.A.</objectName>), <persName>Mick Tracey</persName> (<objectName
+                     type="motorcycle">Norton</objectName>),<lb/>
+                  <persName>Freddie Dickson</persName> (<objectName type="motorcycle"
+                     >Sun</objectName>) and <persName>Kevin<lb/> Keegan</persName> (<objectName
+                     type="motorcycle">B.S.A.</objectName>) may be relied upon<lb/> to acquit
+                  themselves well.</p>
+            </div>
+
+
+            <div n="section_1.1.5">
+               <head type="subhead">Strong Ulster Bid</head>
+               <p>Travelling up from the south also<lb/> with good reputations are
+                     <persName>Dave<lb/> Felton</persName> (<objectName type="motorcycle"> Francis
+                     Barnett</objectName>), <persName ref="#IW">Ian<lb/> Williams</persName>,
+                     <persName>Reg Armstrong</persName> (<objectName type="motorcycle"
+                     >Gilera</objectName>)<lb/>
+                  <cb/>and <objectName type="motorcycle">James</objectName> exponents
+                     <persName>Ernie Lyons</persName>,<lb/>
+                  <persName>Doug Ewen</persName> and <persName>Aubrey Archer</persName>.</p>
+               <p rend="bold">With over 50 p.c. of the entry,<lb/>
+                  <placeName>Ulster</placeName> is in a strong position and<lb/> if a Six-County man
+                  <!-- term that refers to a man from Northern Ireland--> is to win the<lb/> event,
+                  it’s odds on <persName>Sammy Miller</persName><lb/> from
+                     <placeName>Belfast</placeName> being the one to do<lb/> it. Riding a
+                     <objectName type="motorcycle">197 c.c, James</objectName>, this<lb/> road
+                  racing and trials star has<lb/> proved himself almost invincible<lb/> during the
+                  season and he must<lb/> have an outstanding chance to-<lb/> morrow.</p>
+
+               <p>Able support will come from <persName>Bill<lb/> Clark</persName> (<objectName
+                     type="motorcycle">Royal Enfield</objectName>). <persName>Tommy
+                  Robb</persName><lb/> (<objectName type="motorcycle"> Francis
+                  Barnett</objectName>), <persName>W. J. Hutton</persName><lb/> (<objectName
+                     type="motorcycle">Greeves</objectName>), <persName>Terry Hill</persName>
+                     (<objectName type="motorcycle">B.S.A.</objectName>), <persName>Brian<lb/>
+                     McClery</persName> (<objectName type="motorcycle">Royal Enfield</objectName>)
+                  and <persName>Bertie<lb/> Mann</persName> (<objectName type="motorcycle">Francis
+                     Barnett</objectName>), all of whom<lb/> have been figuring well in this
+                  year’s<lb/> events.</p>
+               <p>The trial begins at 12 o’clock and<lb/> starting point is near the <placeName>Lead
+                     Mines,<lb/> Conling.</placeName></p>
+            </div>
+            <div n="section(entries)_1.1.6">
+               <p> Entries: <objectName type="motorcycle" rend="bold">A.J.S.</objectName>
+                     —-<persName>G. L. Jackson</persName>,<persName> H. <lb/> N. Niblock</persName>.
+                     <objectName type="motorcycle" rend="bold">Ariel</objectName> — <persName> D.
+                     Bradley</persName>, <persName ref="#IW">I. <lb/> Williams</persName>,
+                     <persName>W. Stewart</persName>.<objectName type="motorcycle" rend="bold"
+                     >B.S.A.</objectName> — <persName>A. <lb/> Woods</persName> (or <objectName
+                     type="motorcycle">James</objectName>), <persName>J. H. Birrell</persName>,
+                     <persName>R.<lb/> T. Hill</persName>, <persName>J. V. Smith</persName>,
+                     <persName>B. W. Martin</persName>,<lb/>
+                  <persName>G. J. Draper</persName>, <persName>J. L. Crossle</persName>,
+                     <persName>E. Gill</persName>,<lb/>
+                  <persName> I. Creighton</persName>, <persName>J. C. Dawson</persName>.
+                     <persName>K.<lb/> Keegan</persName>, <persName>P. C. O. Stanfield</persName>.
+                     <lb rend="indentation"/><objectName type="motorcycle" rend="bold"
+                     >Dot</objectName>—<persName>A Clarke</persName>, <persName>T. J. B.
+                     Stronge</persName>, <persName>I<lb/> Millar</persName>. <lb rend="indentation"
+                     /><objectName type="motorcycle" rend="bold"
+                     >Francis-Barnett</objectName>—<persName>N. D. Metcalfe</persName>:
+                     <persName>B.<lb/> Crawford</persName>, <persName>G. E. Fisher</persName>,
+                     <persName>T. H. Robb</persName>,<lb/>
+                  <persName>B Mann</persName>
+                  <persName>C. Bell</persName>, B. J Andrews,<lb/>
+                  <persName>D. R. Felton</persName>, <persName>E. W. Smith</persName>. <persName>A
+                     Shutt</persName>,<lb/>
+                  <persName>D. J. Campbell</persName>, <persName>R. Jackson</persName>, <persName>N
+                     Bell</persName>. <lb rend="indentation"/><objectName type="motorcycle"
+                     rend="bold">Gilera</objectName>—<persName>R. Armstrong</persName>. <lb
+                     rend="indentation"/><objectName type="motorcycle" rend="bold"
+                     >Greeves</objectName>—<persName>H. C. Parkinson</persName>, <persName>W.
+                     J.<lb/> Hutton</persName>, <persName>D. G. Mayne</persName>, <persName>R.
+                     Stewart</persName>. <lb rend="indentation"/><objectName type="motorcycle"
+                     rend="bold">H.J.H</objectName>.—<persName>D. Andrews</persName>. <lb
+                     rend="indentation"/>
+                  <objectName type="motorcycle" rend="bold">James</objectName>—<persName>R.
+                     Stevenson</persName>, <persName>M. Brosnan</persName>,<lb/>
+                  <persName>H. Dunlop</persName>. <persName>S. H. Miller</persName>
+                  <persName>N. W. Green-<lb/>away</persName>, <persName>S. Moore</persName>,
+                     <persName>D. C. Ewen</persName>, <persName>A. H. L.<lb/> Archer</persName>,
+                     <persName>E. Lyons</persName>, <persName>B. McConnell</persName> (or<lb/>
+                  <objectName type="motorcycle">B.S.A.</objectName>). <persName>J. M.
+                     Simpson</persName>. <persName>W. H. Martin</persName>,<lb/>
+                  <persName>J. B. Haughton</persName>. <lb rend="indentation"/><objectName
+                     type="motorcycle" rend="bold">Lambretta</objectName>—<persName>W.
+                     Peden</persName>.<lb rend="indentation"/>
+                  <objectName type="motorcycle" rend="bold">Matchless</objectName>—<persName>E.
+                     Usher</persName>, <persName>D. F. Ryder</persName>,<lb/>
+                  <persName>D. R. O’Neill</persName>. <persName>H. Dickson</persName>.<lb
+                     rend="indentation"/><objectName type="motorcycle" rend="bold">
+                     Norman</objectName>—<damage agent="crease" degree="low"><persName>R. W.
+                           <supplied>P</supplied>eacock </persName>, <persName>S. Wicken</persName>,<lb/>
+                     <persName>I. <choice>
+                           <unclear>Boal</unclear>
+                           <unclear>Beal</unclear>
+                        </choice></persName>,<persName>J. S. Quigg</persName></damage>.<lb
+                     rend="indentation"/>
+                  <objectName type="motorcycle" rend="bold"> Norton</objectName>—<persName>R J.
+                     McKee</persName>. <persName>M. G. Tracey</persName>,<lb/>
+                  <persName>J. S Tyrrell</persName>. <persName>E. L. Theorin</persName>.
+                     <persName>W. R.<lb/> Chamberlain</persName><lb rend="indentation"/>
+                  <objectName type="motorcycle" rend="bold">O.E.C</objectName>.-<persName>N.
+                     McKeag</persName>.<lb rend="indentation"/>
+                  <objectName type="motorcycle" rend="bold">Royal Enfield</objectName>-<persName>J.
+                     Brittain</persName>, <persName>W. J. M. <lb/> Clark</persName>, <persName>B. H.
+                     McClery</persName>, <persName>C. D. Metcalfe</persName>. <lb rend="indentation"/>
+                  <objectName type="motorcycle" rend="bold">Sun</objectName>- <persName>F. C.
+                     Dickson</persName>, <persName>E. Rice</persName>.<lb rend="indentation"/>
+                  <objectName type="motorcycle" rend="bold">Triumph</objectName>-<persName>S.
+                     Spence</persName>, <persName>P. H. Alves</persName>,<lb/>
+                  <supplied>J</supplied>. <persName>Giles</persName>, <persName>J. E.
+                     Wicken</persName>. </p>
+            </div>
+         </div>
+
+
+         <div facs="#surface_1_2">
+            <p>
+               <hi rend="ul">"B.B.. RUSSEL" TROPHY</hi>: The winner this year is <persName ref="#IW"
+                     >Ia<supplied>n</supplied></persName><damage type="missing"/><lb/> deserved,he
+               was placed at every<lb/> meeting except the <damage type="missing"/><lb/> 20 1/2
+               points. Runner-up is <persName>Ernie Lyons</persName> who won the
+                  cu<supplied>p</supplied><damage type="missing"/><lb/> with 15<lb/> 1/2 points;
+               followed by <persName>D. C. Ewen</persName>, 8 points; F<damage type="missing"/><lb/>
+               <persName>C. Coard</persName>, <persName>E. Callaghan</persName> and <persName>M.
+                  Tracey</persName> with 6 points.</p>
+         </div>
+
+
+         <div facs="#surface_1_3">
+            <div n="head_1.3.1">
+               <head>Slade Scramble</head>
+
+               <byline>By <persName role="journalist">BASIL BRINDLEY</persName></byline>
+            </div>
+
+            <div n="section 1.3.2">
+               <p>
+                  <hi rend="case (allcaps)">LONG</hi> handicap man, Stan Tracey,<lb/> scored a
+                  comfortable win from<lb/> the near scratch pair, Freddie Dickson<lb/> and Edmund
+                  Gill, in the Nicholson<lb/> Memorial Scramble at, the Slade<lb/> yesterday.</p>
+
+               <p>The event was run over fifteen laps<lb/> and was preceded by the shorter<lb/>
+                  distance <name type="race">Carville Cup</name> race, where<lb/> honours went to
+                     <persName>C. Childs</persName> on an<lb/>
+                  <objectName type="motorcycle">Ariel</objectName>.</p>
+            </div>
+
+            <div n="section(results)_1.3.3">
+               <p><hi rend="bold">Results—<name type="race">Nicholson Memorial Trophy</name> .
+                     .<lb/> (15 laps)</hi>—<num type="cardinal" rend="first place">1</num>,
+                     <persName>S. A. Tracey</persName> (<objectName type="motorcycle"
+                     >Sun</objectName>) (loss<lb/> obsv. 36)(lost time 16) (h’cap. 70)<lb/> (net
+                  518) <num type="cardinal" rend="second place">2</num>, <persName>F. C.
+                     Dickson</persName> (<objectName type="motorcycle">Sun</objectName>)<lb/>
+                  <unit type="score">(47) (nil) (30) (483)</unit>; <num type="cardinal"
+                     rend="third place">3</num>, <persName>E. P. Gill</persName><lb/> (<objectName
+                     type="motorcycle">B.S.A.</objectName>) <unit type="score">(37) (13)
+                     (480)</unit>.<lb rend="indentation"/>
+                  <name type="award" rend="bold">Best on time</name>—-<persName>M. G.
+                     Tracey</persName> (<objectName type="motocycle">Nor-<lb/> ton</objectName>)
+                     <unit type="score">(35) (10) (scr.) (455)</unit>. <name type="award"
+                     rend="bold">Best on<lb/> observation</name>—<persName>I. Creighton</persName>
+                     (<objectName type="motorcycle">B.S.A.</objectName>) <lb/>
+                  <unit type="score">(30) (27) (30) (473).</unit>
+                  <name type="race" rend="bold">250 c.c. class</name>— <persName>A.<lb/> H. L.
+                     Archer</persName> (<objectName type="motorcycle">James</objectName>) <unit
+                     type="score">(49) (32) (40)<lb/> (4559)</unit>. <name type="race" rend="bold"
+                     >350 c.c. class</name> - <persName>D. Ryder</persName><lb/>
+                  <objectName type="motorcycle"> Matchless</objectName>) <unit type="score">(39)
+                     (14) (scr.) (447)</unit>. <name type="race" rend="bold">500<lb/> c.c.
+                     class</name>—<persName ref="#IW">I. <choice>
+                        <sic>Williamson</sic>
+                        <corr>Williams</corr>
+                     </choice></persName> (<objectName type="motorcycle">Ariel</objectName>) <unit
+                     type="score"> (88)<lb/> (25) (50) (437)</unit>.<lb rend="indentation"/>
+                  <name type="race" rend="bold">CARVILLE CUP (8 laps)</name> — <num type="cardinal"
+                     rend="first place">1</num>, <persName>C.<lb/> Childs</persName> (<objectName
+                     type="motorcycle">Ariel</objectName>) <unit type="score"> (58) (25) (70)
+                     (487)</unit> ; <num type="cardinal" rend="second place">2</num>,<lb/>
+                  <persName>G. F. Scarlett</persName> (<objectName type="motorcycle"
+                     >Dot</objectName>) <unit type="score">(46) (1) (10)<lb/>
+                     <unclear>(463)</unclear></unit>; <num type="cardinal" rend="third place"
+                     >3</num>. <persName>D. Cullen</persName> (<objectName type="motorcycle"
+                     >Norton</objectName>) <unit type="score">(88) (1)<lb/>
+                     <unclear><supplied>(501)</supplied></unclear> (461)</unit>.</p>
+            </div>
+
+         </div>
+
+         <div facs="#surface_1_4"/>
+
+         <div facs="#surface_1_5"/>
+
+      </body>
+   </text>
+
+
+   <!--page 2 (sb_04) -->
+
+   <facsimile xml:id="page_02" facs="sb_04_TN_C_FULL.png">
+      <surfaceGrp>
+
+         <surface xml:id="surface_2_1">
+            <figure type="photograph">
+               <label>Surface 2_1 of page 2 (sb_04)</label>
+               <figDesc> A black and white photograph of David Tye (left) <persName ref="#IW">Ian
+                     Williams</persName> (right) sitting on stationary mud-clad motorbikes </figDesc>
+               <graphic xml:id="sb_04_01_jpg" url="assets/img/documents/JPG/sb_04_01.jpg"/>
+               <graphic xml:id="sb_04_01_thumb"
+                  url="assets/img/documents/Thumbnails/sb_04_TN_C_01.png"/>
+            </figure>
+         </surface>
+
+         <surface xml:id="surface_2_2">
+            <figure type="text" hand="#IW" corresp="#surface_2_1">
+               <label>Surface 2_2 of page 2 (sb_04)</label>
+               <figDesc> A small piece of note book paper cut out with some text written on it to
+                  descibe the picture above. </figDesc>
+               <graphic xml:id="sb_04_02_jpg" url="assets/img/documents/JPG/sb_04_02.jpg"/>
+               <graphic xml:id="sb_04_02_thumb"
+                  url="assets/img/documents/Thumbnails/sb_04_TN_C_02.png"/>
+            </figure>
+         </surface>
+
+
+         <surface xml:id="surface_2_3">
+            <figure type="article">
+               <label>Surface 2_3 of page 2 (sb_04)</label>
+               <figDesc> A cut out newspaper article. </figDesc>
+               <graphic xml:id="sb_04_03_jpg" url="assets/img/documents/JPG/sb_04_03.jpg"/>
+               <graphic xml:id="sb_04_03_thumb"
+                  url="assets/img/documents/Thumbnails/sb_04_TN_C_03.png"/>
+            </figure>
+         </surface>
+
+      </surfaceGrp>
+   </facsimile>
+
+   <text>
+      <body>
+
+         <pb facs="#page_02"/>
+
+         <div facs="#surface_2_1"/>
+
+
+         <div facs="#surface_2_2">
+            <p rend="handwritten text, case(allcaps)">SMILES FROM <persName>DAVID TYE</persName> AND
+               MYSELF AT <name type="race"><placeName>BRAY</placeName> SCRAMBLE</name></p>
+         </div>
+
+         <div facs="#surface_2_3">
+
+            <div n="section_2.3.1">
+               <head><persName ref="#IW">Ian W<damage degree="medium" type="tear"
+                     >i</damage>lliams</persName>
+                  <lb/> Bea<damage degree="medium" type="tear">ts</damage> Brother</head>
+
+               <p><hi rend="case(allcaps)"><persName ref="#IW">IAN WILLIAMS</persName></hi> returned
+                  to grass<lb/> track racing in sparkling form<lb/> and at the Dublin University
+                  grass<lb/> track races at Powerscourt yester-<lb/> day his victories included
+                  an<lb/> exciting finish in the handicap final<lb/> where he beat his brother Eric
+                  by<lb/> half a wheel.</p>
+            </div>
+
+            <div n="section(results)_2.3.2">
+               <p><hi rend="bold"><name n="race">Graded Scratch Race A</name>
+                  </hi>-- <num type="cardinal" rend="first place">1.</num>
+                  <persName>K.<lb/> Cotter</persName> (<objectName n="motorcycle">248
+                     Excelsior</objectName>); <num type="cardinal" rend="second place">2</num>,
+                     <persName>M. D.<lb/> Thornton</persName> (<objectName n="motorcycle">197
+                     Dot</objectName>); <num type="cardinal" rend="third place">3</num>,
+                     <persName>J. D.<lb/> Poynton</persName> (<objectName n="motorcycle">197
+                     Dot</objectName>). 5 mins. 42 secs.<lb/>
+                  <hi rend="bold"><name n="race">Graded Scratch Race B</name>
+                  </hi>--<num type="cardinal" rend="first place">1</num>, <persName>G. F.<lb/>
+                     Scarlett</persName> (<objectName n="motorcycle">197 Dot</objectName>); <num
+                     type="cardinal" rend="second place">2</num>,<persName> F. C.
+                  Dickson</persName><lb/> (<objectName n="motorcycle">197 Dot</objectName>); <num
+                     type="cardinal" rend="third place">3</num>,<persName> J. Barkley</persName>
+                     (<objectName n="motorcycle">197 Dot</objectName>).<lb/> 5 mins 28 secs. <hi
+                     rend="bold"><name n="race">Graded Scratch<lb/> Race C</name></hi>-—<num
+                     type="cardinal" rend="first place">1</num>, <persName>R. Williams</persName>
+                     (<objectName n="motorcycle">197 Aerial</objectName>);<lb/>
+                  <num type="cardinal" rend="second place">2</num>
+                  <persName ref="#EW">E. Williams</persName> (<objectName n="motorcycle">497
+                     Aerial</objectName>); <num type="cardinal" rend="third place"
+                     >3</num>,<persName> D. J.<lb/> Dixon</persName> (<objectName n="motorcycle">344
+                     Norton Jap</objectName>). 5 mins.<lb/> 5 secs.</p>
+
+               <p>
+                  <hi rend="bold"><name n="race">Open Handicap- Heat 1 </name>-</hi>
+                  <num type="cardinal" rend="first place">1</num>
+                  <persName>W.<lb/> Hogan</persName> (<objectName n="motorcycle">197
+                     Dot</objectName>); <num type="cardinal" rend="second place">2</num>, <persName
+                     ref="#IW">I. Williams</persName><lb/> (<objectName n="motorcycle">497
+                     Aerial</objectName>); <num type="cardinal" rend="third place">3</num>
+                  <persName>L, Armstrong</persName> (<objectName n="motorcycle">500<lb/>
+                     Jap</objectName>). 5 mins. 47 secs. <hi rend="bold"><name n="race">Heat
+                        2</name>—<num type="cardinal" rend="first place"
+                     >1</num></hi>.<lb/><persName> F. C. Dixon</persName> (<objectName
+                     n="motorcycle">197 Dot</objectName>); <num type="cardinal" rend="second place"
+                     >2</num>. <persName>S. Foody</persName><lb/> (<objectName n="motorcycle">348
+                     B.S.A.</objectName>); <num type="cardinal" rend="third place">3</num>.
+                     <persName>J- D. Roche</persName> (<objectName n="motorcycle">348<lb/>
+                     B.S.A</objectName>.). 5 mins. 22 secs. <hi rend="bold"><name n="race">Heat
+                        3</name>—</hi><lb/>
+                  <num type="cardinal" rend="first place">1</num>
+                  <persName ref="#EW">E Williams</persName> (<objectName n="motorcyle">497
+                     Aerial</objectName>); <num type="cardinal" rend="second place">2</num>,
+                     <persName>G. B.<lb/> Scarlett</persName> (<objectName n="motorcycle">197
+                     Dot</objectName>): <num type="cardinal" rend="third place">3</num>.
+                     <persName>K. Cotter</persName> (<objectName n="motorcycle">244<lb/>
+                     Excelsior</objectName>). 5 mins. 7 secs. <hi rend="bold"><name n="race"
+                        >Handi-<lb/>cap Final</name></hi> — <num type="cardinal" rend="first place"
+                     >1</num>. <persName ref="#IW">I Williams</persName> (<objectName n="motorcycle"
+                     >497<lb/> Aerial</objectName>); <num type="cardinal" rend="second place"
+                     >2</num>
+                  <persName ref="#EW">E. Williams</persName> (<objectName n="motorcycle">497
+                     Aerial</objectName>);<lb/>
+                  <num type="cardinal" rend="third place">3</num>, <persName>G. F.
+                     Scarlett</persName> (<objectName n="motorcycle">197 Dot</objectName>). 5
+                  mins.<lb/> dead.</p>
+
+               <p>
+                  <hi rend="bold"><name n="race">250 c.c. Scratch Race—Heat 1</name>—</hi>
+                  <lb/>1s, <persName>D. Pearson</persName> (<objectName n="motorcyle">248
+                     N.S.U.</objectName>). <hi rend="bold">
+                     <name n="race">Heat<lb/> 2-</name></hi>
+                  <persName>G. F. Scarlett</persName> (<objectName n="motorcycle">197
+                     Dot</objectName>.). <hi rend="bold"><name n="race">Final</name></hi><lb/>--<num
+                     type="cardinal" rend="first place">1</num>,<persName>G. F. Scarlett</persName>
+                     (<objectName n="motorcycle">197 Dot</objectName>.); <num type="cardinal"
+                     rend="second place">2</num>. <persName>F.<lb/> C. ’Dickson</persName>
+                     (<objectName n="motorcyle">197 Dot</objectName>.): <num type="cardinal"
+                     rend="third place">3</num>.<persName> D. Pear-<lb/> son</persName> (<objectName
+                     n="motorcycle">248 N.S.U.</objectName>). 5 mins. 17s.<lb/>
+                  <hi rend="bold">
+                     <name n="race">350 c.c. scratch race—</name></hi><num type="cardinal"
+                     rend="first place">1</num>, <persName>D. Dixon</persName><lb/> (<objectName
+                     n="motorcyle">344 Norton Jap</objectName>.); <num type="cardinal"
+                     rend="second place">2</num>, <persName>S. Foody</persName><lb/> (<objectName
+                     n="motorcyle">348 B.S.A.</objectName>); <num type="cardinal" rend="third place"
+                     >3</num>, <persName>W. E. Harris </persName>(<objectName n="motorcycle"
+                     >348<lb/> B.S.A.</objectName>). 5 mins. 11s. <name n="race">500 c.c.
+                     scratch<lb/> race</name>—<num type="cardinal" rend="first place">1</num>.
+                     <persName ref="#IW">I. Williams</persName> (<objectName n="motorcyle">497
+                     Aerial</objectName>); <num type="cardinal" rend="second place">2</num>,<lb/>
+                  <persName ref="#EW">E. Williams</persName> (<objectName n="motorcycle">497
+                     Ariel</objectName>); <num type="cardinal" rend="third place">3</num>,
+                     <persName>J. Porter</persName><lb/> (<objectName n="motorcycle">500
+                     Jap.</objectName>). 4 mins 58 secs.</p>
+            </div>
+         </div>
+         <!---not related to main content-->
+
+         <div n="section_2.3.3">
+            <head type="subhead">Results of Autocross</head>
+            <p>THE M.G. Car Club held an<lb/> autocross At Lynch Dark. Sag-<lb/> gart, Co. Dublin
+               yesterday. The<lb/> course was 1/2 mile long and each<lb/> race was over 4 laps.
+               Results: -<lb rend="indent"/> Saloon Class — Scratch — J. C.<lb/> Millarad (Fiat
+               600). 4 mins. 17 secs.<lb/> Handicap—Miss E. Penston (V.W.),<lb/> 4 mins. 22 secs.
+                  ,<lb rend="indent"/> Open Class—Scratch—M. Hayes<lb/> (Triumph TR2). 4 mins, 46
+               secs.<lb/> Handicap—M. Kennedy (Triumph<lb/> TR2). 4 mins. 45 secs.<lb rend="indent"
+               /> Specials—Scratch—B. K. Hood<lb/> (Ford Special), 4 mins. 9 secs.<lb/> Handicap—S.
+               V. Baker (Ford<lb/> Special). 4 mins. 17 secs; R. Red-<lb/> mond (Ford Special), 4
+               mms. 18<lb/> secs. </p>
+         </div>
+
+
+
+      </body>
+   </text>
+
+
+   <!--page 3 (sb_06) -->
+
+
+
+
+   <facsimile xml:id="page_03" facs="sb_06_TN_C_FULL.png">
+      <surfaceGrp>
+
+         <surface xml:id="surface_3_1">
+            <figure type="photograph">
+               <label>Surface 3_1 of page 3 (sb_06)</label>
+               <figDesc> A black and white photograph of a man (possibly <persName ref="#IW">Ian
+                     Williams</persName>) rides a motorcycle (marked number 5), which has it's front
+                  and back wheels lifted off the ground, over a rocky path. </figDesc>
+               <graphic xml:id="sb_06_01_jpg" url="assets/img/documents/JPG/sb_06_01.jpg"/>
+               <graphic xml:id="sb_06_01_thumb"
+                  url="assets/img/documents/Thumbnails/sb_06_TN_C_01.png"/>
+            </figure>
+         </surface>
+
+         <surface xml:id="surface_3_2">
+            <figure type="article">
+               <label>Surface 3_2 of page 3 (sb_06)</label>
+               <figDesc> A cut out newspaper article. </figDesc>
+               <graphic xml:id="sb_06_02_jpg" url="assets/img/documents/JPG/sb_06_02.jpg"/>
+               <graphic xml:id="sb_06_02_thumb"
+                  url="assets/img/documents/Thumbnails/sb_06_TN_C_02.png"/>
+            </figure>
+         </surface>
+
+
+      </surfaceGrp>
+   </facsimile>
+
+
+   <text>
+      <body>
+         <pb facs="#page_03"/>
+
+         <div facs="#surface_3_1"/>
+
+         <div facs="#surface_3_2">
+
+            <div n="folio_3.2.1">
+               <ab>
+                  <num type="page">12</num>
+                  <name rend="publication">Irish Independent</name>, Wednesday, <date
+                     when="1956-10-03">October 3, 1956</date></ab>
+            </div>
+
+            <div n="heading_3.2.2">
+               <head type="section_head">Motor Sport Review</head>
+
+               <head> Moto-Cross Was<lb/> Great Success</head>
+
+               <byline> BY <persName role="journalist">BARRY MASON</persName></byline>
+            </div>
+            <cb/>
+            <div n="section_3.2.3">
+               <p><hi rend="case (allcaps)">THE</hi> outstanding success of the<lb/>
+                  <name type="org">Dublin and District Motor Cycle<lb/> Club's</name> Moto-Cross
+                  last Saturday<lb/> indicated that there is a bright<lb/> future in this country
+                  for such<lb/> an event</p>
+
+               <p>Irish riders’ lack of practice was<lb/> obvious and if they are to hold<lb/> their
+                  own in the future there must<lb/> be more events for training. It was<lb/> very
+                  interesting to see how quickly<lb/> some of them "caught on” last Satur-<lb/> day.
+                  The outstanding Irish competi-<lb/> tor was <persName ref="#IW">Ian
+                     Williams</persName>, who has had<lb/> some experience recently in
+                     <placeName>Eng-<lb/> land</placeName>, where he was riding for the<lb/> Ariel
+                  factory.</p>
+
+
+               <p rend="bold"><quote source="#IW">The most obvious things that<lb/> our men have to
+                     learn are. keep-<lb/> ing the taps open and front wheel<lb/> control. It was
+                     wonderful to see<lb/> how the British experts could con-<lb/> trol their bikes
+                     at higher speeds<lb/> than those at which many of our<lb/> men were losing
+                     control of their<lb/> machines.</quote></p>
+
+               <p>Front wheel lifting seems to be<lb/> the answer. At one particularly<lb/> tricky
+                  point, the course crossed a<lb/> lane. Here the less experienced were<lb/> “
+                  jumping ” their machines at the<lb/> start of the crossing, landing on the<lb/>
+                  far side of the lane and “ jumping ”<lb/> a second time</p>
+            </div>
+
+            <div n="section_3.2.4">
+
+               <head type="subhead" rend="ul" >MUCH QUICKER</head>
+
+               <p>
+                  <hi rend="case (allcaps)">THE</hi> experts took it much faster,<lb/> cleared the
+                  lot with one jump<lb/> and landed on the back wheel,<lb/> keeping the front wheel
+                  off the<lb/> ground until they had things<lb/> perfectly under control.</p>
+
+               <p><persName>Alex Woods</persName> was another of<lb/> Irish competitors who showed
+                  up<lb/> well earning fourth place in the<lb/> 350 race and fifth, after <persName
+                     ref="#IW">Williams</persName>,<lb/> in the 500 race on his fast 350<lb/>
+                  machine. <persName>Ernie Lyons</persName> did well to<lb/> drive a “wedge” amongst
+                  the four<lb/>
+                  <objectName type="motorcycle">Dot</objectName> works men in the 250 race but<lb/>
+                  it appeared to me that his <objectName type="motorcycle">N.S.U.</objectName><lb/>
+                  did not have the speed of the <objectName type="motorcycle"
+                  >Dots</objectName>,<lb/> and he appeared to tire,
+                  possibl<supplied>y</supplied><cb/> through having to work so hard<lb/> with a
+                  slower machine.</p>
+
+               <p> The surprise of the meeting was<lb/> the great improvement in the riding<lb/> of
+                     <persName ref="#EW">Eric Williams</persName>, brother of <persName ref="#IW"
+                     >Ian</persName>.<lb/> His win in the handicap was well<lb/> merited.</p>
+               <p> Revenue is a big difficulty for<lb/> clubs here as the big events are<lb/> road
+                  races where no admission<lb/> charge is possible, but I think that<lb/> more
+                  events of the Moto-Cross<lb/> variety, which are run on enclosed<lb/> circuits
+                  where a charge can be col-<lb/> lected, may at least be part of the<lb/>
+                  answer.</p>
+            </div>
+
+            <div n="section_3.2.5">
+
+               <head type="subhead" rend="ul">BIG ATTENDANCE</head>
+
+               <p><hi rend="italics"><hi rend="case (allcaps)">THIS</hi> type of sport is a novelty
+                     to<lb/> Irish people, but there was<lb/> quite a big attendance on
+                        Satu<supplied>r-</supplied><lb/> day, and as word gets around as<lb/> to its
+                     value its appeal will<lb/> increase.</hi></p>
+
+               <p>I know that the calendar is<lb/> already very full, but it might be<lb/> worth
+                  while dropping some other<lb/> events in favour of the Moto-Cross,<lb/> and now is
+                  the time to plan.</p>
+
+               <p><hi rend="bold">With the last of the racing season<lb/> events on Saturday, the
+                        <name type="event">5OO<lb/>
+                        <abbr type="acronym">M.R.C.I.</abbr> car meeting</name> in
+                        <placeName>Ulster</placeName>, the<lb/> trials season opens in a big
+                     way<lb/> this month.</hi></p>
+
+               <p>For bikes there are three champion-<lb/> ship trials in October, the
+                     <placeName>Belfast</placeName> and<lb/>
+                  <name type="org">District Club’s</name>, <name type="race">Barr Trophy
+                     (6th)</name>,<lb/> the <name type="org">Dublin and District Club’s</name>,<lb/>
+                  <name type="race">Moran Cup (13th)</name>, and the <placeName>Ulster</placeName><lb/>
+                  <name type="race">President’s Cup (27th)</name>.</p>
+
+               <p>On Saturday in the <placeName>Dublin</placeName> area<lb/> there is the <name
+                     type="org">Dublin University Club’s</name>,<lb/>
+                  <name type="race">Fall Trial</name>, starting from <name type="bar-resturant"
+                     >Lamb<lb/> Doyles </name>(3.0). For cars on Saturday<lb/> there is the <name
+                     type="org">Leinster Club’s</name>, <name type="race">Vigzol<lb/> Cup
+                     Trial</name>, a non-observed event,<lb/> starting from the <placeName
+                     type="landmark">Phoenix Monument</placeName><lb/> (3.0).</p>
+
+               <p>On Sunday there is the first of the<lb/> trials counting towards this season’s<lb/>
+                  <name type="race">Hewison Trophy competition</name>, the<lb/>
+                  <name type="org">Limerick Club’s</name>
+                  <name type="race">Circuit of Clare</name>,<lb/> which this year takes the place
+                  in<lb/> the series of the same club’s <name type="race">Circuit<lb/> of
+                     Munster</name>. The other <name type="org">Hewison</name> event<lb/> this month
+                  is the <name type="race">Kilkenny Winter<lb/> Trial</name>
+                  <date when="1956-10-28">(28th)</date>. </p>
+
+            </div>
+
+         </div>
+
+      </body>
+   </text>
+
+   <!--page 4 (sb_08) -->
+
+   <facsimile xml:id="page_04" facs="sb_08_TN_C_FULL.png">
+
+
+      <surface xml:id="surface_4_1">
+         <figure type="article">
+            <label>Surface 4_1 of page 4 (sb_08)</label>
+            <figDesc> A newspaper article cutting. </figDesc>
+            <graphic xml:id="sb_08_01_jpg" url="assets/img/documents/JPG/sb_08_01.jpg"/>
+            <graphic xml:id="sb_08_01_thumb" url="assets/img/documents/Thumbnails/sb_08_TN_C_01.png"
+            />
+         </figure>
+      </surface>
+
+   </facsimile>
+
+
+   <text>
+      <body>
+
+         <pb facs="#page_04"/>
+
+         <div facs="#surface_4_1">
+
+            <head>Dublin And District Motor<lb/> Cycle Club Had Day Out</head>
+            <div type="lead">
+               <p rend="bold"><hi rend="case (allcaps)">CONGRATULATIONS</hi> to <name type="org">the
+                     Dublin and District Motor Cycle <lb/> Club</name> whose <name type="race"
+                     >International Moto Cross meeting</name> on Saturday <lb/> last was one of the
+                  most entertaining fixtures of the season. <lb/> the course at
+                     <placeName>Redbog</placeName> was ideally suited for this sport and many <lb/>
+                  of <name type="org">the English works riders</name>described it as one of the
+                  <lb/> best in <placeName> Europe</placeName>. <lb/>
+               </p>
+
+            </div>
+            <div type="section">
+               <cb/>
+               <p>In the light og such an enthusi-<lb/>astic reception it is now very much <lb/>
+                  more than a possibility that next<lb/> year's meeting will be included on <lb/>
+                  the <name type="race">world championship</name> table with <lb/> the result that
+                  we may have a <lb/> unique invasion of manufacturers <lb/> teams including leading
+                  English<lb/> and Continental exponents.<lb/></p>
+               <p>As expected the <hi rend="case (allcaps)">B.S.A</hi> and the Dot<lb/> nominees
+                  made a clean sweep in<lb/> the last three <name type="race">scratch races</name>
+                  on Satur-<lb/> day last but quite a few names were made by Irishmen whose
+                  pre-<lb/> vious experience was gained from <lb/> dabbling in other branches of
+                  the<lb/> game together with a mere handful <lb/> of scrambles.<lb/></p>
+               <p>Perhaps the most impressive was <lb/>
+                  <persName>Harry O'Reilly's</persName> son, <persName>Frank</persName>, who<lb/>
+                  rode his <objectName type="motorcycle">Lightweight Tandon</objectName> with <lb/>
+                  an unbounded exuberance which <lb/> made quite a few of the stars, and <lb/> in
+                  particular <persName>Bill Barugh</persName> og the <lb/>
+                  <name type="org">Dot team</name>, sit up and take note <lb/> After figuring
+                  prominently in the <lb/> qualifying heat <persName>Frank</persName> put every-
+                  <lb/> thing he knew into the final and <lb/> going into the lead on the third lap
+                  <lb/> he stayed in front until the last half mile where he was headed by <lb/>
+                  <persName ref="#EW">Eric Williams</persName> on the <objectName type="motorcycle"
+                     >Mountjoy<lb/> entered Ariel.</objectName><lb/></p>
+            </div>
+            <div type="section">
+               <head rend="bold">
+                  <hi rend=" subhead case (allcaps)"> FIGURED PROMINENTLY</hi></head>
+               <p rend="bold"> If he continues to improve at <lb/> the present rate there is little
+                  <lb/> doubt that <persName>Frank O'Reilly</persName> could <lb/> turn out to be a
+                  really top class <lb/> Moto Cross and Road Racing star <lb/> He has certainly put
+                  his Grasstrack <lb/> experience to great use and his long distance road racing
+                  debut on the Brian Somers <hi rend="case (allcaps)">B.S.A</hi> at this<lb/> year's
+                     <name type="race">Skerries "100"</name> gave some indication of the Dubliner's
+                  ability</p>
+               <p>The <persName ref=" #IW #EW">Williams</persName> brothers, <persName ref="#IW"
+                     >Ian</persName> and <lb/>
+                  <persName ref="#EW">Eric</persName> also caught the eye on Saturday <lb/> last and
+                  both of them figured promi-<lb/> nently in the awards list. Indeed <lb/> were it
+                  not for the fact that <persName ref="#EW">Eric</persName><lb/> had shown such a
+                  terrific improve-<lb/>ment in his riding he could never <lb/> have overhauled
+                     <persName>Frank O'Reilly</persName> in<lb/> order to capture the <name
+                     type="race">Freeman <cb/> Trophy</name> in the general handicap final.</p>
+               <p><persName ref="#IW">Ian</persName>, who rode at several <name type="race">cross
+                     <lb/> Channel meetings</name> last season was <lb/> the fastest Irishman of the
+                  dat as <lb/> he took <persName>Ted Barret's</persName> other <objectName
+                     type="motorcycle">Ariel</objectName> into <lb/> fourth place in the <name
+                     type="race">Senior scratch <lb/> race</name> despite a heavy tumbe en
+                  route<lb/> He also occupied a similar position <lb/> in the general handicap and
+                  con <lb/> sidering that he was riding off such <lb/> a short mark of one and a
+                  half <lb/> minutes he did extremely well to get the flag so near to
+                     <persName>Brian Stone- <lb/>bridge</persName> the <hi rend="case (allcaps)"
+                     >B.S.A</hi> expert.<lb/>
+               </p>
+               <p>The evergreen <persName>Ernie Lyons</persName> gave <lb/> the huge crowds plenty
+                  to enthuse <lb/> over in the 250 <name type="race">c.c. event</name> and his <lb/>
+                  fourth position behind three of <name type="org">the <lb/> Dot men</name> and in
+                  front of another <lb/> of them calls for honourable men-<lb/>tion Unfortunately
+                     <persName>Freddie Dixon</persName><lb/> who was also expected to do well in
+                  <lb/> the same event broke his frame on<lb/> the first lap and took no further
+                  <lb/> part in the proceedings</p>
+            </div>
+            <div type="section">
+               <head type="subhead" rend="case (allcaps)"><hi rend="bold">NORTHERN SUCCESSES</hi></head>
+               <p rend="bold">Several Ulster riders hit the <lb/> headlines during the
+                  afternoon.<lb/> the most successful of them being <lb/>
+                  <persName>Alex McFarland Woods</persName> from <placeName>Bel-
+                     <lb/>fast</placeName> who finished fourth to <name type="org">the <hi
+                        rend="case (allcaps)">B.S.A.</hi> team</name> in the <name type="race">350
+                     c.c. scratch<lb/> race</name> fifth to <persName ref="#IW">Ian
+                     Williams</persName> and the <lb/> same trio in the <name type="race">Senior
+                     event</name> and <lb/> sixth in the genereal handicap all on a <objectName
+                     type="motorcycle">Junior 'Gold Star"</objectName>.</p>
+               <p><persName>Alan Bradshaw</persName> made news with his <lb/>
+                  <objectName type="motorcycle">Francis-Barnett</objectName> when taking a very
+                  <lb/> creditable sixth in the opening en-<lb/> counter and he finished up the day
+                  <lb/> as eight man home in the general <lb/> handicap with a comparatively <lb/>
+                  short allowance of one lap.</p>
+               <p><name type="race">The Car Trials</name> season gets into its <lb/> stride this
+                  weekend when <name type="org">the Lein-<lb/> ster Motor Club</name> holds it <name
+                     type="race">Vigzol Cup <lb/> meeting</name> over a 60 mile course start-<lb/>
+                  ing in the <placeName>Phoenix Park</placeName> at <time>3 p.m</time><lb/> on
+                  Saturday. Navigation by Ordnance <lb/> Survey sheets No. 16 and 13 will play <lb/>
+                  an important part in prodeedings <lb/> and references by the old and new <lb/>
+                  grid system will be supplied to com<lb/>petitors</p>
+               <p>Sunday's <name type="race">Circuit of Clare</name> T <damage type="missing"
+                     rend="missing text"/>
+                  <lb/> which starts from <placeName>Limerick</placeName> at <damage type="missing"
+                     rend="missing text"/>
+                  <lb/> a.m. wukk narj tge beginning <damage agent="tape">of the</damage>
+                  <lb/>
+                  <name type="race">Hewison Trophy competition</name>
+                  <damage agent="tape"> and</damage><lb/> because of this all leading
+                        <placeName><damage agent="tape">Dublin</damage></placeName><lb/> and <name
+                     type="race">Provincial</name> enthusiasts are ex-<lb/>pected to make the
+                  journey for this<lb/> well supported fixture.</p>
+            </div>
+         </div>
+
+      </body>
+   </text>
+
+
+   <!--page 5 (sb_09) -->
+
+
+   <facsimile xml:id="page_05" facs="sb_09_TN_C_FULL.png">
+      <surfaceGrp>
+
+         <surface xml:id="surface_5_1">
+            <figure type="photograph">
+               <label>Surface 5_1 of page 5 (sb_09)</label>
+               <figDesc>A black and white photograph of a motorcycle racer; <persName ref="#IW">Ian
+                     Williams</persName> (foreground), and an unidentified group of people watching
+                  (background)</figDesc>
+               <graphic xml:id="sb_09_01_jpg" url="assets/img/documents/JPG/sb_09_01.jpg"/>
+               <graphic xml:id="sb_09_01_thumb"
+                  url="assets/img/documents/Thumbnails/sb_09_TN_C_01.png"/>
+            </figure>
+         </surface>
+
+         <surface xml:id="surface_5_2">
+            <figure type="photograph">
+               <label>Surface 5_2 of page 5 (sb_09)</label>
+               <figDesc>A black and white photograph of a motorcycle racer; <persName ref="#IW">Ian
+                     Williams</persName> (foreground), and an unidentified man watching
+                  (background)</figDesc>
+               <graphic xml:id="sb_09_02_jpg" url="assets/img/documents/JPG/sb_09_02.jpg"/>
+               <graphic xml:id="sb_09_02_thumb"
+                  url="assets/img/documents/Thumbnails/sb_09_TN_C_02.png"/>
+            </figure>
+         </surface>
+
+
+         <surface xml:id="surface_5_3">
+            <figure type="article">
+               <label>Surface 5_3 of page 5 (sb_09)</label>
+               <figDesc> A newspaper article cutting. </figDesc>
+               <graphic xml:id="sb_09_03_jpg" url="assets/img/documents/JPG/sb_09_03.jpg"/>
+               <graphic xml:id="sb_09_03_thumb"
+                  url="assets/img/documents/Thumbnails/sb_09_TN_C_03.png"/>
+            </figure>
+         </surface>
+
+
+
+         <surface xml:id="surface_5_4">
+            <figure type="article">
+               <label>Surface 5_4 of page 5 (sb_09)</label>
+               <figDesc> A newspaper article cutting.</figDesc>
+               <graphic xml:id="sb_09_04_jpg" url="assets/img/documents/JPG/sb_09_04.jpg"/>
+               <graphic xml:id="sb_09_04_thumb"
+                  url="assets/img/documents/Thumbnails/sb_09_TN_C_04.png"/>
+            </figure>
+         </surface>
+
+      </surfaceGrp>
+   </facsimile>
+
+   <text>
+      <body>
+
+         <pb facs="#page_05"/>
+
+         <div facs="#surface_5_1"/>
+
+         <div facs="#surface_5_2"/>
+
+         <div facs="#surface_5_3">
+
+            <div n="head_5.3.1">
+               <head rend="case (allcaps)"><persName ref="#IW #EW">WILLIAMS BROTHERS IN
+                     FORM</persName></head>
+            </div>
+            <div n="section_5.3.2">
+               <p>The <name type="org">Dublin University Club</name> held a grass-<lb/> track race
+                  meeting in <placeName>Powerscourt</placeName> on Satur-<lb/> day. The <persName
+                     ref="#IW #EW">Williams Brother</persName> had a good <lb/> day with three wins
+                  and three places between <lb/> them. <persName ref="#IW">Ian Williams</persName>
+                  and <persName>Ernie Lyons</persName> again <lb/> had some close tussles,
+                     <persName>Lyons</persName> winning the <lb/>
+                  <name type="race">graded scratch race</name> and <persName ref="#IW"
+                     >Williams</persName> the <name type="race">500 <lb/>c.c. scratch</name> in the
+                  best time of the day.<lb/> Results:–</p>
+            </div>
+
+            <div rend="section_(results)_5.3.3">
+               <p>
+                  <hi rend="bold"><hi rend="indentation"><name type="race">Graded Scratch 1
+                        </name></hi></hi> – <num type="cardinal" rend="first place">1</num>,
+                     <persName>S.A. Tracey</persName>
+                  <lb/> (<objectName type="motorcycle">James</objectName>), 5m. 28. s.; <num
+                     type="cardinal" rend="second place">2</num>. <persName>G.T. Nolan</persName>
+                     (<objectName type="motorcycle">James</objectName>);<lb/>
+                  <num type="cardinal" rend="third place">3</num>. <persName>D. Hughes</persName>
+                     (<objectName type="motorcycle">James</objectName>). </p>
+               <p>
+                  <hi rend="bold"><hi rend="indentation"><name type="race">Graded Scratch 2
+                        </name></hi></hi> – <num type="cardinal" rend="first place">1</num>,
+                     <persName ref="#EW">E. Williams</persName>(<objectName type="motorcycle"
+                     >Ariel</objectName>),<lb/> 5m. 11. s.; <num type="cardinal" rend="second place"
+                     >2</num>. <persName>C. Pearson</persName> (<objectName type="motorcycle"
+                     >B.S.A.</objectName>); <num type="cardinal" rend="third place">3</num>,
+                     <persName>>G.T. <lb/> Scarlett </persName> (<objectName type="motorcycle"
+                     >Sun</objectName>). </p>
+               <p>
+                  <hi rend="bold"><hi rend="indentation"><name type="race">Graded Scratch 3
+                        </name></hi></hi> – <num type="cardinal" rend="first place">1</num>,
+                     <persName>E. Lyons</persName>(<objectName type="motorcycle">Triumph-<lb/>
+                     J.A.P.</objectName>), 4m. 48. s.; <num type="cardinal" rend="second place"
+                     >2</num>. <persName ref="#IW">I. Williams</persName> (<objectName
+                     type="motorcycle">Ariel</objectName>); <lb/>
+                  <num type="cardinal" rend="third place">3</num>, <persName>>E.A. Callaghan
+                  </persName> (<objectName type="motorcycle">R./Einfield</objectName>). </p>
+               <p>
+                  <hi rend="bold"><hi rend="indentation"><name type="race">Open
+                     Handicap</name></hi></hi> – <num type="cardinal" rend="first place">1</num>,
+                     <persName ref="#EW">E. Williams</persName>(<objectName type="motorcycle"
+                     >Ariel</objectName>),<lb/> handicap 30s., time 5m. 0s.; <num type="cardinal"
+                     rend="second place">2</num>. <persName ref="#IW">I. Williams</persName>
+                  <lb/> (<objectName type="motorcycle">Ariel</objectName>), 2s.; <num
+                     type="cardinal" rend="third place">3</num>. <persName>G.T. Scarlett</persName>
+                     (<objectName type="motorcycle">Sun</objectName>), 35s. </p>
+               <p>
+                  <hi rend="bold"><hi rend="indentation"><name type="race">200 c.c.
+                        Scratch</name></hi></hi> – <num type="cardinal" rend="first place">1</num>,
+                     <persName>F.C. Dickinson</persName><lb/> (<objectName type="motorcycle"
+                     >Sun</objectName>), 5m. 3s.; <num type="cardinal" rend="second place">2</num>.
+                     <persName>J. Pitchford</persName>
+                  <lb/> (<objectName type="motorcycle">Dot</objectName>); <num type="cardinal"
+                     rend="third place">3</num>, <lb/>
+                  <persName>G.T. Scarlett</persName> (<objectName type="motorcycle"
+                  >Sun</objectName>). </p>
+               <p>
+                  <hi rend="bold"><hi rend="indentation"><name type="race">350 c.c.
+                        Scratch</name></hi></hi> – <num type="cardinal" rend="first place">1</num>,
+                     <persName>J. D. Roche</persName><lb/> (<objectName type="motorcycle"
+                     >B.S.A.</objectName>), 5m. 8s.; <num type="cardinal" rend="second place"
+                     >2</num>. <persName>C. Pearson</persName>
+                  <lb/> (<objectName type="motorcycle">B.S.A.</objectName>); <lb/>
+                  <num type="cardinal" rend="third place">3</num>, <persName>R. Rennicks</persName>
+                     (<objectName type="motorcycle">B.S.A.</objectName>). </p>
+               <p>
+                  <hi rend="bold"><hi rend="indentation"><name type="race">500 c.c.
+                        Scratch</name></hi></hi> – <num type="cardinal" rend="first place">1</num>,
+                     <persName ref="#IW">I. Williams</persName>(<objectName type="motorcycle"
+                     >Ariel</objectName>),<lb/> 4m. 39s.; <num type="cardinal" rend="second place"
+                     >2</num>. <persName>E. Lyons</persName>
+                  <lb/> (<objectName type="motorcycle">Triumph-J.A.P.</objectName>); <lb/>
+                  <num type="cardinal" rend="third place">3</num>, <persName ref="#EW">E.
+                     Williams</persName> (<objectName type="motorcycle">Ariel</objectName>). </p>
+            </div>
+         </div>
+
+         <div facs="#surface_5_4">
+
+            <div n="head_5.4.1">
+               <head rend="bold">Terrific Motor <lb/> Cycle Finish</head>
+            </div>
+            <div n="section_5.4.2">
+               <p><hi rend="case (allcaps)">HIGHLIGHT</hi> of the <placeName>Dun <lb/>
+                     Laoghaire</placeName> motor cycle <lb/> club's <name type="race">grass track
+                     meeting</name> at <lb/>
+                  <placeName>Rochestown Avenue</placeName> yesterday <lb/> was a terrific neck - and
+                  - neck <lb/> struggle between <persName ref="#IW">Ian Williams</persName>
+                  <lb/> (Ariel) and <persName>Mervyn Hayes</persName> (Royal <lb/> Enfield) in the
+                  senior race. For <lb/> lap after lap the pair fought it <lb/> out. <persName
+                     ref="#IW">Williams</persName> got the verdict by <lb/> a fraction of a second. </p>
+               <p rend="results"><hi rend="bold"><hi rend="indentation"><name type="race">500 c.c.
+                              <abbr>Scr.</abbr></name></hi></hi> – 1, <persName ref="#IW">I.
+                     Williams</persName> (<objectName type="motorcycle">Ariel</objectName>); <lb/>
+                  2. <persName>M. Hayes</persName> (<objectName type="motorcycle">Royal
+                     Enfield</objectName>); 3, <persName ref="#EW"> E. <lb/> Williams</persName>
+                     (<objectName type="motorcycle">Ariel</objectName>). </p>
+               <p rend="results"><hi rend="bold"><hi rend="indentation"><name type="race">350 c.c.
+                           Class</name></hi></hi> – 1, <persName>D. Dixon</persName> (<objectName
+                     type="motorcycle">Jap</objectName>); <lb/> 2. <persName>M. Foran</persName>
+                     (<objectName type="motorcycle">B.S.A</objectName>); 3, <persName> D.
+                     Byrne</persName>
+                  <lb/> (<objectName type="motorcycle">B.S.A</objectName>). </p>
+               <p rend="results"><hi rend="bold"><hi rend="indentation"><name type="race">250 c.c.
+                           Class</name></hi></hi> – 1, <persName>H. Buchanan</persName>
+                  <lb/> (<objectName type="motorcycle">Francis Barnett</objectName>); 2.
+                     <persName>F. O'Reilly</persName>
+                  <lb/> (<objectName type="motorcycle">Tandom</objectName>); 3, <persName> C.
+                     O'Neill</persName> (<objectName type="motorcycle">Dot</objectName>). </p>
+               <p rend="results"><hi rend="bold"><hi rend="indentation"><name type="race">250 c.c.
+                           heat winners</name></hi></hi>–<persName>Buchanan</persName> and <lb/>
+                  <persName>J. McCaffe </persName>(<objectName type="motorcycle">Dot</objectName>). </p>
+               <p rend="results"><hi rend="bold"><hi rend="indentation"><name type="race">General
+                           Handicap winner</name></hi></hi>–<persName>M. Foran</persName>
+                  <lb/> (<objectName type="motorcycle">B.S.A.</objectName>). </p>
+            </div>
+         </div>
+
+      </body>
+   </text>
+
+   <!--page 6 (sb_10) -->
+
+   <facsimile xml:id="page_06" facs="sb_10_TN_C_FULL.png">
+      <surfaceGrp>
+
+         <surface xml:id="surface_6_1">
+            <figure type="photograph">
+               <label>Surface 06_1 of page 6 (sb_10)</label>
+               <figDesc>A black and white photograph of three motorcycle racers with some
+                  unidentified onlookers in the background</figDesc>
+               <graphic xml:id="sb_10_01_jpg" url="assets/img/documents/JPG/sb_10_01.jpg"/>
+               <graphic xml:id="sb_10_01_thumb"
+                  url="assets/img/documents/Thumbnails/sb_10_TN_C_01.png"/>
+            </figure>
+         </surface>
+
+         <surface xml:id="surface_6_2">
+            <figure type="photograph">
+               <label>Surface 06_2 of page 6 (sb_10)</label>
+               <figDesc>A black and white photograph of a motorcycle racer; <persName ref="#IW">Ian
+                     Williams</persName></figDesc>
+               <graphic xml:id="sb_10_02_jpg" url="assets/img/documents/JPG/sb_10_02.jpg"/>
+               <graphic xml:id="sb_10_02_thumb"
+                  url="assets/img/documents/Thumbnails/sb_10_TN_C_02.png"/>
+            </figure>
+         </surface>
+
+
+         <surface xml:id="surface_6_3">
+            <figure type="article">
+               <label>Surface 06_3 of page 10 (sb_10)</label>
+               <figDesc> A newspaper article cutting. </figDesc>
+               <graphic xml:id="sb_10_03_jpg" url="assets/img/documents/JPG/sb_10_03.jpg"/>
+               <graphic xml:id="sb_10_03_thumb"
+                  url="assets/img/documents/Thumbnails/sb_10_TN_C_03.png"/>
+            </figure>
+         </surface>
+
+      </surfaceGrp>
+   </facsimile>
+
+
+   <text>
+      <body>
+
+         <pb facs="#page_06"/>
+
+         <div facs="#surface_6_1">
+            <p rend="italics">The sky's the limit . . . so thinks <persName ref="#IW">Ian
+                  <lb/>Williams</persName> as he directs his <objectName type="motorcycle"
+                  >Ariel</objectName>into space.</p>
+         </div>
+
+         <div facs="#surface_6_2"/>
+
+
+         <div facs="#surface_6_3">
+
+            <div n="head_6.3.1">
+               <head rend="case (allcaps)"><persName ref="#IW">WILLIAMS</persName>'S TREBLE</head>
+            </div>
+            <div n="section_6.3.2">
+               <p>At the <name type="org">Dublin University Motor-cycle<lb/> and Light Car
+                     Club's</name> grass- track race meeting, <lb/>held in <placeName>Powerscourt,
+                        <abbr>Co.</abbr> Wicklow</placeName>, on<lb/> Saturday. <persName ref="#IW"
+                     >Ian Williams</persName> (<objectName type="motorcycle">Ariel</objectName>)
+                  scored a <lb/>treble and made fastest time of the day. <lb/> Other winners
+                  included <persName>C.F. Scarlett</persName>, <lb/> who won two events.
+                  Results:–</p>
+               <p rend="results"><hi rend="bold"><hi rend="indentation"><name type="race">Graded
+                           Scratch No. 1</name></hi></hi> – 1, <persName>K. Cotter</persName>
+                  <lb/> (<objectName type="motorcycle">Excelsior</objectName>); 2. <persName>M. D.
+                     Thornton</persName> (<objectName type="motorcycle">Dot</objectName>); 3,<lb/>
+                  <persName> J. Poyrton</persName> (<objectName type="motorcycle"
+                  >Dot</objectName>)., 5 mins. 42 secs. </p>
+               <p rend="results"><hi rend="bold"><hi rend="indentation"><name type="race">Graded
+                           Scratch No. 2</name></hi></hi> – 1, <persName>G. F.
+                     Scar-<lb/>lett</persName> (<objectName type="motorcycle">Dot</objectName>), 2.
+                     <persName>F. C. Dickinson</persName> (<objectName type="motorcycle"
+                     >Dot</objectName>); 3,<lb/>
+                  <persName> J. Barkley</persName> (<objectName type="motorcycle"
+                  >Sun</objectName>)., 5 mins. 28 secs. </p>
+               <p rend="results"><hi rend="bold"><hi rend="indentation"><name type="race">Graded
+                           Scratch No. 3</name></hi></hi> – 1, <persName ref="#IW">I.
+                     Williams</persName>
+                  <lb/> (<objectName type="motorcycle">Ariel</objectName>), 2. <persName ref="#EW"
+                     >E. Williams</persName> (<objectName type="motorcycle">Ariel</objectName>); 3,<lb/>
+                  <persName>D. J. <lb/> Dixon</persName> (<objectName type="motorcycle"
+                     >Norton/Jap</objectName>). 5 mins. 5 secs. </p>
+               <p rend="results"><hi rend="bold"><hi rend="indentation"><name type="race">Allcomers'
+                           Handicap Final</name></hi></hi> – 1, <persName ref="#IW">I.<lb/>
+                     Williams</persName> (<objectName type="motorcycle">Ariel</objectName>),
+                     <abbr>scr</abbr>.; 2. <persName ref="#EW">E. Williams</persName>
+                  <lb/>(<objectName type="motorcycle">Ariel</objectName>), <abbr>h'cap</abbr> 5
+                  secs.; 3, <persName>G. F. Scarlett</persName>
+                  <lb/> (<objectName type="motorcycle">Dot</objectName>), 18 secs. 5 mins. 0 secs. </p>
+               <p rend="results"><hi rend="bold"><hi rend="indentation"><name type="race">250 c.c.
+                           scratch</name></hi></hi> – 1, <persName>G. F. Scarlett</persName>
+                  <lb/> (<objectName type="motorcycle">Dot</objectName>); 2. <persName>F.C.
+                     Dickinson</persName> (<objectName type="motorcycle">Dot</objectName>); 3,
+                     <persName>D. <lb/> Pearson</persName>(<objectName type="motorcycle"
+                     >N.S.U.</objectName>) 5 mins, 17 secs. </p>
+               <p rend="results"><hi rend="bold"><hi rend="indentation"><name type="race">350 c.c.
+                           scratch</name></hi></hi> – 1, <persName>D. J. Dixon</persName>
+                  <lb/> (<objectName type="motorcycle">Norton/Jap</objectName>); 2. <persName>S.
+                     Foody</persName> (<objectName type="motorcycle">B.S.A.</objectName>); 3, <lb/>
+                  <persName>W. E. Harris</persName>(<objectName type="motorcycle"
+                     >B.S.A.</objectName>) 5 mins, 11 secs. </p>
+               <p rend="results"><hi rend="bold"><hi rend="indentation"><name type="race">500 c.c.
+                           scratch</name></hi></hi> – 1, <persName ref="#IW">I. Williams</persName>
+                     (<objectName type="motorcycle">Ariel</objectName>); <lb/> 2. <persName
+                     ref="#EW">E. Williams</persName> (<objectName type="motorcycle"
+                     >Ariel</objectName>); 3, <persName>J. Porter</persName>(<objectName
+                     type="motorcycle">Jap</objectName>), <lb/> 4 mins, 58 secs. </p>
+            </div>
+
+         </div>
+
+      </body>
+   </text>
+
+   <!--page 7 (sb_11) -->
+
+   <facsimile xml:id="page_07" facs="sb_11_TN_C_FULL.png">
+      <surfaceGrp>
+
+         <surface xml:id="surface_7_1">
+            <figure type="photograph">
+               <label>Surface 7_1 of page 7 (sb_11)</label>
+               <figDesc> A black and white photograph of two men racing across a field on
+                  motorcyles. Shot from behind. </figDesc>
+               <graphic xml:id="sb_11_01_jpg" url="assets/img/documents/JPG/sb_11_01.jpg"/>
+               <graphic xml:id="sb_11_01_thumb"
+                  url="assets/img/documents/Thumbnails/sb_11_TN_C_01.png"/>
+            </figure>
+         </surface>
+
+         <surface xml:id="surface_7_2">
+            <figure type="photograph">
+               <label>Surface 7_2 of page 7 (sb_11)</label>
+               <figDesc> A balck and white photograph of two men racing motorbikes as a crowd
+                  watches from the sidelines. The mortorbike in the lead (left) is marked number
+                  '38', the motorbike in the second position (right) is marked number'39'. </figDesc>
+               <graphic xml:id="sb_11_02_jpg" url="assets/img/documents/JPG/sb_11_02.jpg"/>
+               <graphic xml:id="sb_11__02_thumb"
+                  url="assets/img/documents/Thumbnails/sb_11_TN_C_02.png"/>
+            </figure>
+         </surface>
+
+
+         <surface xml:id="surface_7_3">
+            <figure type="article">
+               <label>Surface 7_3 of page 7 (sb_11)</label>
+               <figDesc> A newspaper clipping. </figDesc>
+               <graphic xml:id="sb_11_03_jpg" url="assets/img/documents/JPG/sb_11_03.jpg"/>
+               <graphic xml:id="sb_11_03_thumb"
+                  url="assets/img/documents/Thumbnails/sb_11_TN_C_03.png"/>
+            </figure>
+         </surface>
+
+      </surfaceGrp>
+   </facsimile>
+
+   <text>
+      <body>
+
+         <pb facs="#page_07"/>
+
+         <div facs="#surface_7_1"/>
+
+
+         <div facs="#surface_7_2"/>
+
+
+         <div facs="#surface_7_3">
+            <div n="head_7.3.1">
+               <head>B.S.A. Works Team For<lb/> D. And D. Meeting</head>
+            </div>
+
+            <div n="section_7.3.2">
+               <p><name type="org"><abbr type="acronym">B.S.A.’s</abbr></name> have just announced
+                  their<lb/> intention of sending over an<lb/> official works team for the <name
+                     type="org"><placeName>Dublin</placeName><lb/> and District Motor Cycle
+                     Club’s</name><lb/> International Moto Cross meeting<lb/> over the new course at
+                     <placeName>Red Bog</placeName><lb/> later in the month and this news<lb/> will
+                  certainly give a terrific boost<lb/> to the already highly interesting<lb/>
+                  programme.<lb/></p>
+               <p>The <placeName>Birmingham</placeName> factory will be<lb/> represented by the high
+                  ranking<lb/> English stars, <persName>Brian Stonebridge</persName>,<lb/>
+                  <persName>David Tye</persName> and <persName>Terry Cheshire</persName> all<lb/> of
+                  whom will be supplied with<lb/>
+                  <objectName type="motorcycle">Senior and Junior " Gold Stars.”</objectName><lb/>
+                  <persName>Cheshire</persName> and <persName>Tye</persName> were both seen<lb/> in
+                  action at the <name type="race">Curragh</name> last year,<lb/> but
+                     <persName>Stonebridge</persName>, who is in the<lb/> world championship class
+                  will be<lb/> making his first appearance on our<lb/> soil.<lb/></p>
+               <p>Enquiries have also been received<lb/> from Dutch and German riders and<lb/> it is
+                  quite possible that a number<lb/> of them will make the trip to<lb/>
+                  <placeName>Ireland</placeName> immediately after the con-<lb/> clusion of the
+                     <name type="race">International Six<lb/> Days’ Trial</name> on <placeName> the
+                     Continent</placeName>.<lb/> Well-known Ulster men already<lb/> included in the
+                  colourful line-up are<lb/>
+                  <persName>Alex McFarland-Woods</persName>, <persName>Brian Cross</persName><lb/>
+                  and <persName>Alan Bradshaw</persName> while the cross-<lb/> Channel <name
+                     type="org">Dot</name> team have asked for<lb/> special permission to compete in
+                  all<lb/> classes. Fortunately there is a<lb/> clause in the regulations which<lb/>
+                  makes a proviso giving visitors a<lb/> special concession in this respect so<lb/>
+                  that <persName>Bill Barugh</persName> and his team<lb/> mates will be able to face
+                  the<lb/> starter as often as they wish. </p>
+               <p rend="bold">And indeed, judging by some of<lb/> their outstanding performances
+                  in<cb/> the past, it is safe to say that<lb/> these <objectName type="motorcycle"
+                     >197 c.c. two-strokers</objectName> will be<lb/> more than a match for many
+                  of<lb/> their heavyweight rivals.</p>
+               <p>One of the strongest Irish teams<lb/> should be the <name type="org">Ariel</name>
+                  trio, nominated<lb/> by <persName>Mr. Ted Barrett</persName>, of <name type="org"
+                        ><placeName>Mountjoy</placeName><lb/> Motor Cycles, Ltd</name>. This very
+                  fast<lb/> line-up consists of <persName>Des. Cullen</persName> and<lb/> the
+                     <persName ref="#IW #EW">Williams’ brothers, Ian and Eric</persName>,<lb/> who
+                  have been riding with such dis-<lb/> tinction during the past few seasons.<lb/>
+                  The <placeName>Phibsboro’</placeName> sponsor has always<lb/> been very closely
+                  connected with the<lb/> sport, and any successes gained by<lb/> his <objectName
+                     type="motorcycle">B.S.A.</objectName> or <objectName type="motorcycle"
+                     >Ariel</objectName> nominees have<lb/> been very well received by
+                  followers<lb/> of all branches of the game.</p>
+               <p> Most of the leading <placeName>Dublin</placeName> expo-<lb/> nents have already
+                  sent in their<lb/> entries, but it should be noted that<lb/> the list will finally
+                  close on Satur-<lb/> day, and no late entries can possibly<lb/> be considered
+                  after that date. In-<lb/> deed. by the looks of things, it may<lb/> well happen
+                  that some prospective<lb/> competitors will have to be included<lb/> amongst the
+                  reserves if nominations<lb/> continue to pour in at the present.</p>
+            </div>
+         </div>
+
+      </body>
+   </text>
+
+   <!--page 8 (sb_15) -->
+
+   <facsimile xml:id="page_08" facs="sb_15_TN_C_FULL.png">
+      <surfaceGrp>
+
+         <surface xml:id="surface_8_1">
+            <figure type="photograph">
+               <label>Surface 8_1 of page 8 (sb_15)</label>
+               <figDesc> A black and white photograph of two men racing motorcycles. <persName
+                     ref="#IW">Ian Williams</persName> (foreground) and another unidentified racer
+                  (background) </figDesc>
+               <graphic xml:id="sb_15_01_jpg" url="assets/img/documents/JPG/sb_15_01.jpg"/>
+               <graphic xml:id="sb_15_01_thumb"
+                  url="assets/img/documents/Thumbnails/sb_15_TN_C_01.png"/>
+            </figure>
+         </surface>
+
+         <surface xml:id="surface_8_2">
+            <figure type="article">
+               <label>Surface 8_2 of page 8 (sb_15)</label>
+               <figDesc> A two column newspaper cutting. </figDesc>
+               <graphic xml:id="sb_15_02_jpg" url="assets/img/documents/JPG/sb_15_02.jpg"/>
+               <graphic xml:id="sb_15_02_thumb"
+                  url="assets/img/documents/Thumbnails/sb_15_TN_C_02.png"/>
+            </figure>
+         </surface>
+
+
+         <surface xml:id="surface_8_3">
+            <figure type="photograph">
+               <label>Surface 8_3 of page 8 (sb_15)</label>
+               <figDesc> A black and white photograph of a motorcycle racer; <persName ref="#IW">Ian
+                     Williams</persName>. </figDesc>
+               <graphic xml:id="sb_15_03_jpg" url="assets/img/documents/JPG/sb_15_03.jpg"/>
+               <graphic xml:id="sb_15_03_thumb"
+                  url="assets/img/documents/Thumbnails/sb_15_TN_C_03.png"/>
+            </figure>
+         </surface>
+
+      </surfaceGrp>
+   </facsimile>
+
+   <text>
+      <body>
+
+         <pb facs="#page_08"/>
+
+         <div facs="#surface_8_1"/>
+
+         <div facs="#surface_8_2">
+            <div n="head 8.3.1">
+               <head>MOTOR CYCLE AND SCOOTER NOTES</head>
+            </div>
+
+
+            <div n="section_8.3.2">
+               <head type="subhead" rend="bold">The best Last.</head>
+               <p><hi rend="case (allcaps)">For</hi> some reason, as yet un-<lb/> e<damage
+                     type="tear"><supplied>xp</supplied>lained,</damage> the <name type="race"
+                     >graded scratch<lb/> races</name>which normally open the pro-<lb/>gramme, where
+                  the last events to be <lb/> contested at Sunday's <name type="race">open
+                     grass<lb/> track</name>, organised by the <name type="org">Dalcassian <lb/>
+                     M.C.C.</name>, and run over an entirely <lb/> new course at
+                     <placeName>Clonmoney</placeName>, <placeName>bun-<lb/>ratty</placeName>. And,
+                  whereas the official pro-<lb/>gramme proclaimed that four of <lb/> these events
+                  should be run, in fact, there were only two. </p>
+               <p>It was the second and fastest of these that the fines<supplied>t</supplied>
+                  <lb/> racing of the season so far was <lb/>witnessed. For nearly three laps,
+                     <persName>Willie Harris</persName>, that most likeable <lb/> lanky
+                     <placeName>County Dublin</placeName> farmer – whose <lb/> extreme shyness in
+                  company con-<lb/>trasts strangely with his tigerish <lb/> determination in the
+                  saddle – held <lb/> an incredible lead over <persName>Mervyn <lb/>
+                     Hayes</persName> and <persName ref="#IW">Ian Williams</persName>. The <lb/>
+                  magnitudeof <persName>Harris'<sic>s</sic></persName> achievement <lb/> will be
+                  obvious when it is realised <lb/> that both <persName ref="#IW"
+                     >Williams</persName> and <persName>Hayes</persName>
+                  <lb/> straddled highly specialised <objectName type="motorcycle"
+                     >J.A.P.</objectName>
+                  <lb/> engined grasstrack specials of 500 <lb/> c.c., while
+                     <persName>Harris</persName> was mounted on a <lb/> virtually standard–though
+                  admit-<lb/>dely dope-burning – <objectName type="motorcycle">Gold Star
+                     B.S.A.</objectName> of only 350 c.c. </p>
+               <p>Eventually, both <objectName type="motorcycle">J.A.P.</objectName>'s got past the
+                     <objectName type="motorcycle">B.S.A.</objectName> and spectator interest <lb/>
+                  shifted from incredulous admira-<lb/>tion of
+                     <persName>Harris</persName>'<sic>s</sic>
+                  <persName type="mythical">David</persName> versus <lb/>
+                  <persName type="mythical">Goliath</persName> act, to palpitations
+                  appre-<lb/>hension regarding the outcome of<lb/> the fierce struggle between
+                     <persName ref="#IW">Wil-<lb/>liams</persName> and <persName>Hayes</persName>.
+                  For two laps <lb/>
+                  <persName ref="#IW">Williams</persName>, unused to defeat in any <lb/> class,
+                  strove mightily to get past <lb/> his opponent, who enjoyed the ad-<lb/>vantage of
+                  an early lead. But <lb/>
+                  <persName>Hayes</persName>, one of the jolliest of men, <lb/> grinning impishly
+                  all the time, was <lb/> as willing to ride on the verge of <lb/> disaster as the
+                  other, and won <lb/> narrowly. The gallant <persName>Harris</persName> was
+                  third.... This was a great race! <hi rend="bold">* * *</hi>
+               </p>
+            </div>
+
+            <div n="section_8.3.3">
+               <head type="subhead" rend="bold">The Other Events.</head>
+               <p>Only less exciting by comparison <lb/> with such heart-stopping stuff <lb/> were
+                  the other events on the pro-<lb/>gramme. <persName ref="#IW">Ian
+                     Williams</persName> had dam-<lb/>aged the rear suspension of his <lb/>
+                  <objectName type="motorcycle">fleet Barnett</objectName> in practice, and was a
+                  <lb/> non-starter in the 250 class, as <lb/> were the <persName>Freddie
+                     Dickson-Geary</persName><lb/>
+                  <objectName type="motorcycle">Scarlet Dot equippe</objectName>, who failed to
+                  <lb/> turn up, so the reliable <persName>Jimmy <lb/> Kavanagh</persName> had a
+                  little <sic>troulbe</sic> in <lb/> bringing his <objectName type="motorcycle"
+                     >Francis Barnett</objectName> (the <lb/> only one in the country besides <lb/>
+                  <persName ref="#IW">William</persName>'s) into first place.<lb/> He was followed
+                  hime by <persName>Michael <lb/> Smurfit</persName> on the screaming <objectName
+                     type="motorcycle">Dodder</objectName>
+                  <lb/> (a twin-cylinder Akder engine in a <lb/> Dot frame). Third place went to <lb/>
+                  <placeName>Limerick</placeName>'s <persName>Don Kelly</persName> on the ex-<lb/>
+                  <placeName>Harrington</placeName>
+                  <objectName type="motorcycle">James</objectName>. There wasn't<lb/> much real
+                  opposition in this class <lb/> – <persName>Tommy Griffin</persName>'s <objectName
+                     type="motorcycle">Excelsior</objectName> was <lb/> windbroken. Corkman
+                     <persName>Pat O'Shea</persName>'s <objectName type="motorcycle">Jawa-engined
+                     special</objectName> was temper-<lb/> amental. <sic>and</sic>, despite neat
+                  riding, <lb/>
+                  <persName>Joe MacMahon</persName> could do little on <lb/> an underpowered
+                     <objectName type="motorcycle">James</objectName>. <lb/>
+                  <hi rend="bold">* * *</hi>
+                  <lb/><hi rend="bold">* * *</hi>
+               </p>
+            </div>
+
+            <div n="section_8.3.4">
+                <head type="subhead"> Spills and Other Things</head>
+               <p><persName ref="#IW">Ian Williams</persName> beat <persName>Mervyn
+                  Hayes</persName><lb/> in the <name type="race">500 c.c. scratch race</name>.
+                     <persName ref="#EW">Eric <lb/> Williams</persName>, on another <objectName
+                     type="motorcycle">J.A.P</objectName>, was a <lb/> comfortable second until he spilled.<lb/>
+                  <persName>George Harris</persName> was a good third. <lb/> Two lads from <name
+                     type="org">Cork Club</name> found <lb/> their way into the
+                     <placeName>Munster</placeName> riders' <lb/> handicap, and took first and
+                  second <lb/> places, after <persName>Don Kelly</persName>, who was leading by a
+                  street, spilled through <lb/> over-eagerness. Actually the
+                     <placeName>Naas</placeName>
+                  <lb/> men should not have been allowed<lb/> to ride in this event, which was<lb/>
+                  originally intended for residents in<lb/> the province of
+                     <placeName>Munster</placeName> only. That <lb/> remark is not intended to
+                  belittle <lb/> the achievement of <persName>Con Hederman</persName>,<lb/> who also
+                  took first place in the <lb/> all-comer's handicap, in which event<lb/>
+                  <persName><damage type="fold"><supplied>D</supplied></damage>ermot
+                     Byrne</persName> of <placeName>Dublin</placeName>, out for t<damage type="fold"
+                        ><supplied>he</supplied></damage>
+                  <cb/> first time since sustaining a thumb <lb/> injury at the last
+                     <placeName>Dalcassian</placeName> meet-<lb/> ing in
+                     <placeName>Nenagh</placeName>, took second place, <lb/> as well as winning his
+                  heat. <lb/>
+                  <hi rend="bold">* * *</hi>
+               </p>
+               <p><persName>Byrne</persName>, in fact, had a real field <lb/> day, because he also
+                  took first <lb/> place in <name type="race">graded scratch race A</name>, <lb/>
+                  and <placeName>Limerick</placeName>'s <persName>Dan Kelly</persName> had the<lb/>
+                  distinction of running into more<lb/> places than any other rider. Of <lb/> the
+                  remaining Limerickmen, <persName>Mick<lb/> MacEoin</persName> was foolish enough
+                  to <lb/> meddle in a major way with his <lb/> peak-conquering <objectName
+                     type="motorcycle">James</objectName> on the day<lb/> before the event, in quest
+                  of more <lb/> speed, with the result that the un-<lb/> fortunate engine gave up
+                  the ghost<lb/> of Sunday during the first practice <lb/> lap. <persName>Matt
+                     Murphy</persName> did his best with <lb/> the same detuned <objectName
+                     type="motorcycle">James</objectName> as <persName>Joe <lb/> McMahon.</persName>
+               </p>
+               <p>The <name type="org">Automobile Association</name> sign-<lb/>posing was, if
+                  anything, better<lb/> than ever, and the <name type="org">Red Cross</name> and <lb/>
+                  <name type="org">Garda Siochana</name> played their ex-<lb/> pected reliable parts
+                  Without <lb/> these and other voluntary helpers, <lb/> including the timekeepers,
+                  Mr. and <lb/> Mrs. and the Misses <persName>O'Reilly</persName>, it <lb/> would be
+                  impossible to run a de-<lb/>cent grasstrack. May their gener-<lb/> osity be rewarded!<lb/>
+                  <hi rend="bold">* * *</hi>
+               </p>
+            </div>
+
+            <div rend="section(results)_8.3.5">
+               <p><name type="race">250 c.c. (<abbr>scr.</abbr>)</name>–<persName>J. M.
+                     Kavanagh</persName>
+                  <lb/> (<placeName>Dublin</placeName>) (<objectName type="motorcycle">247 Francis
+                     Barnet</objectName>), <num type="cardinal" rend="first place">1</num>;<lb/>
+                  <persName>M Smurfit</persName> (<placeName>Dublin</placeName>) (<objectName
+                     type="motorcycle">247 Dodder</objectName>),<lb/>
+                  <num type="cardinal" rend="second place">2</num>; <persName>D.
+                     Kelly</persName>(<placeName>Limerick</placeName>) (<objectName
+                     type="motorcycle">197 James</objectName>),<lb/> 3. 4.56 </p>
+               <p><name type="race">350 c.c. (<abbr>scr.</abbr>)</name>– <persName>W.E.
+                     Harris</persName> (<placeName>Clon-<lb/>dalkin</placeName>) (<objectName
+                     type="motorcycle">B.S.A.</objectName>), <num type="cardinal" rend="first place"
+                     >1</num>; <persName>J.L. Hickey</persName><lb/> (<placeName>Naas</placeName>)
+                     (<objectName type="motorcycle">B.S.A.</objectName>), <num type="cardinal"
+                     rend="second place">2</num>; <persName>K. Hilton</persName><lb/>
+                     (<placeName>Dublin</placeName>) (<objectName type="motorcycle"
+                     >B.S.A.</objectName>), 4. 4.37. </p>
+               <p><name type="race">500 c.c. (<abbr>scr.</abbr>)</name> – 1, <persName ref="#IW"
+                     >Williams</persName> (<placeName>Dub-<lb/>lin</placeName>) (<objectName
+                     type="motorcycle">497 Ariel Jap</objectName>), <num type="cardinal"
+                     rend="first place"> 1</num>; <persName>M J. Hayes</persName>
+                  <lb/>(<objectName type="motorcycle">497 B.S.A Jap</objectName>), <num
+                     type="cardinal" rend="second place"> 2</num>; <persName>G. C. Harris</persName>
+                  <lb/>(<objectName type="motorcycle">497 Ariel</objectName>), 3. 4.35. </p>
+               <p>
+                  <name type="race">All-Comers Handicap</name>–<persName>C.
+                     Hed-<lb/>derman</persName> (<placeName>Naas</placeName>) (<objectName
+                     type="motorcycle">499 B.S.A.</objectName>), <num type="cardinal"
+                     rend="first place">1</num>: <persName>D. <lb/> J. Byrne</persName>
+                     (<placeName>Dublin</placeName>) (<objectName type="motorcycle">497
+                     Jap</objectName>), <num type="cardinal" rend="second place">2</num>;
+                     <persName>D. <lb/> Kelly</persName> (<placeName>Limerick</placeName>). 3. </p>
+               <p>
+                  <name type="race">Graded Scratch</name>A: – <persName>Byrne</persName>, 1;<lb/>
+                  <persName>Smurfit</persName>, <num type="cardinal" rend="second place">2</num>;
+                     <persName>Kelly</persName>, 3. 4.35. B–<persName>Hayes</persName>, <lb/>
+                  <num type="cardinal" rend="first place">1</num>; <persName ref="#IW"
+                        ><sic>William</sic></persName>, 2; <persName>W. Harris</persName>, 3. 4.10. </p>
+               <p><name type="race">"Munster" Riders' Handicap</name> – <lb/>
+                  <num type="cardinal" rend="first place">1</num>, <persName>Hedderman</persName>;
+                     <num type="cardinal" rend="second place">2</num>, <persName>Hickey</persName>;
+                     <num type="cardinal" rend="third place">3</num>, <lb/>
+                  <persName>Kelly</persName>. </p>
+               <p>After the grasstrack, the awards <lb/> were presented in the <placeName>Desmond
+                     <lb/> Hotel</placeName> by <abbr>Ald.</abbr>
+                  <persName>G.E. Russel</persName>, T.D., <lb/>
+                  <abbr>Hon.</abbr> President of the <name type="org">Dalcassians</name>
+                  <lb/>
+                  <hi rend="bold">* * *</hi>
+               </p>
+            </div>
+
+         </div>
+
+         <div facs="#surface_8_3"/>
+
+      </body>
+   </text>
+
+
+   <!--page 9 (sb_17) -->
+
+   <facsimile xml:id="page_09" facs="sb_17_TN_C_FULL.png">
+      <surfaceGrp>
+
+         <surface xml:id="surface_9_1">
+            <figure type="article">
+               <label>Surface 9_1 of page 9 (sb_17)</label>
+               <figDesc> A newspaper clipping. </figDesc>
+               <graphic xml:id="sb_17_01_jpg" url="assets/img/documents/JPG/sb_17_01.jpg"/>
+               <graphic xml:id="sb_17_01_thumb"
+                  url="assets/img/documents/Thumbnails/sb_17_TN_C_01.png"/>
+            </figure>
+         </surface>
+
+         <surface xml:id="surface_9_2">
+            <figure type="article">
+               <label>Surface 9_2 of page 9 (sb_17)</label>
+               <figDesc> A newspaper clipping. </figDesc>
+               <graphic xml:id="sb_17_02_jpg" url="assets/img/documents/JPG/sb_17_02.jpg"/>
+               <graphic xml:id="sb_17_02_thumb"
+                  url="assets/img/documents/Thumbnails/sb_17_TN_C_02.png"/>
+            </figure>
+         </surface>
+
+
+         <surface xml:id="surface_9_3">
+            <figure type="article">
+               <label>Surface 9_3 of page 9 (sb_17)</label>
+               <figDesc> A newspaper article cutting featuring an in-article photograph. </figDesc>
+               <graphic xml:id="sb_17_03_jpg" url="assets/img/documents/JPG/sb_17_03.jpg"/>
+               <graphic xml:id="sb_17_03_thumb"
+                  url="assets/img/documents/Thumbnails/sb_17_TN_C_03.png"/>
+            </figure>
+         </surface>
+
+
+      </surfaceGrp>
+   </facsimile>
+
+   <text>
+      <body>
+
+         <pb facs="#page_09"/>
+
+         <div facs="#surface_9_1">
+            <div n="head_9.1.1">
+               <head rend="bold">Few finishers <lb/> in scrambles</head>
+            </div>
+
+            <div n="section_9.1.2">
+               <p><damage type="tear"/><supplied rend="case (allcaps)">HEAV</supplied>Y rain made
+                  the going <lb/>
+                  <damage type="tear"/><supplied>diffi</supplied>cult in yesterday's
+                     <placeName>Dublin</placeName><lb/>
+                  <damage type="tear"/><supplied>Dis</supplied>trict <name type="org">Motor Cycle
+                     Club</name>'s <lb/>
+                  <damage type="tear"/>
+                  <unclear>les</unclear> at <placeName>Red Bog</placeName>, near <lb/>
+                  <damage type="tear"><placeName>Blessington</placeName></damage>. and the distance
+                  of <lb/> the races was shortened. </p>
+               <p rend="indention">
+                  <hi rend="bold">Even then there were very few<lb/> finishers: in the main event
+                     <lb/> only eight finished out of 23 <lb/> starters.</hi>
+               </p>
+               <p>One of the two <placeName>Belfast</placeName> visitors, <lb/>
+                  <persName>Brian Cross</persName> (<objectName type="motorcycle"
+                     >B.S.A.</objectName>), won the<lb/>
+                  <name type="race">second graded scratch race</name>, the <lb/> third going to
+                     <persName ref="#IW">Ian Williams</persName><lb/> (<objectName type="motorcycle"
+                     >Francis-Barnett</objectName>), who made best <lb/> lap of the day in 3 m. 56
+                  s. In the <lb/>
+                  <name type="race">open handicap</name> he made a fast <lb/> start aand then
+                  retired. </p>
+               <p><persName>Bob Thompson</persName> (<objectName type="motorcycle"
+                     >Triumph</objectName>), who <lb/> had won the first <name type="race">scratch
+                     race</name>, <lb/> led the handicap from a long mark <lb/> for eight of the ten
+                  laps and then <lb/> ran into trouble. <persName>Brian Lamb</persName>. the <lb/>
+                  only surviving backmarker, came <lb/> right through the field and took <lb/> the
+                  lead on lap nine to win by <lb/> nearly two minutes. Results:–</p>
+            </div>
+
+            <div n="section(results)_9.1.3">
+               <p><hi rend="bold"><name type="race">Graded Scratch Race No. 1</name></hi> (3 <lb/>
+                  <damage type="scratch">laps</damage>) – <persName>R. R. Thompson</persName>.
+                     <objectName type="motorcycle">199 Triumph</objectName>.<lb/> 17 m. 27 s., <num
+                     type="cardinal" rend="first place">1</num>; <persName>M. Flynn</persName>.
+                     <objectName type="motorcycle">347 Match-<lb/>less</objectName>, 18 m. 26 s.,
+                     <num type="cardinal" rend="second place">2</num>: <persName>G. D.
+                     Dixon</persName>, <objectName type="motorcycle">197 <lb/> Dot</objectName>, 18
+                  m. 36 s., <num type="cardinal" rend="third place">3</num>; <persName>K.
+                     Cotter</persName>, <objectName type="motorcycle"><damage type="scratch">246
+                        <lb/> Excelsior</damage></objectName>, 23 m., 50 s., 4. </p>
+               <p><hi rend="bold"><name type="race">Graded Scratch Race 2</name></hi>–<persName>B.N.
+                     Cross</persName>, <lb/>
+                  <objectName type="motorcycle">348 B.S.A. </objectName>, 13 m. 40 s., 2; <num
+                     type="cardinal" rend="first place">1</num>: <persName>L. S. Gill</persName><lb/>
+                  <objectName n="motorcyle">347 Matchless</objectName>. 14 m. 3 s. <num
+                     type="cardinal" rend="second place">2</num>:<persName>W. H. <lb/>
+                     Russel</persName>. <objectName type="motorcycle">347 Matchless</objectName>. 14
+                  m. 7 s., <num type="cardinal" rend="third place">3</num>; <lb/>
+                  <persName><damage type="tear"><unclear>C.Childs.</unclear></damage></persName>.
+                     <objectName type="motorcycle">497 Ariel</objectName>. 14 m. 43 s., <num
+                     type="cardinal" rend="fourth place">4</num>; <lb/>
+                  <persName>D. C. Ewen</persName>, <objectName type="motorcycle">347
+                     A.J.S.</objectName>, 15 m. 27 s., <lb/> 5. </p>
+               <p><hi rend="bold"><name type="race">Graded Scratch Race 3</name></hi>–<persName
+                     ref="#IW">I. Williams</persName>
+                  <lb/>
+                  <objectName type="motorcycle">249 F/Barnett</objectName>, 11m. 56s., <num
+                     type="cardinal" rend="first place">1</num>; <persName>M. G. <lb/>
+                     Tracey</persName>. <objectName type="motorcycle">497 Ariel</objectName>. 12m.
+                  32s.. <num type="cardinal" rend="second">2</num>; <lb/>
+                  <persName>F. C. Dickson</persName>, <objectName type="motorcycle">249
+                     Dot</objectName>. 12m. 48s., <lb/>
+                  <num type="cardinal" rend="third place">3</num>; <persName ref="#EW">E
+                     Williams</persName>. <objectName type="motorcycle">497 Ariel</objectName>.
+                  13m.<lb/> 18s., 4; <persName>B.G. Lamb</persName>, <objectName type="motorcycle"
+                     >497 Ariel</objectName>. 13m. <lb/> 49 s., 5 </p>
+               <p><hi rend="bold"><name type="race">General Handicap (10 laps)</name></hi> –
+                     <persName>B. G. <lb/> Lamb</persName>. <objectName type="motorcycle">497
+                     Ariel</objectName> (2 mins.), 45m. <lb/> 59s., <num type="cardinal"
+                     rend="first place">1</num>; <persName>J. L. Hickey</persName>. <objectName
+                     type="motorcycle">348 B.S.A</objectName><lb/> (1 lap), 47 m. 50s., (<damage
+                     type="scratch">2m.</damage> 30s). <num type="cardinal" rend="second place"
+                     >2</num>: Childs<lb/><!--text missing-->
+                  <damage type="spill"><unclear>49m. 2s.,</unclear></damage>
+                  <num type="cardinal" rend="fourth place">4</num>; <persName>D. C.
+                  Ewen.</persName>. <objectName type="motorcycle">347 A.J.S.</objectName>
+                  <lb/>
+                  <damage type="spill"><unclear>(1 lap)</unclear>and 1m</damage> 45s.) 54m. 57s., 7;<lb/>
+                  <persName>R. R. Thompson</persName>. <objectName type="motorcycle"><damage
+                        type="missing">1</damage>99 Triumph</objectName> (2 <lb/>
+                  <damage type="fold"><unclear>laps</unclear></damage> and 3m), <hi rend="bold">59m.
+                     10s., 8.</hi>
+               </p>
+            </div>
+         </div>
+
+
+         <div facs="#surface_9_2">
+
+            <div n="head_9.2.1">
+               <head type="section_head"><hi rend="case (allcaps)">GRASS TRACK RACING</hi></head>
+
+
+               <head>
+                  <hi rend="bold"><persName>M. Hayes</persName> takes two <lb/> mile title
+                  </hi></head>
+            </div>
+
+
+            <div n="section_9.2.2">
+               <p>
+                  <hi rend="case (allcaps)">The</hi> two mile <name type="race">500 c.c. grass-
+                     <lb/> track championship</name> of the <lb/>
+                  <name type="org">Southern Centre Motor Cycle Union <lb/> of Ireland</name>,
+                  contested at the <name type="race">Irish <lb/> M.C.C. meeting</name> at
+                     <placeName>Terenure College</placeName>,<lb/>
+                  <placeName>Dublin</placeName>. yesterday, was a very fast <lb/> race, mainly
+                  fought out by <persName ref="#IW"><damage type="tear"
+                        ><supplied>Ian</supplied></damage>
+                     <lb/> Willliams </persName> (<objectName type="motorcycle">Ariel</objectName>)
+                  and <persName>Mercyn Hapes</persName>
+                  <lb/> (<objectName type="motorcycle">J.A.P.</objectName>), who outpaced the
+                     <placeName>Belfast</placeName><lb/> rider, <persName>W J. Agnew</persName>
+                     (<objectName type="motorcycle">J.A.P.</objectName>). </p>
+               <p rend="indentation">
+                  <hi rend="bold"><persName ref="#IW">Williams</persName> made a good start and
+                     <lb/> led for the most of the race. but was <lb/> passed by
+                        <persName>Hayes</persName> on the last lap <lb/> and narrowly beaten.</hi>
+               </p>
+               <p><persName ref="#IW">Williams</persName> had previously beaten <lb/>
+                  <persName>Hayes</persName> in a <name type="race">graded scratch race</name>,<lb/>
+                  which he won bt four seconds i<damage type="scratch">n</damage>
+                  <lb/> best time of the day 3m. 42s. He <lb/> collected another place when
+                  finish-<lb/>ing second from scratch in <damage type="scratch">the</damage><lb/>
+                  general handicap. </p>
+               <p><hi rend="bold">Southern Centre, <name type="org"><abbr>M.C.U.I.</abbr></name>,
+                        <name type="race">500 c.c. <lb/> Two-mile Championship</name></hi> (5 laps)
+                  – <persName>M. J. <lb/>Hayes</persName> (<objectName type="motorcycle"
+                     >J.A.P.</objectName>, 1; <persName ref="#IW">I. Williams</persName>
+                     (<objectName type="motorcycle">Ariel</objectName><damage type="scratch"
+                        ><unclear>).</unclear></damage><lb/> 2; <persName>W. J. Agnew</persName>
+                     (<objectName type="motorcycle">J.A.P.</objectName>), 3. 3m 5s: won <lb/> by
+                  .2s. </p>
+               <p><hi rend="bold">Graded Scratch Race 1</hi> (6 laps) – <persName>J. <lb/>
+                     Pitchford</persName> (<objectName type="motorcycle">F/Barnett</objectName>). 1:
+                     <persName>M. Kavanagh</persName><lb/> (<objectName type="motorcycle"
+                     >Dot</objectName>). 2; <persName>W. J. Walshe</persName> (<objectName
+                     type="motorcycle">A.J.S</objectName>) .3. 4m <lb/> 18s; won by 1s. </p>
+               <p><hi rend="bold">Graded Scratch Race 2</hi> – <persName>H. Buchanan</persName>
+                  <lb/> (<objectName type="motorcycle">Triumph</objectName>). 1: <persName>J.
+                     Barkley</persName> (<objectName type="motorcycle">Sun</objectName>). 2; <lb/>
+                  <persName>E. A. Callaghan</persName> (<objectName type="motorcycle"
+                     >Sun</objectName>). 3. 4m 5s: won <lb/> by .2s. </p>
+               <p><hi rend="bold">Graded Scratch Race 3</hi> – <persName>F. O'Reilly </persName>
+                     (<objectName type="motorcycle">Tan-<lb/>don</objectName>). 1; <persName>D.
+                     Pearson</persName> (<objectName type="motorcycle">N.S.U.</objectName>). 2;
+                     <persName>D.<lb/>Monson</persName> (<objectName type="motorcycle"
+                     >Adler</objectName>). 3. 4m 6s; won by 2s. </p>
+               <p><hi rend="bold">Graded Scratch Race 4</hi> – <persName ref="#IW">I.
+                     Williams</persName> (<objectName type="motorcycle"><damage type="tear"
+                        >A</damage>riel</objectName>).<lb/> 1; <persName>M. J. Hayes</persName>
+                     (<objectName type="motorcycle">J.A.P.</objectName>), 2; <persName>E. Wi<damage
+                        type="tear">ll</damage>iams</persName>
+                  <lb/> (<objectName type="motorcycle">Ariel</objectName>). 3. 3m 42s; won by 4s. </p>
+               <p><hi rend="bold">250 c.c. Scratch</hi> – <persName>J. M. Kavan<damage type="tear"
+                        >ag</damage>h</persName>
+                  <lb/> (<objectName type="motorcycle">Sun</objectName>), 1; <persName>D.
+                     Pearson</persName> (<objectName type="motorcycle"><damage type="scratch"
+                        >N</damage>.S.U.</objectName>), 2; <persName>J.<lb/> Barkley</persName>
+                     (<objectName type="motorcycle">Sun</objectName>).3. 4m 3s; won by 3.4s. </p>
+               <p><hi rend="bold">350 c.c. Scratch</hi> – <persName>D. J. Dixon</persName>
+                     (<objectName type="motorcycle">Norton-<lb/>J.A.P.</objectName>), 1;
+                     <persName>W. J. Agnew</persName> (<objectName type="motorcycle"
+                     >J.A.P.</objectName>), 2;<lb/>
+                  <persName>W. E. Harris</persName> (<objectName type="motorcycle"
+                     >B.S.A.</objectName>), 3; 3m. 49s; <lb/> won by 4s. </p>
+               <p><hi rend="bold">Allcomers' Handicap Final</hi> (12 laps) – <lb/>
+                  <persName>J. M. Kavanagh</persName> (<objectName type="motorcycle"
+                     >Sun</objectName>), <abbr>h'cap</abbr> .64s. 1: <lb/>
+                  <persName ref="#IW">I. Williams</persName> (<objectName type="motorcycle"
+                     >Ariel</objectName>). scr,2: <persName>J. Barkley</persName>
+                  <lb/> (<objectName type="motorcycle">Sun</objectName>), 64s, 2 8m 4s: won by
+                  3.8s.... 3. 4m 6s; won by 2s. </p>
+               <p><hi rend="bold">Bob Fallon Trophy (interclub team race</hi> – <abbr>M.C.C.</abbr>
+                     (<persName ref="#IW">I. Williams</persName>. <persName>D. Dixon</persName>,
+                     <persName>F. <lb/> O'Reilly</persName>), 14 points; <placeName>Dun
+                     Laoghaire</placeName>, 17; <placeName>Leinster</placeName>, 31. </p>
+            </div>
+
+         </div>
+
+
+
+         <div facs="#surface_9_3">
+
+            <div n="head_9.3.1">
+               <head>Rider, machine<lb/>part company</head>
+            </div>
+
+            <div n="in-artcile_photo__caption">
+               <figure>
+                  <figDesc>A black and white up close photograph of <persName ref="#IW">Ian
+                        Williams</persName> seconds after a fall off his bike. <persName ref="#IW"
+                        >Williams</persName> is on the ground, while his bike is seen toppling
+                     through the field. In the background a man waving a flag runs towards the
+                     scene. </figDesc>
+                  <graphic xml:id="sb_17_03_cut_jpg" url="assets/img/documents/JPG/sb_17_03_cut.jpg"/>
+                  <graphic xml:id="sb_17_03_cut_thumb"
+                     url="assets/img/documents/Thumbnails/sb_17_TN_C_03 _cut.png"/>
+               </figure>
+               <p><hi rend="bold"><persName ref="#IW">Ian Williams</persName>
+                        (<placeName>Dublin</placeName>) was<lb/> going well before taking this <lb/>
+                     tumble during the <name n="race">Irish cham-<lb/> pionships grass-track
+                        meeting</name>,<lb/> organised by the <name n="org">Dublin and District
+                        Motor Cycle Club</name>, at<lb/>
+                     <placeName>Butlin's Holiday Camp</placeName>, yester-<lb/> day. After
+                     examinations <persName ref="#IW">Ian</persName> was discovered to have
+                        broken<lb style="indent"/> his collar bone. </hi></p>
+            </div>
+
+
+         </div>
+
+      </body>
+   </text>
+
+
+   <!--page 10 (sb_20) -->
+
+   <facsimile xml:id="page_10" facs="sb_20_TN_C_FULL.png">
+      <surfaceGrp>
+
+         <surface xml:id="surface_10_1">
+            <figure type="article">
+               <label>Surface 10_1 of page 10 (sb_20)</label>
+               <figDesc>A newspaper article cutting.</figDesc>
+               <graphic xml:id="sb_20_01_jpg" url="assets/img/documents/JPG/sb_20_01.jpg"/>
+               <graphic xml:id="sb_20_01_thumb"
+                  url="assets/img/documents/Thumbnails/sb_20_TN_C_01.png"/>
+            </figure>
+         </surface>
+
+         <surface xml:id="surface_10_2">
+            <figure type="article">
+               <label>Surface 10_2 of page 10 (sb_20)</label>
+               <figDesc> A newspaper article cutting.</figDesc>
+               <graphic xml:id="sb_20_02_jpg" url="assets/img/documents/JPG/sb_20_02.jpg"/>
+               <graphic xml:id="sb_20_02_thumb"
+                  url="assets/img/documents/Thumbnails/sb_20_TN_C_02.png"/>
+            </figure>
+         </surface>
+
+
+         <surface xml:id="surface_10_3">
+            <figure type="article">
+               <label>Surface 10_3 of page 10 (sb_20)</label>
+               <figDesc> A newspaper article cutting with an in-article photograph. </figDesc>
+               <graphic xml:id="sb_20_03_jpg" url="assets/img/documents/JPG/sb_20_03.jpg"/>
+               <graphic xml:id="sb_20_03_thumb"
+                  url="assets/img/documents/Thumbnails/sb_20_TN_C_03.png"/>
+            </figure>
+         </surface>
+
+
+
+         <surface xml:id="surface_10_4">
+            <figure type="photograph">
+               <label>Surface 10_4 of page 10 (sb_20)</label>
+               <figDesc>A black and white photograph of 5 men (<persName ref="#IW">Ian
+                     Williams</persName>, centre) standing in a field posing for a group
+                     photograph.<persName ref="#IW">Ian Williams</persName> is pictured centre
+                  wearing overalls. The text "Powerscort '56" has been written by hand directly onto
+                  the photograph (top) </figDesc>
+               <graphic xml:id="sb_20_04_jpg" url="assets/img/documents/JPG/sb_20_04.jpg"/>
+               <graphic xml:id="sb_20_04_thumb"
+                  url="assets/img/documents/Thumbnails/sb_20_TN_C_04.png"/>
+            </figure>
+         </surface>
+
+      </surfaceGrp>
+   </facsimile>
+
+
+   <text>
+      <body>
+
+         <pb facs="#page_10"/>
+
+         <div facs="#surface_10_1">
+            <div n="head_10.1.1">
+               <head type="section_head" rend="ul">Motor cycling</head>
+
+               <head><persName>Long</persName> just<lb/> misses<lb/> hat-trick</head>
+            </div>
+
+            <div n="section_10.1.2">
+               <p><persName>DAVID LONG (Dodler)</persName> had a<lb rend="indentation"/> most
+                  successful day at the<lb/>
+                  <name type="race">Irish <abbr type="acronym">M.C.C.</abbr> grasstrack races</name> at<lb/>
+                  <placeName>Bloomfield, Merrion road, Dublin</placeName>,<lb/> yesterday, winning
+                  the first race, a<lb/><name type="race"> graded scratch event</name>, and the
+                  last,<lb/> the <name type="race">allcomers’ handicap</name>, in which he<lb/>
+                  passed the limit man, <persName>C. O'Connor</persName><lb/>
+                  <objectName type="motorcycle">(Francis-Barnett)</objectName> at half-distance<lb/>
+                  and went on to win by nine seconds.<lb/> He nearly won the <name type="race">250
+                     c.c. scratch<lb/> race</name> also, but was brought off on<lb/> the last lap by
+                     <persName>G. F. Scarlett</persName> (<objectName type="motorcycle"
+                     >Dot</objectName>),<lb/> who was attempting to pass him.<lb/> Fastest riders
+                  were the <persName ref="#IW #EW"> Williams<lb/> brothers</persName>,
+                     <persName>lan</persName> beating <persName>Eric</persName> to win<lb/> his
+                     <name type="race">graded scratch race</name> in best time<lb/> of the day, 2m.
+                  38s., and Eric turn-<lb/> ing the tables in the 500 c.c. scratch,<lb/> which he
+                  won in the same time.</p>
+            </div>
+
+            <div n="section(results)_10.1.3">
+               <p>Results :—<lb rend="indentation"/>
+                  <name type="race" rend="bold">Graded Scratch Race A</name>—<num type="cardinal"
+                     rend="first place">1</num>, <persName>D. Long</persName><lb/> (<objectName
+                     type="motorcycle">247 Dodler</objectName>); <num type="cardinal"
+                     rend="second place">2</num>. <persName>C. O’Connor</persName> (<objectName
+                     type="motorcycle">197 F/<lb/> Barnett</objectName>); <num type="cardinal"
+                     rend="third place">3</num>, <persName>J. D. Roche</persName> (<objectName
+                     type="motorcycle">197 Dot</objectName>). Win-<lb/> ner’s time, 3m. 3s.<lb/>
+                  <name type="race" rend="bold">Graded Scratch B</name>—<num type="cardinal"
+                     rend="first place">1</num>, <persName>A. Conlon</persName> (<objectName
+                     type="motorcycle">348<lb/> B.S.A.</objectName>): <num type="cardinal"
+                     rend="second place">2</num>, <persName>J M. Kavanagh</persName> (<objectName
+                     type="motorcycle">249 F/Bar-<lb/> nett</objectName>); <num type="cardinal"
+                     rend="third place">3</num>. <persName>D. McGowan</persName> (348 B.S.A.). 2.49.<lb/>
+                  <name type="race" rend="bold">Graded Scratch C</name>—<num type="cardinal"
+                     rend="first place">1</num>. <persName>D J. Dixon</persName> (<objectName
+                     type="motorcycle">499 <lb/> B.S.A.</objectName>); <num type="cardinal"
+                     rend="second place">2</num>, <persName>A. Marr</persName> (<objectName
+                     type="motorcycle">499 B.S.A.</objectName>); <num type="cardinal"
+                     rend="third place">3</num>. <persName ref="#IW">I. <lb/>
+                     <supplied>W</supplied>illiams</persName> (<objectName type="motorcycle">249
+                     F/Barnett</objectName>). 2.44 <lb/>
+                  <name type="race" rend="bold">Graded Scratch D—<num type="cardinal"
+                        rend="first place">1</num></name>, <persName ref="#IW">I Williams</persName>
+                  (497 <lb/>
+                  <damage type="illegible" degree="medium" rend="tear/fold">
+                     <supplied>Ari</supplied>el); <num type="cardinal" rend="second place">2</num>,
+                        <persName ref="#EW">E. Williams</persName> (<objectName><objectName>497
+                           J.A.P.</objectName></objectName>); <num type="cardinal"
+                        rend="third place">3</num>, <lb/>
+                     <persName><supplied>D. </supplied>Hughes</persName> (<objectName
+                        type="motorcycle">497 J.A.P</objectName>). 2 38. <lb/>
+                     <name type="race" rend="bold"><supplied>20</supplied>0 c.c. Scratch</name>—<num
+                        type="cardinal" rend="first place">1</num>. <persName>R. J.
+                        G.Kidd</persName>
+                     <lb/>
+                     <supplied>(<objectName type="motorcycle">Sun</objectName>); </supplied><num
+                        type="cardinal" rend="second place">2</num>, <persName> H. Mooney</persName>
+                        (<objectName type="motorcycle">Triumph</objectName>); <num type="cardinal"
+                        rend="third place">3</num>, <persName>C. <lb/>
+                        <supplied>O'Connor</supplied></persName>
+                     <supplied>(<objectName type="motorcycle">F. Barnett</objectName>),</supplied>
+                     3.0. <lb/>
+                     <name type="race" rend="bold">
+                        <supplied>250 c.c. </supplied>Scratch</name>—<num type="cardinal"
+                        rend="first place">1</num>. <persName ref="#IW">I. Williams</persName>
+                        (<objectName type="motorcycle">F/ <lb/>
+                        <supplied>Barnett</supplied></objectName>); <num type="cardinal"
+                        rend="second place">2</num>, <persName>J. M. Kavanagh</persName>
+                        (<objectName type="motorcycle">F/Barnett</objectName>); <lb/>
+                     <supplied><num type="cardinal" rend="third place">3</num>
+                        <persName>D. L</persName></supplied></damage><persName>ong</persName>
+                     (<objectName type="motorcycle">Dodler</objectName>). 2.48. <lb/>
+                  <name type="race" rend="bold">350 c.c. Scratch</name>—<num type="cardinal"
+                     rend="first place">1</num>,<persName> W E Harris</persName>
+                  <lb/> (<objectName type="motorcycle">B.S A.</objectName>); <num type="cardinal"
+                     rend="second place">2</num>. <persName>D. J. Dixon</persName> (<objectName
+                     type="motorcycle">Norton-J.A.P.</objectName>); <lb/>
+                  <num type="cardinal" rend="third place">3</num>
+                  <persName>S. Foody</persName> (<objectName type="motorcycle">B.S.A.</objectName>).
+                  2.40. <lb/>
+                  <name type="race" rend="bold">500 c c. Scratch</name>—<num type="cardinal"
+                     rend="first place">1</num>, <persName ref="#EW">E. Williams</persName>
+                  <lb/> (<objectName type="motorcycle">J.A.P.</objectName>); <num type="cardinal"
+                     rend="second place">2</num>, <persName ref="#IW">I. Williams</persName>
+                     (<objectName type="motorcycle">Ariel</objectName>); <num type="cardinal"
+                     rend="third place">3</num>, <persName>D. Hughes</persName> (<objectName
+                     type="motorcycle">J.A.P.</objectName>). 2.38. <lb/>
+                  <name type="race" rend="bold">General Handicap Final</name>—<num type="cardinal"
+                     rend="first place">1</num>, <persName>D. Long</persName>
+                  <lb/> (<objectName type="motorcycle">247 Dodler</objectName>). h’cap 68s.: <num
+                     type="cardinal" rend="second place">2</num>, <persName>G. D. Forde</persName>
+                  <lb/>
+                  <supplied>(24</supplied>4 <objectName type="motorcycle">Excelsior</objectName>),
+                  72s.; <num type="cardinal" rend="third place">3</num>. <persName>C.
+                     O’Connor</persName>
+                  <lb/>
+                  <supplied>(19</supplied>7 <objectName type="motorcycle">F/Barnett</objectName>),
+                  80s.; 6 38.</p>
+            </div>
+
+         </div>
+
+
+
+         <div facs="#surface_10_2">
+            <div n="folio_10.2.1">
+               <ab>
+                  <name type="publication" rend="case(allcaps)">SUNDAY REVIEW</name></ab>
+            </div>
+
+
+
+            <div n="head_10.2.2">
+               <head type="section_head">MOTOR-CYCLING...</head>
+
+               <byline>BY BR<gap rend="missing"/></byline>
+
+               <head>Big Test<lb/> Nenagh</head>
+            </div>
+
+            <div n="lead_10.2.3">
+               <p rend="bold"><hi rend="case (allcaps)">AT</hi> three o’clock this afternoon, the
+                  first <date when="1958">1958</date><lb/>
+                  <name type="race">motor-cycle grass-track event</name> will get<lb/> under way at
+                     <placeName>Drummin Field</placeName>, just outside<lb/>
+                  <placeName>Nenagh town</placeName>.</p>
+            </div>
+            <cb/>
+
+            <div n="section_10.2.4">
+               <p> This is the first time that<lb/> such an honour has fallen<lb/> to a provincial
+                  club.</p>
+               <p rend="bold">And it is due to the fact<lb/> that the <name type="org"><choice>
+                        <abbr type="acronym">I.M.C.C</abbr>
+                        <expan>Irish Motorcycle Club</expan>
+                     </choice></name>. date<lb/> scheduled for yesterday was<lb/> abandoned because
+                  the usual<lb/> course at <placeName>Hazelhatch</placeName> was<lb/> not
+                  available.</p>
+               <p>The <name type="org">Ormond <choice>
+                        <abbr type="acronym">M.C.C.</abbr>
+                        <expan>Motorcycle Club</expan>
+                     </choice></name>, who<lb/> organise to-day’s event, are a<lb/> newly-formed
+                  club and have<lb/> never run any kind of<lb/> open event before.</p>
+            </div>
+
+
+            <div n="section_10.2.5">
+               <head type="subhead">DOT TWINS</head>
+               <p>Some idea of the fare to<lb/> be expected can be had from<lb/> the performances in
+                  last<lb/> week’s <name type="race">Dunlop scramble.</name></p>
+               <p>Chief interest is in the<lb/>
+                  <objectName type="motorcycle">250 c.c.</objectName> class, where the<lb/> newly
+                  imported <name type="org">Dot</name> twins in<cb/> the hands of <persName>Jack
+                     Kavenagh</persName><lb/> and <persName>Gerald Scarlett</persName> do
+                  battle<lb/> with the new <name type="org"><choice>
+                        <abbr type="acronym">A.M.C.</abbr>
+                        <expan>Associated Motorcycles</expan>
+                     </choice></name> engined<lb/>
+                  <objectName type="motorcycle">Francis Barnetts</objectName>, ridden by<lb/>
+                  <persName ref="#IW">Ian Williams</persName> and <persName> Jim<lb/>
+                     Kavenagh</persName>.</p>
+               <p rend="bold"><persName ref="#IW">Ian Williams</persName> is <objectName
+                     type="motorcycle">Ariel</objectName>-<lb/> mounted in the 500 c.c. class.</p>
+               <p>The competition comes<lb/> from his brother, <persName>Eric</persName>, who<lb/>
+                  rides either an <objectName type="motorcycle">Ariel</objectName> or a<lb/>
+                  <objectName type="motorcycle">JAP-engined special</objectName>, and<lb/>
+                  <persName>George Harps</persName>, also <objectName type="motorcycle"
+                     >Ariel</objectName>-<lb/> mounted.</p>
+               <p><persName>Dermot Byrne</persName> rides his<lb/> recently acquired <objectName
+                     type="motorcycle">JAP</objectName>.</p>
+            </div>
+
+
+            <div n="section_10.2.6">
+               <head type="subhead">LOCAL MEN</head>
+               <p>Local interest is in<lb/>
+                  <name type="org">Dalcassian<choice>
+                        <expan>Dalcassian Motorcycle Club</expan>
+                     </choice></name> riders<persName> McEoin</persName><lb/> (<objectName
+                     type="motorcycle">James</objectName>), <persName>Kelly</persName> (<objectName
+                     type="motorcycle">James</objectName>), <persName>Len-<lb/> non</persName>
+                     (<objectName type="motorcycle">Norton</objectName>).</p>
+               <p>Early entries close to-<lb/> morrow for the <name type="org">Limerick<lb/> Motor
+                     Club’s</name>
+                  <name type="race">Circuit of<lb/> Munster</name>, the annual car<lb/> rally held
+                  over the <name type="religious_holiday">Whit</name><lb/> week-end.</p>
+               <p>This year’s event takes the<lb/> same form as that of pre-<lb/> vious years—about
+                  600 miles<lb/> of driving in two days.</p>
+               <p>here are four starting<lb/> points — <placeName>Cork</placeName>,
+                     <placeName>Limerick</placeName>,<lb/>
+                  <placeName>Dublin</placeName>, and <placeName>Urlingford</placeName>.</p>
+            </div>
+
+
+            <!--- the following div appears in the source document but is not relevant to the source material (that of motorsports)-->
+            <div type="section_omitted">
+               <head type="subhead">BIG ENTRY</head>
+               <p><hi rend="case (allcaps)">THERE</hi> is a big entry for<lb/> the Athlone
+                  Hockey<lb/> Club’s annual mixed 6-a-side<lb/> tournament at Grace Park,<lb/>
+                  Athlone, to-day.</p>
+            </div>
+         </div>
+
+
+
+
+
+         <div facs="#surface_10_3">
+            <div n="head_10.3.1">
+               <head>Isle of Man Win<lb/> For <persName>Miller</persName>?</head>
+            </div>
+            <div n="lead_10.3.2">
+               <p rend="bold" style="lead"><hi rend="case (allcaps)">THIS</hi> week sees the annual
+                  mecca of motor-<lb/> cyclists in full swing. T<placeName>he Isle of
+                     Man</placeName><lb/>
+                  <name type="race"><choice>
+                        <abbr>TT</abbr>
+                        <expan>Tourist Trophy</expan>
+                     </choice></name> week is just as attractive as ever and Irish-<lb/> men are
+                  likely to be as prominent as usual.</p>
+            </div>
+            <cb/>
+            <div n="section_10.3.3">
+               <p>We stand a good chance<lb/> of seeing <persName>Sammy Miller</persName><lb/>
+                  finish in front this year.<lb/> He will be riding a <objectName type="motorcycle"
+                     >125 c.c<lb/> Ducati</objectName> in the <name type="race">ultra light-<lb/>
+                     weight event</name> over <placeName>Clypse</placeName><lb/> on Wednesday.</p>
+               <p rend="bold">In the <name type="race">250 c.c. event</name> he<lb/> rides a
+                     <objectName type="motorcycle">Czechoslovakian CZ</objectName><lb/> and his
+                  competition will<lb/> include two other Ulster<lb/> riders who should not be
+                  too<lb/> far behind—<persName>Tommy Robb</persName><lb/> and <persName>Davy
+                     Andrews</persName>, who<lb/> ride <objectName type="motorcycle"
+                     >N.S.U.s</objectName> entered by<lb/>
+                  <persName>Tommy Hill.</persName></p>
+            </div>
+
+            <div n="section_10.3.4">
+               <head type="subhead">FAVOURITE</head>
+               <p> Another Ulsterman rides<lb/> in both senior and junior<lb/> events on an A.J.S.
+                  (350)<lb/> and a Norton (500).</p>
+               <p rend="bold">Judging by practice times<lb/> last week, it seems that John<lb/>
+                  <gap rend="illegible"/>must be a favourite<cb/> for the senior honours of the<lb/>
+                  week on a works <objectName type="motorcycle">M.V.<lb/> Augusta</objectName>.</p>
+               <p>Irish fans, returning from<lb/> the <placeName>Island</placeName> immediately
+                  after<lb/> the <placeName><choice>
+                        <abbr type="acronym">I.O.M.</abbr>
+                        <expan>Isle of Man</expan>
+                     </choice></placeName> racing, will<lb/> move straight to
+                     <placeName>Butlin’s<lb/> Holiday Camp, Mosney</placeName>,<lb/> where the <name
+                     type="org">Dublin and Dis-<lb/> trict <choice>
+                        <abbr type="acronym">M.C.C.</abbr>
+                        <expan>Motorcycle Club</expan>
+                     </choice>
+                  </name> hold their<lb/> annual championship meet-<lb/> ing next Saturday.</p>
+            </div>
+
+            <div n="section_10.3.5">
+               <head type="subhead">BIG SURPRISE</head>
+               <p>Included in the programme<lb/> will be the <name type="race">National two-<lb/>
+                     mile 500 c.c. and 250 c.c.<lb/> championships</name>, as well as<lb/> the <name
+                     type="race">350 c.c. southern centre</name><lb/> one.</p>
+               <p> I expect <persName>Davy Dixon</persName> to<lb/> retain this title, but if a<lb/>
+                  southerner comes out on top<lb/> in either of the others it will<lb/> be a big
+                  surprise.</p>
+               <cb/>
+
+               <figure>
+                  <figDesc>A black and white up close photograph of Sammy Miller wearing a white
+                     racing helmet and goggles (positioned on the helmet). A 'cut' located in the
+                     third column (top) of the article 10.3, "Islse of Man for Miller" </figDesc>
+                  <graphic xml:id="sb_20.3_cut_jpg"
+                     url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/JPG/sb_20_03_cut.jpg"/>
+                  <graphic xml:id="sb_20.3_cut_thumb"
+                     url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/Thumbnails/sb_20_TN_C_03 _cut.png"/>
+                  <p><hi rend="case (allcaps)"><persName>SAMMY MILLER</persName></hi></p>
+
+               </figure>
+
+               <p>
+                  <persName ref="#IW">Ian Williams</persName>, on the<lb/>
+                  <objectName type="motorcycle">Francis Barnett</objectName>, might just<lb/><lb/>
+                  manage it in the <name type="race"> 250 race.</name></p>
+               <p> Racing starts at 3.30 and<lb/> will conclude at about <lb/> 5.45 p.m.</p>
+            </div>
+         </div>
+
+         <div facs="#surface_10_4">
+            <ab><add rend="text (handwritten) align (top, centre)" hand="unknown"
+                     ><placeName>Powerscourt</placeName>
+                  <date when="1956">'56</date></add>
+            </ab>
+         </div>
+
+      </body>
+   </text>
+
+</TEI>

@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<html lang="en" xml:lang="en">
+
+<head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>The Ian Williams Motocross Collection: A Digital Transcription</title>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+            crossorigin="anonymous" />
+      <link rel="stylesheet" href="assets/css/main.css" />
+      <link rel="stylesheet" href="assets/css/desktop.css" />
+</head>
+
+<body>
+      <header>
+            <h1>The Ian Williams Motocross Collection</h1>
+      </header>
+      <nav><a href="home.html">Home</a> | <a href="gallery.html">Gallery</a> | <a
+                  href="transcription.html">Transciption</a> | <a href="metadata.html">Metadata</a> </nav>
+      <main id="manuscript">
+            <br>
+            <h2> Alongside the scrapbook were a small collection of loose photographs. Ten have been selected for the
+                  gallery below. </h2>
+            <div id="myModal" class="modal">
+
+                  <span class="close">&times;</span>
+
+                  <img class="modal-content" id="img01" src="img.src" alt="alt.scr">
+
+                  <div id="caption"></div>
+            </div>
+            <div class="grid-container">
+                  <div class="grid-item">
+                        <img id="gallery_05" onclick="javascript:openModal(this)"
+                              src="assets/img/documents/Gallery_JPGs/pic_05.jpg"
+                              alt="&#xA; Ian Williams rides his motorcycle, both wheels in the air, over a small mound. &#xA;   " />
+                  </div>
+                  <div class="grid-item">
+                        <img id="gallery_02" onclick="javascript:openModal(this)"
+                              src="assets/img/documents/Gallery_JPGs/pic_02.jpg"
+                              alt="&#xA; Ian Williams rides his Ariel motorcycle along a stoney path. &#xA;            " />
+                  </div>
+                  <div class="grid-item">
+                        <img id="gallery_01" onclick="javascript:openModal(this)"
+                              src="assets/img/documents/Gallery_JPGs/pic_01.jpg"
+                              alt="&#xA; Two motorcylists race in front of a crowd. &#xA;            " />
+                  </div>
+                  <div class="grid-item">
+                        <img id="gallery_07" onclick="javascript:openModal(this)"
+                              src="assets/img/documents/Gallery_JPGs/pic_07.jpg"
+                              alt="&#xA; Ian Williams speeding past observers on his Ariel motorcycle, the front wheel up in the air. &#xA;            " />
+                  </div>
+                  <div class="grid-item">
+                        <img id="gallery_08" onclick="javascript:openModal(this)"
+                              src="assets/img/documents/Gallery_JPGs/pic_08.jpg"
+                              alt="&#xA; A motocross racer flies through the air on his motorcyle over a small ditch as a row of onlookers stand nearby.  &#xA;            " />
+                  </div>
+                  <div class="grid-item">
+                        <img id="gallery_09" onclick="javascript:openModal(this)"
+                              src="assets/img/documents/Gallery_JPGs/pic_09.jpg"
+                              alt="&#xA; Two motocross competitors (Ian Williams (front) race side by side. &#xA;            " />
+                  </div>
+                  <div class="grid-item">
+                        <img id="gallery_10" onclick="javascript:openModal(this)"
+                              src="assets/img/documents/Gallery_JPGs/pic_10.jpg"
+                              alt="&#xA; Three men (Ian Williams centre) relax among parked motorcyles. &#xA;            " />
+                  </div>
+                  <div class="grid-item">
+                        <img id="gallery_11" onclick="javascript:openModal(this)"
+                              src="assets/img/documents/Gallery_JPGs/pic_11.jpg"
+                              alt="&#xA; Ian Williams riding a motorcyle marked '21'. &#xA;            " />
+                  </div>
+                  <div class="grid-item">
+                        <img id="gallery_12" onclick="javascript:openModal(this)"
+                              src="assets/img/documents/Gallery_JPGs/pic_12.jpg"
+                              alt="&#xA; Ian Williams taking a sharp turn on up a gravel embankment on a motorcyle marked '2'. &#xA;            " />
+                  </div>
+                  <div class="grid-item">
+                        <img id="gallery_13" onclick="javascript:openModal(this)"
+                              src="assets/img/documents/Gallery_JPGs/pic_13.jpg"
+                              alt="&#xA; Two men on motorcycles race along gravely hills. &#xA;            " />
+                  </div>
+            </div>
+      </main>
+      <footer>
+
+            Disclaimer: No copyright infringement intended. All content displayed is part of a personal scrapbook made
+            by the subject. The copyright ownership belongs to the publishers and photographers respectively. An ongoing
+            effort if being made to secure copyright permission for the content for which a source can be identified.
+            <br>
+            <br>
+            2022 Elisabeth Nonstad and Jacqueline Williams.
+
+
+
+      </footer>
+
+
+      <script>
+            var modal = document.getElementById("myModal");
+
+
+            var modalImg = document.getElementById("img01");
+            var captionText = document.getElementById("caption");
+
+            function openModal(img) {
+                  modal.style.display = "block";
+                  modalImg.src = img.src;
+                  captionText.innerHTML = img.alt;
+            }
+
+
+            var span = document.getElementsByClassName("close")[0];
+
+
+            span.onclick = function () {
+                  modal.style.display = "none";
+            }</script>
+</body>
+
+</html>
