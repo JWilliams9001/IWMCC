@@ -4,21 +4,20 @@
     xmlns:html="http://www.w3.org/1999/xhtml" exclude-result-prefixes="xs tei html" version="2.0">
     <xsl:output method="html"/>
 
-    <xsl:template match="/">
-        <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;</xsl:text>
-        <xsl:text>&#xa;</xsl:text>
-
+    <xsl:template match="tei:TEI">
+        <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text><xsl:text>&#xa;</xsl:text>
         <html lang="en" xml:lang="en">
             <head>
                 <title>
-                    <xsl:value-of select="//tei:titleStmt/tei:title"/>
+                    The Ian Williams Motocross Collection: A Digital
+                    Transcription
                 </title>
                 <link rel="stylesheet"
                     href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
                     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
                     crossorigin="anonymous"/>
-                <link rel="stylesheet" href="assets/css/main.css"/>
-                <link rel="stylesheet" href="assets/css/desktop.css"/>
+                <link rel="stylesheet" href="../css/main.css"/>
+                
             </head>
             <meta http-equiv="Content-Type" content="text/html; charset-utf-8"/>
             <body>

@@ -232,9 +232,9 @@
             <figure type="article">
                <label>Surface 1_1 of page 1 (sb_03)</label>
                <figDesc> A newspaper article cutting featuring an in-article photograph </figDesc>
-               <graphic xml:id="sb_03_01_jpg" url="assets/img/documents/JPG/sb_03_01.jpg"/>
+               <graphic xml:id="sb_03_01_jpg" url="../img/JPG/sb_03_01.jpg"/>
                <graphic xml:id="sb_03_01_thumb"
-                  url="assets/img/documents/Thumbnails/sb_03_TN_C_01.png"/>
+                  url="../img/Thumbnails/sb_03_TN_C_01.png"/>
             </figure>
          </surface>
 
@@ -243,9 +243,9 @@
                <label>Surface 1_2 of page 1 (sb_03)</label>
                <figDesc> A piece of pink paper with text that has been cut. The paper is damaged and
                   missing a section on the right hand side </figDesc>
-               <graphic xml:id="sb_03_02_jpg" url="assets/img/documents/JPG/sb_03_02.jpg"/>
+               <graphic xml:id="sb_03_02_jpg" url="../img/JPG/sb_03_02.jpg"/>
                <graphic xml:id="sb_03_02_thumb"
-                  url="assets/img/documents/Thumbnails/sb_03_TN_C_02.png"/>
+                  url="../img/Thumbnails/sb_03_TN_C_02.png"/>
             </figure>
          </surface>
 
@@ -254,9 +254,9 @@
             <figure type="article">
                <label>Surface 1_3 of page 1 (sb_03)</label>
                <figDesc> A newspaper article cutting. </figDesc>
-               <graphic xml:id="sb_03_03_jpg" url="assets/img/documents/JPG/sb_03_03.jpg"/>
+               <graphic xml:id="sb_03_03_jpg" url="../img/JPG/sb_03_03.jpg"/>
                <graphic xml:id="sb_03_03_thumb"
-                  url="assets/img/documents/Thumbnails/sb_03_TN_C_03.png"/>
+                  url="../img/Thumbnails/sb_03_TN_C_03.png"/>
             </figure>
          </surface>
 
@@ -268,9 +268,9 @@
                   the lead is <persName ref="#IW">Ian Williams</persName>, riding a motorcycle
                   marked number '34' the man behind (unidentified) rides a motorbike marked number
                   '45'. In the background Two onlookers stand next to a parked car. </figDesc>
-               <graphic xml:id="photo_1.4_JPEG" url="assets/img/documents/JPG/sb_03_04.jpg"/>
+               <graphic xml:id="photo_1.4_JPEG" url="../img/JPG/sb_03_04.jpg"/>
                <graphic xml:id="photo_1.4_thumb"
-                  url="assets/img/documents/Thumbnails/sb_03_TN_C_04.png"/>
+                  url="../img/Thumbnails/sb_03_TN_C_04.png"/>
             </figure>
          </surface>
 
@@ -282,9 +282,9 @@
                   grassy track. The man in the foreground (unidentified) is on a motorcycle marked
                   number '47'. The man in the background (<persName ref="#IW">Ian
                      Williams</persName>) is on a motorcyle marked number '49'</figDesc>
-               <graphic xml:id="photo_1.5_JPEG" url="assets/img/documents/JPG/sb_03_05.jpg"/>
+               <graphic xml:id="photo_1.5_JPEG" url="../img/JPG/sb_03_05.jpg"/>
                <graphic xml:id="photo_1.5_thumb"
-                  url="assets/img/documents/Thumbnails/sb_03_TN_C_05.png"/>
+                  url="../img/Thumbnails/sb_03_TN_C_05.png"/>
 
 
 
@@ -306,9 +306,9 @@
                      centre of the article, of two motorcycle racers; <persName ref="#IW">Ian
                         Williams</persName> (foreground), who is raising up the front wheel of his
                      bike, and an unidentified man (background).</figDesc>
-                  <graphic xml:id="cut_1.1.1_JPEG" url="assets/img/documents/JPG/sb_03_01_cut.jpg"/>
+                  <graphic xml:id="cut_1.1.1_JPEG" url="../img/JPG/sb_03_01_cut.jpg"/>
                   <graphic xml:id="cut_1.1.1_thumb"
-                     url="assets/img/documents/Thumbnails/sb_03_TN_C _01_cut.png"/>
+                     url="../img/Thumbnails/sb_03_TN_C_01_cut.png"/>
 
 
                   <p><hi rend="case (allcaps)">CHAMPIONSHIP CHALLENGER . . .</hi>
@@ -566,9 +566,9 @@
                <label>Surface 2_1 of page 2 (sb_04)</label>
                <figDesc> A black and white photograph of David Tye (left) <persName ref="#IW">Ian
                      Williams</persName> (right) sitting on stationary mud-clad motorbikes </figDesc>
-               <graphic xml:id="sb_04_01_jpg" url="assets/img/documents/JPG/sb_04_01.jpg"/>
+               <graphic xml:id="sb_04_01_jpg" url="../img/JPG/sb_04_01.jpg"/>
                <graphic xml:id="sb_04_01_thumb"
-                  url="assets/img/documents/Thumbnails/sb_04_TN_C_01.png"/>
+                  url="../img/Thumbnails/sb_04_TN_C_01.png"/>
             </figure>
          </surface>
 
@@ -577,9 +577,9 @@
                <label>Surface 2_2 of page 2 (sb_04)</label>
                <figDesc> A small piece of note book paper cut out with some text written on it to
                   descibe the picture above. </figDesc>
-               <graphic xml:id="sb_04_02_jpg" url="assets/img/documents/JPG/sb_04_02.jpg"/>
+               <graphic xml:id="sb_04_02_jpg" url="../img/JPG/sb_04_02.jpg"/>
                <graphic xml:id="sb_04_02_thumb"
-                  url="assets/img/documents/Thumbnails/sb_04_TN_C_02.png"/>
+                  url="../img/Thumbnails/sb_04_TN_C_02.png"/>
             </figure>
          </surface>
 
@@ -588,9 +588,9 @@
             <figure type="article">
                <label>Surface 2_3 of page 2 (sb_04)</label>
                <figDesc> A cut out newspaper article. </figDesc>
-               <graphic xml:id="sb_04_03_jpg" url="assets/img/documents/JPG/sb_04_03.jpg"/>
+               <graphic xml:id="sb_04_03_jpg" url="../img/JPG/sb_04_03.jpg"/>
                <graphic xml:id="sb_04_03_thumb"
-                  url="assets/img/documents/Thumbnails/sb_04_TN_C_03.png"/>
+                  url="../img/Thumbnails/sb_04_TN_C_03.png"/>
             </figure>
          </surface>
 
@@ -748,9 +748,9 @@
                <figDesc> A black and white photograph of a man (possibly <persName ref="#IW">Ian
                      Williams</persName>) rides a motorcycle (marked number 5), which has it's front
                   and back wheels lifted off the ground, over a rocky path. </figDesc>
-               <graphic xml:id="sb_06_01_jpg" url="assets/img/documents/JPG/sb_06_01.jpg"/>
+               <graphic xml:id="sb_06_01_jpg" url="../img/JPG/sb_06_01.jpg"/>
                <graphic xml:id="sb_06_01_thumb"
-                  url="assets/img/documents/Thumbnails/sb_06_TN_C_01.png"/>
+                  url="../img/Thumbnails/sb_06_TN_C_01.png"/>
             </figure>
          </surface>
 
@@ -758,9 +758,9 @@
             <figure type="article">
                <label>Surface 3_2 of page 3 (sb_06)</label>
                <figDesc> A cut out newspaper article. </figDesc>
-               <graphic xml:id="sb_06_02_jpg" url="assets/img/documents/JPG/sb_06_02.jpg"/>
+               <graphic xml:id="sb_06_02_jpg" url="../img/JPG/sb_06_02.jpg"/>
                <graphic xml:id="sb_06_02_thumb"
-                  url="assets/img/documents/Thumbnails/sb_06_TN_C_02.png"/>
+                  url="../img/Thumbnails/sb_06_TN_C_02.png"/>
             </figure>
          </surface>
 
@@ -909,8 +909,8 @@
          <figure type="article">
             <label>Surface 4_1 of page 4 (sb_08)</label>
             <figDesc> A newspaper article cutting. </figDesc>
-            <graphic xml:id="sb_08_01_jpg" url="assets/img/documents/JPG/sb_08_01.jpg"/>
-            <graphic xml:id="sb_08_01_thumb" url="assets/img/documents/Thumbnails/sb_08_TN_C_01.png"
+            <graphic xml:id="sb_08_01_jpg" url="../img/JPG/sb_08_01.jpg"/>
+            <graphic xml:id="sb_08_01_thumb" url="../img/Thumbnails/sb_08_TN_C_01.png"
             />
          </figure>
       </surface>
@@ -1051,9 +1051,9 @@
                <figDesc>A black and white photograph of a motorcycle racer; <persName ref="#IW">Ian
                      Williams</persName> (foreground), and an unidentified group of people watching
                   (background)</figDesc>
-               <graphic xml:id="sb_09_01_jpg" url="assets/img/documents/JPG/sb_09_01.jpg"/>
+               <graphic xml:id="sb_09_01_jpg" url="../img/JPG/sb_09_01.jpg"/>
                <graphic xml:id="sb_09_01_thumb"
-                  url="assets/img/documents/Thumbnails/sb_09_TN_C_01.png"/>
+                  url="../img/Thumbnails/sb_09_TN_C_01.png"/>
             </figure>
          </surface>
 
@@ -1063,9 +1063,9 @@
                <figDesc>A black and white photograph of a motorcycle racer; <persName ref="#IW">Ian
                      Williams</persName> (foreground), and an unidentified man watching
                   (background)</figDesc>
-               <graphic xml:id="sb_09_02_jpg" url="assets/img/documents/JPG/sb_09_02.jpg"/>
+               <graphic xml:id="sb_09_02_jpg" url="../img/JPG/sb_09_02.jpg"/>
                <graphic xml:id="sb_09_02_thumb"
-                  url="assets/img/documents/Thumbnails/sb_09_TN_C_02.png"/>
+                  url="../img/Thumbnails/sb_09_TN_C_02.png"/>
             </figure>
          </surface>
 
@@ -1074,9 +1074,9 @@
             <figure type="article">
                <label>Surface 5_3 of page 5 (sb_09)</label>
                <figDesc> A newspaper article cutting. </figDesc>
-               <graphic xml:id="sb_09_03_jpg" url="assets/img/documents/JPG/sb_09_03.jpg"/>
+               <graphic xml:id="sb_09_03_jpg" url="../img/JPG/sb_09_03.jpg"/>
                <graphic xml:id="sb_09_03_thumb"
-                  url="assets/img/documents/Thumbnails/sb_09_TN_C_03.png"/>
+                  url="../img/Thumbnails/sb_09_TN_C_03.png"/>
             </figure>
          </surface>
 
@@ -1086,9 +1086,9 @@
             <figure type="article">
                <label>Surface 5_4 of page 5 (sb_09)</label>
                <figDesc> A newspaper article cutting.</figDesc>
-               <graphic xml:id="sb_09_04_jpg" url="assets/img/documents/JPG/sb_09_04.jpg"/>
+               <graphic xml:id="sb_09_04_jpg" url="../img/JPG/sb_09_04.jpg"/>
                <graphic xml:id="sb_09_04_thumb"
-                  url="assets/img/documents/Thumbnails/sb_09_TN_C_04.png"/>
+                  url="../img/Thumbnails/sb_09_TN_C_04.png"/>
             </figure>
          </surface>
 
@@ -1244,9 +1244,9 @@
                <label>Surface 06_1 of page 6 (sb_10)</label>
                <figDesc>A black and white photograph of three motorcycle racers with some
                   unidentified onlookers in the background</figDesc>
-               <graphic xml:id="sb_10_01_jpg" url="assets/img/documents/JPG/sb_10_01.jpg"/>
+               <graphic xml:id="sb_10_01_jpg" url="../img/JPG/sb_10_01.jpg"/>
                <graphic xml:id="sb_10_01_thumb"
-                  url="assets/img/documents/Thumbnails/sb_10_TN_C_01.png"/>
+                  url="../img/Thumbnails/sb_10_TN_C_01.png"/>
             </figure>
          </surface>
 
@@ -1255,9 +1255,9 @@
                <label>Surface 06_2 of page 6 (sb_10)</label>
                <figDesc>A black and white photograph of a motorcycle racer; <persName ref="#IW">Ian
                      Williams</persName></figDesc>
-               <graphic xml:id="sb_10_02_jpg" url="assets/img/documents/JPG/sb_10_02.jpg"/>
+               <graphic xml:id="sb_10_02_jpg" url="../img/JPG/sb_10_02.jpg"/>
                <graphic xml:id="sb_10_02_thumb"
-                  url="assets/img/documents/Thumbnails/sb_10_TN_C_02.png"/>
+                  url="../img/Thumbnails/sb_10_TN_C_02.png"/>
             </figure>
          </surface>
 
@@ -1266,9 +1266,9 @@
             <figure type="article">
                <label>Surface 06_3 of page 10 (sb_10)</label>
                <figDesc> A newspaper article cutting. </figDesc>
-               <graphic xml:id="sb_10_03_jpg" url="assets/img/documents/JPG/sb_10_03.jpg"/>
+               <graphic xml:id="sb_10_03_jpg" url="../img/JPG/sb_10_03.jpg"/>
                <graphic xml:id="sb_10_03_thumb"
-                  url="assets/img/documents/Thumbnails/sb_10_TN_C_03.png"/>
+                  url="../img/Thumbnails/sb_10_TN_C_03.png"/>
             </figure>
          </surface>
 
@@ -1365,9 +1365,9 @@
                <label>Surface 7_1 of page 7 (sb_11)</label>
                <figDesc> A black and white photograph of two men racing across a field on
                   motorcyles. Shot from behind. </figDesc>
-               <graphic xml:id="sb_11_01_jpg" url="assets/img/documents/JPG/sb_11_01.jpg"/>
+               <graphic xml:id="sb_11_01_jpg" url="../img/JPG/sb_11_01.jpg"/>
                <graphic xml:id="sb_11_01_thumb"
-                  url="assets/img/documents/Thumbnails/sb_11_TN_C_01.png"/>
+                  url="../img/Thumbnails/sb_11_TN_C_01.png"/>
             </figure>
          </surface>
 
@@ -1377,9 +1377,9 @@
                <figDesc> A balck and white photograph of two men racing motorbikes as a crowd
                   watches from the sidelines. The mortorbike in the lead (left) is marked number
                   '38', the motorbike in the second position (right) is marked number'39'. </figDesc>
-               <graphic xml:id="sb_11_02_jpg" url="assets/img/documents/JPG/sb_11_02.jpg"/>
+               <graphic xml:id="sb_11_02_jpg" url="../img/JPG/sb_11_02.jpg"/>
                <graphic xml:id="sb_11__02_thumb"
-                  url="assets/img/documents/Thumbnails/sb_11_TN_C_02.png"/>
+                  url="../img/Thumbnails/sb_11_TN_C_02.png"/>
             </figure>
          </surface>
 
@@ -1388,9 +1388,9 @@
             <figure type="article">
                <label>Surface 7_3 of page 7 (sb_11)</label>
                <figDesc> A newspaper clipping. </figDesc>
-               <graphic xml:id="sb_11_03_jpg" url="assets/img/documents/JPG/sb_11_03.jpg"/>
+               <graphic xml:id="sb_11_03_jpg" url="../img/JPG/sb_11_03.jpg"/>
                <graphic xml:id="sb_11_03_thumb"
-                  url="assets/img/documents/Thumbnails/sb_11_TN_C_03.png"/>
+                  url="../img/Thumbnails/sb_11_TN_C_03.png"/>
             </figure>
          </surface>
 
@@ -1481,9 +1481,9 @@
                <figDesc> A black and white photograph of two men racing motorcycles. <persName
                      ref="#IW">Ian Williams</persName> (foreground) and another unidentified racer
                   (background) </figDesc>
-               <graphic xml:id="sb_15_01_jpg" url="assets/img/documents/JPG/sb_15_01.jpg"/>
+               <graphic xml:id="sb_15_01_jpg" url="../img/JPG/sb_15_01.jpg"/>
                <graphic xml:id="sb_15_01_thumb"
-                  url="assets/img/documents/Thumbnails/sb_15_TN_C_01.png"/>
+                  url="../img/Thumbnails/sb_15_TN_C_01.png"/>
             </figure>
          </surface>
 
@@ -1491,9 +1491,9 @@
             <figure type="article">
                <label>Surface 8_2 of page 8 (sb_15)</label>
                <figDesc> A two column newspaper cutting. </figDesc>
-               <graphic xml:id="sb_15_02_jpg" url="assets/img/documents/JPG/sb_15_02.jpg"/>
+               <graphic xml:id="sb_15_02_jpg" url="../img/JPG/sb_15_02.jpg"/>
                <graphic xml:id="sb_15_02_thumb"
-                  url="assets/img/documents/Thumbnails/sb_15_TN_C_02.png"/>
+                  url="../img/Thumbnails/sb_15_TN_C_02.png"/>
             </figure>
          </surface>
 
@@ -1503,9 +1503,9 @@
                <label>Surface 8_3 of page 8 (sb_15)</label>
                <figDesc> A black and white photograph of a motorcycle racer; <persName ref="#IW">Ian
                      Williams</persName>. </figDesc>
-               <graphic xml:id="sb_15_03_jpg" url="assets/img/documents/JPG/sb_15_03.jpg"/>
+               <graphic xml:id="sb_15_03_jpg" url="../img/JPG/sb_15_03.jpg"/>
                <graphic xml:id="sb_15_03_thumb"
-                  url="assets/img/documents/Thumbnails/sb_15_TN_C_03.png"/>
+                  url="../img/Thumbnails/sb_15_TN_C_03.png"/>
             </figure>
          </surface>
 
@@ -1720,9 +1720,9 @@
             <figure type="article">
                <label>Surface 9_1 of page 9 (sb_17)</label>
                <figDesc> A newspaper clipping. </figDesc>
-               <graphic xml:id="sb_17_01_jpg" url="assets/img/documents/JPG/sb_17_01.jpg"/>
+               <graphic xml:id="sb_17_01_jpg" url="../img/JPG/sb_17_01.jpg"/>
                <graphic xml:id="sb_17_01_thumb"
-                  url="assets/img/documents/Thumbnails/sb_17_TN_C_01.png"/>
+                  url="../img/Thumbnails/sb_17_TN_C_01.png"/>
             </figure>
          </surface>
 
@@ -1730,9 +1730,9 @@
             <figure type="article">
                <label>Surface 9_2 of page 9 (sb_17)</label>
                <figDesc> A newspaper clipping. </figDesc>
-               <graphic xml:id="sb_17_02_jpg" url="assets/img/documents/JPG/sb_17_02.jpg"/>
+               <graphic xml:id="sb_17_02_jpg" url="../img/JPG/sb_17_02.jpg"/>
                <graphic xml:id="sb_17_02_thumb"
-                  url="assets/img/documents/Thumbnails/sb_17_TN_C_02.png"/>
+                  url="../img/Thumbnails/sb_17_TN_C_02.png"/>
             </figure>
          </surface>
 
@@ -1741,9 +1741,9 @@
             <figure type="article">
                <label>Surface 9_3 of page 9 (sb_17)</label>
                <figDesc> A newspaper article cutting featuring an in-article photograph. </figDesc>
-               <graphic xml:id="sb_17_03_jpg" url="assets/img/documents/JPG/sb_17_03.jpg"/>
+               <graphic xml:id="sb_17_03_jpg" url="../img/JPG/sb_17_03.jpg"/>
                <graphic xml:id="sb_17_03_thumb"
-                  url="assets/img/documents/Thumbnails/sb_17_TN_C_03.png"/>
+                  url="../img/Thumbnails/sb_17_TN_C_03.png"/>
             </figure>
          </surface>
 
@@ -1960,9 +1960,9 @@
                         >Williams</persName> is on the ground, while his bike is seen toppling
                      through the field. In the background a man waving a flag runs towards the
                      scene. </figDesc>
-                  <graphic xml:id="sb_17_03_cut_jpg" url="assets/img/documents/JPG/sb_17_03_cut.jpg"/>
+                  <graphic xml:id="sb_17_03_cut_jpg" url="../img/JPG/sb_17_03_cut.jpg"/>
                   <graphic xml:id="sb_17_03_cut_thumb"
-                     url="assets/img/documents/Thumbnails/sb_17_TN_C_03 _cut.png"/>
+                     url="../img/Thumbnails/sb_17_TN_C_03_cut.png"/>
                </figure>
                <p><hi rend="bold"><persName ref="#IW">Ian Williams</persName>
                         (<placeName>Dublin</placeName>) was<lb/> going well before taking this <lb/>
@@ -1990,9 +1990,9 @@
             <figure type="article">
                <label>Surface 10_1 of page 10 (sb_20)</label>
                <figDesc>A newspaper article cutting.</figDesc>
-               <graphic xml:id="sb_20_01_jpg" url="assets/img/documents/JPG/sb_20_01.jpg"/>
+               <graphic xml:id="sb_20_01_jpg" url="../img/JPG/sb_20_01.jpg"/>
                <graphic xml:id="sb_20_01_thumb"
-                  url="assets/img/documents/Thumbnails/sb_20_TN_C_01.png"/>
+                  url="../img/Thumbnails/sb_20_TN_C_01.png"/>
             </figure>
          </surface>
 
@@ -2000,9 +2000,9 @@
             <figure type="article">
                <label>Surface 10_2 of page 10 (sb_20)</label>
                <figDesc> A newspaper article cutting.</figDesc>
-               <graphic xml:id="sb_20_02_jpg" url="assets/img/documents/JPG/sb_20_02.jpg"/>
+               <graphic xml:id="sb_20_02_jpg" url="../img/JPG/sb_20_02.jpg"/>
                <graphic xml:id="sb_20_02_thumb"
-                  url="assets/img/documents/Thumbnails/sb_20_TN_C_02.png"/>
+                  url="../img/Thumbnails/sb_20_TN_C_02.png"/>
             </figure>
          </surface>
 
@@ -2011,9 +2011,9 @@
             <figure type="article">
                <label>Surface 10_3 of page 10 (sb_20)</label>
                <figDesc> A newspaper article cutting with an in-article photograph. </figDesc>
-               <graphic xml:id="sb_20_03_jpg" url="assets/img/documents/JPG/sb_20_03.jpg"/>
+               <graphic xml:id="sb_20_03_jpg" url="../img/JPG/sb_20_03.jpg"/>
                <graphic xml:id="sb_20_03_thumb"
-                  url="assets/img/documents/Thumbnails/sb_20_TN_C_03.png"/>
+                  url="../img/Thumbnails/sb_20_TN_C_03.png"/>
             </figure>
          </surface>
 
@@ -2027,9 +2027,9 @@
                      photograph.<persName ref="#IW">Ian Williams</persName> is pictured centre
                   wearing overalls. The text "Powerscort '56" has been written by hand directly onto
                   the photograph (top) </figDesc>
-               <graphic xml:id="sb_20_04_jpg" url="assets/img/documents/JPG/sb_20_04.jpg"/>
+               <graphic xml:id="sb_20_04_jpg" url="../img/JPG/sb_20_04.jpg"/>
                <graphic xml:id="sb_20_04_thumb"
-                  url="assets/img/documents/Thumbnails/sb_20_TN_C_04.png"/>
+                  url="../img/Thumbnails/sb_20_TN_C_04.png"/>
             </figure>
          </surface>
 
@@ -2322,9 +2322,9 @@
                      racing helmet and goggles (positioned on the helmet). A 'cut' located in the
                      third column (top) of the article 10.3, "Islse of Man for Miller" </figDesc>
                   <graphic xml:id="sb_20.3_cut_jpg"
-                     url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/JPG/sb_20_03_cut.jpg"/>
+                     url="../img/JPG/sb_20_03_cut.jpg"/>
                   <graphic xml:id="sb_20.3_cut_thumb"
-                     url="/Users/JackieWilliams/Documents/GitHub/my-DCHM-template/docs/assets/img/documents/Thumbnails/sb_20_TN_C_03 _cut.png"/>
+                     url="../img/Thumbnails/sb_20_TN_C_03_cut.png"/>
                   <p><hi rend="case (allcaps)"><persName>SAMMY MILLER</persName></hi></p>
 
                </figure>
