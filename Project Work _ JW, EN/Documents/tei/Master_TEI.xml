@@ -1287,7 +1287,7 @@
 
    <!--page 6 (sb_10) -->
 
-   <facsimile xml:id="page_06" facs="sb_10_TN_C_FULL.png">
+   <facsimile xml:id="page_06">
       <surfaceGrp>
          
          <surface xml:id="surface_6_full">
@@ -1418,9 +1418,20 @@
 
    <!--page 7 (sb_11) -->
 
-   <facsimile xml:id="page_07" facs="sb_11_TN_C_FULL.png">
+   <facsimile xml:id="page_07">
       <surfaceGrp>
 
+         <surface xml:id="surface_7_full">
+            <figure type="fullPageFacs">
+               <label>Surface 7_full of page 7 (sb_11)</label>
+               <figDesc> Full page of page 7 of scrapbook featuring 3 clippings</figDesc>
+               <graphic xml:id="sb_11_jpg" url="../img/JPG/sb_11_FULL.jpg"/>
+               <graphic xml:id="sb_11_thumb"
+                  url="../img/Thumbnails/sb_11_TN_C_FULL.png"/>
+            </figure>
+         </surface>
+         
+         
          <surface xml:id="surface_7_1">
             <figure type="photograph">
                <label>Surface 7_1 of page 7 (sb_11)</label>
