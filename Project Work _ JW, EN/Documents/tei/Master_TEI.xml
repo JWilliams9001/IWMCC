@@ -223,10 +223,20 @@
 
    <!--page 1 (sb_03) -->
 
-   <facsimile xml:id="page_01" facs="sb_03_TN_C_FULL.png">
+   <facsimile xml:id="page_01">
 
 
       <surfaceGrp>
+         
+         <surface xml:id="surface_1_full">
+            <figure type="fullPageFacs">
+               <label>Surface 1_full of page 1 (sb_03)</label>
+               <figDesc> Full page of page 1 of scrapbook featuring 5 clippings</figDesc>
+               <graphic xml:id="sb_03_jpg" url="../img/JPG/sb_03_FULL.jpg"/>
+               <graphic xml:id="sb_03_thumb"
+                  url="../img/Thumbnails/sb_03_TN_C_FULL.png"/>
+            </figure>
+         </surface>
 
          <surface xml:id="surface_1_1">
             <figure type="article">
@@ -318,6 +328,7 @@
                         Belfast</placeName>.</p>
                </figure>
             </div>
+            <div type="text">
             <div n="head_1.1.2">
                <head>Hurst Cup Trial Has<lb/> Big English Entry</head>
 
@@ -471,19 +482,20 @@
                   <supplied>J</supplied>. <persName>Giles</persName>, <persName>J. E.
                      Wicken</persName>. </p>
             </div>
+            </div>
          </div>
 
 
          <div facs="#surface_1_2">
             <p>
                <hi rend="ul">"B.B.. RUSSEL" TROPHY</hi>: The winner this year is <persName ref="#IW"
-                     >Ia<supplied>n</supplied></persName><damage type="missing"/><lb/> deserved,he
-               was placed at every<lb/> meeting except the <damage type="missing"/><lb/> 20 1/2
-               points. Runner-up is <persName>Ernie Lyons</persName> who won the
-                  cu<supplied>p</supplied><damage type="missing"/><lb/> with 15<lb/> 1/2 points;
-               followed by <persName>D. C. Ewen</persName>, 8 points; F<damage type="missing"/><lb/>
+                     >Ia<supplied>n</supplied></persName><damage type="missing"/><add> [missing text]</add><lb/> deserved,he
+               was placed at every<lb/> meeting except the <damage type="missing"/><add> [missing text]</add><lb/> 20 1/2
+               points. Runner-up is <persName>Ernie Lyons</persName> who won the 
+               cu<supplied>p</supplied><damage type="missing"/><add> [missing text]</add><lb/> with 15 1/2 points;
+               followed by <persName>D. C. Ewen</persName>, 8 points; F<damage type="missing"/><add> [missing text]</add><lb/>
                <persName>C. Coard</persName>, <persName>E. Callaghan</persName> and <persName>M.
-                  Tracey</persName> with 6 points.</p>
+                  Tracey</persName> with 6 points.<add> [missing text]</add></p>
          </div>
 
 
@@ -558,8 +570,18 @@
 
    <!--page 2 (sb_04) -->
 
-   <facsimile xml:id="page_02" facs="sb_04_TN_C_FULL.png">
+   <facsimile xml:id="page_02">
       <surfaceGrp>
+         
+         <surface xml:id="surface_2_full">
+            <figure type="fullPageFacs">
+               <label>Surface 2_full of page 2 (sb_04)</label>
+               <figDesc> Full page of page 2 of scrapbook featuring 3 clippings</figDesc>
+               <graphic xml:id="sb_04_jpg" url="../img/JPG/sb_04_FULL.jpg"/>
+               <graphic xml:id="sb_04_thumb"
+                  url="../img/Thumbnails/sb_04_TN_C_FULL.png"/>
+            </figure>
+         </surface>
 
          <surface xml:id="surface_2_1">
             <figure type="photograph">
@@ -603,7 +625,6 @@
          <pb facs="#page_02"/>
 
          <div facs="#surface_2_1"/>
-
 
          <div facs="#surface_2_2">
             <p rend="handwritten text, case(allcaps)">SMILES FROM <persName>DAVID TYE</persName> AND
@@ -738,9 +759,18 @@
 
 
 
-
-   <facsimile xml:id="page_03" facs="sb_06_TN_C_FULL.png">
+   <facsimile xml:id="page_03">
       <surfaceGrp>
+         
+         <surface xml:id="surface_3_full">
+            <figure type="fullPageFacs">
+               <label>Surface 3_full of page 3 (sb_06)</label>
+               <figDesc> Full page of page 3 of scrapbook featuring 2 clippings</figDesc>
+               <graphic xml:id="sb_06_jpg" url="../img/JPG/sb_06_FULL.jpg"/>
+               <graphic xml:id="sb_06_thumb"
+                  url="../img/Thumbnails/sb_06_TN_C_FULL.png"/>
+            </figure>
+         </surface>
 
          <surface xml:id="surface_3_1">
             <figure type="photograph">
@@ -902,9 +932,19 @@
 
    <!--page 4 (sb_08) -->
 
-   <facsimile xml:id="page_04" facs="sb_08_TN_C_FULL.png">
+   <facsimile xml:id="page_04">
 
 
+      <surface xml:id="surface_4_full">
+         <figure type="fullPageFacs">
+            <label>Surface 4_full of page 4 (sb_08)</label>
+            <figDesc> Full page of page 4 of scrapbook featuring 1 clipping</figDesc>
+            <graphic xml:id="sb_08_jpg" url="../img/JPG/sb_08_FULL.jpg"/>
+            <graphic xml:id="sb_08_thumb"
+               url="../img/Thumbnails/sb_08_TN_C_FULL.png"/>
+         </figure>
+      </surface>
+      
       <surface xml:id="surface_4_1">
          <figure type="article">
             <label>Surface 4_1 of page 4 (sb_08)</label>
@@ -926,7 +966,7 @@
          <div facs="#surface_4_1">
 
             <head>Dublin And District Motor<lb/> Cycle Club Had Day Out</head>
-            <div type="lead">
+            <div type="lead_4.1.1">
                <p rend="bold"><hi rend="case (allcaps)">CONGRATULATIONS</hi> to <name type="org">the
                      Dublin and District Motor Cycle <lb/> Club</name> whose <name type="race"
                      >International Moto Cross meeting</name> on Saturday <lb/> last was one of the
@@ -937,7 +977,7 @@
                </p>
 
             </div>
-            <div type="section">
+            <div type="section_4.1.2">
                <cb/>
                <p>In the light og such an enthusi-<lb/>astic reception it is now very much <lb/>
                   more than a possibility that next<lb/> year's meeting will be included on <lb/>
@@ -961,7 +1001,7 @@
                   <persName ref="#EW">Eric Williams</persName> on the <objectName type="motorcycle"
                      >Mountjoy<lb/> entered Ariel.</objectName><lb/></p>
             </div>
-            <div type="section">
+            <div type="section_4.1.3">
                <head rend="bold">
                   <hi rend=" subhead case (allcaps)"> FIGURED PROMINENTLY</hi></head>
                <p rend="bold"> If he continues to improve at <lb/> the present rate there is little
@@ -998,7 +1038,7 @@
                   <lb/> the same event broke his frame on<lb/> the first lap and took no further
                   <lb/> part in the proceedings</p>
             </div>
-            <div type="section">
+            <div type="section_4.1.4">
                <head type="subhead" rend="case (allcaps)"><hi rend="bold">NORTHERN SUCCESSES</hi></head>
                <p rend="bold">Several Ulster riders hit the <lb/> headlines during the
                   afternoon.<lb/> the most successful of them being <lb/>
@@ -1022,10 +1062,10 @@
                   an important part in prodeedings <lb/> and references by the old and new <lb/>
                   grid system will be supplied to com<lb/>petitors</p>
                <p>Sunday's <name type="race">Circuit of Clare</name> T <damage type="missing"
-                     rend="missing text"/>
+                  rend="missing text"/><add> [missing text]</add>
                   <lb/> which starts from <placeName>Limerick</placeName> at <damage type="missing"
-                     rend="missing text"/>
-                  <lb/> a.m. wukk narj tge beginning <damage agent="tape">of the</damage>
+                     rend="missing text"/><add> [missing text]</add>
+                  <lb/> a.m. will mark the beginning <damage agent="tape">of the</damage>
                   <lb/>
                   <name type="race">Hewison Trophy competition</name>
                   <damage agent="tape"> and</damage><lb/> because of this all leading
@@ -1042,9 +1082,19 @@
    <!--page 5 (sb_09) -->
 
 
-   <facsimile xml:id="page_05" facs="sb_09_TN_C_FULL.png">
+   <facsimile xml:id="page_05">
       <surfaceGrp>
 
+         <surface xml:id="surface_5_full">
+            <figure type="fullPageFacs">
+               <label>Surface 5_full of page 5 (sb_09)</label>
+               <figDesc> Full page of page 5 of scrapbook featuring 4 clippings</figDesc>
+               <graphic xml:id="sb_09_jpg" url="../img/JPG/sb_09_FULL.jpg"/>
+               <graphic xml:id="sb_09_thumb"
+                  url="../img/Thumbnails/sb_09_TN_C_FULL.png"/>
+            </figure>
+         </surface>
+         
          <surface xml:id="surface_5_1">
             <figure type="photograph">
                <label>Surface 5_1 of page 5 (sb_09)</label>
@@ -1104,6 +1154,7 @@
 
          <div facs="#surface_5_2"/>
 
+       
          <div facs="#surface_5_3">
 
             <div n="head_5.3.1">
@@ -1238,6 +1289,16 @@
 
    <facsimile xml:id="page_06" facs="sb_10_TN_C_FULL.png">
       <surfaceGrp>
+         
+         <surface xml:id="surface_6_full">
+            <figure type="fullPageFacs">
+               <label>Surface 6_full of page 6 (sb_10)</label>
+               <figDesc> Full page of page 6 of scrapbook featuring 3 clippings</figDesc>
+               <graphic xml:id="sb_10_jpg" url="../img/JPG/sb_10_FULL.jpg"/>
+               <graphic xml:id="sb_10_thumb"
+                  url="../img/Thumbnails/sb_10_TN_C_FULL.png"/>
+            </figure>
+         </surface>
 
          <surface xml:id="surface_6_1">
             <figure type="photograph">
@@ -1769,8 +1830,8 @@
                   <damage type="tear"/><supplied>Dis</supplied>trict <name type="org">Motor Cycle
                      Club</name>'s <lb/>
                   <damage type="tear"/>
-                  <unclear>les</unclear> at <placeName>Red Bog</placeName>, near <lb/>
-                  <damage type="tear"><placeName>Blessington</placeName></damage>. and the distance
+                  <unclear>les</unclear><add> [missing text]</add> at <placeName>Red Bog</placeName>, near <lb/>
+                  <damage type="tear"><placeName>Blessington</placeName></damage> and the distance
                   of <lb/> the races was shortened. </p>
                <p rend="indention">
                   <hi rend="bold">Even then there were very few<lb/> finishers: in the main event
@@ -1836,7 +1897,7 @@
                      rend="first place">1</num>; <persName>J. L. Hickey</persName>. <objectName
                      type="motorcycle">348 B.S.A</objectName><lb/> (1 lap), 47 m. 50s., (<damage
                      type="scratch">2m.</damage> 30s). <num type="cardinal" rend="second place"
-                     >2</num>: Childs<lb/><!--text missing-->
+                        >2</num>: Childs<lb/><add> [missing text]</add>
                   <damage type="spill"><unclear>49m. 2s.,</unclear></damage>
                   <num type="cardinal" rend="fourth place">4</num>; <persName>D. C.
                   Ewen.</persName>. <objectName type="motorcycle">347 A.J.S.</objectName>

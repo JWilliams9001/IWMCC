@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tei="http://www.tei-c.org/ns/1.0"
-    xmlns:html="http://www.w3.org/1999/xhtml" exclude-result-prefixes="xs tei html" version="2.0">
-    <xsl:output method="html"/>
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:tei="http://www.tei-c.org/ns/1.0" 
+    xmlns="http://www.w3.org/1999/xhtml"
+    exclude-result-prefixes="xs tei" 
+    version="1.0">
+    <xsl:output method="xml" omit-xml-declaration="yes"
+        doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN"
+        doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
+    />
 
-    <xsl:template match="tei:TEI">
-        <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text><xsl:text>&#xa;</xsl:text>
+    <xsl:template match="/">
+      
         <html lang="en" xml:lang="en">
             <head>
                 <title>
@@ -17,9 +23,11 @@
                     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
                     crossorigin="anonymous"/>
                 <link rel="stylesheet" href="../css/main.css"/>
-                
+ 
             </head>
             <meta http-equiv="Content-Type" content="text/html; charset-utf-8"/>
+            
+            
             <body>
                 <header>
                     <h1>The Ian Williams Motocross Collection</h1>
@@ -29,7 +37,11 @@
                         href="transcription.html">Transciption</a> | <a href="metadata.html"
                         >Metadata</a>
                 </nav>
+                
+                
                 <main id="manuscript">
+                    
+                    
                     <nav id="transcriptNav">
                         <a href="#page_1">1</a> | <a href="#page_2">2</a> | <a href="#page_3">3</a>
                         | <a href="#page_4">4</a> | <a href="#page_5">5</a> | <a href="#page_6"
@@ -41,58 +53,78 @@
                     <!--PAGE 1-->
 
                     <div class="container" id="page_1">
+                        
                         <h2>Page 1</h2>
+                        
                         <div class="row">
-                            <img id="sb_03_01">
-                                <xsl:apply-templates select="/TEI/facsimile[1]/@facs"/>
+                            <img>
+                                <xsl:attribute name="src">
+                                    <xsl:value-of
+                                        select="//tei:graphic[@xml:id ='sb_03_jpg']/@url"
+                                    /> 
+                                </xsl:attribute>
+                                <xsl:attribute name="title">
+                                    <xsl:value-of
+                                        select="/tei:TEI/tei:facsimile[1]/tei:surfaceGrp[1]/tei:surface[1]/tei:figure[1]/tei:label[1]"
+                                    />
+                                </xsl:attribute>
+                                <xsl:attribute name="alt">
+                                    <xsl:value-of
+                                        select="/tei:TEI/tei:facsimile[1]/tei:surfaceGrp[1]/tei:surface[1]/tei:figure[1]/tei:figDesc[1]" 
+                                    />
+                                </xsl:attribute>
                             </img>
                         </div>
+                        
                         <div class="row">
+                            
                             <div class="column">
                                 <img>
                                     <xsl:attribute name="src">
                                         <xsl:value-of
-                                            select="/TEI/facsimile[1]/surfaceGrp[1]/surface[1]/figure[1]/graphic[2][@xml:id = 'sb_03_01']/@url"
-                                        />
+                                            select="/tei:TEI/tei:facsimile[1]/tei:surfaceGrp[1]/tei:surface[2]/tei:figure[1]/tei:graphic[@xml:id ='sb_03_01_thumb']/@url"
+                                        /> 
                                     </xsl:attribute>
                                     <xsl:attribute name="title">
                                         <xsl:value-of
-                                            select="/TEI/facsimile[1]/surfaceGrp[1]/surface[1]/figure[1]/label[1]"
+                                            select="/tei:TEI/tei:facsimile[1]/tei:surfaceGrp[1]/tei:surface[2]/tei:figure[1]/tei:label[1]"
                                         />
                                     </xsl:attribute>
                                     <xsl:attribute name="alt">
                                         <xsl:value-of
-                                            select="/TEI/facsimile[1]/surfaceGrp[1]/surface[1]/figure[1]/figDesc[1]"
+                                            select="/tei:TEI/tei:facsimile[1]/tei:surfaceGrp[1]/tei:surface[2]/tei:figure[1]/tei:figDesc[1]"
                                         />
                                     </xsl:attribute>
                                 </img>
+                                
                             </div>
                             <div class="column easyRead" id="transcription_03_01">
-                                <xsl:apply-templates select="/TEI/text[1]/body[1]/div[1]"/>
+                                <xsl:apply-templates select="//tei:text[1]/tei:body[1]/tei:div[1]/tei:div[2]"/>
                             </div>
                         </div>
+                        
                         <div class="row">
                             <div class="column">
                                 <img id="sb_03_02">
                                     <xsl:attribute name="src">
                                         <xsl:value-of
-                                            select="/TEI/facsimile[1]/surfaceGrp[1]/surface[2]/figure[1]/graphic[2][@xml:id = 'sb_03_02']/@url"
+                                            select="/tei:TEI/tei:facsimile[1]/tei:surfaceGrp[1]/tei:surface[3]/tei:figure[1]/tei:graphic[@xml:id ='sb_03_02_thumb']/@url"
                                         />
                                     </xsl:attribute>
                                     <xsl:attribute name="title">
                                         <xsl:value-of
-                                            select="/TEI/facsimile[1]/surfaceGrp[1]/surface[2]/figure[1]/label[1]"
+                                            select="/tei:TEI/tei:facsimile[1]/tei:surfaceGrp[1]/tei:surface[3]/tei:figure[1]/tei:label[1]"
                                         />
                                     </xsl:attribute>
                                     <xsl:attribute name="alt">
                                         <xsl:value-of
-                                            select="/TEI/facsimile[1]/surfaceGrp[1]/surface[2]/figure[1]/figDesc[1]"
+                                            select="/tei:TEI/tei:facsimile[1]/tei:surfaceGrp[1]/tei:surface[3]/tei:figure[1]/tei:figDesc[1]"
                                         />
                                     </xsl:attribute>
                                 </img>
                             </div>
                             <div class="column easyRead" id="transcription_03_02">
-                                <xsl:apply-templates select="/TEI/text[1]/body[1]/div[2]/@facs"/>
+                                <xsl:apply-templates select="/tei:TEI/tei:text[1]/tei:body[1]/tei:div[2]"/>
                             </div>
                         </div>
                         <div class="row">
@@ -166,6 +198,9 @@
                     </p>
                     <br/>
                     <hr/>
+
+
+
 
 
                     <!--PAGE 2-->
@@ -878,6 +913,7 @@
                                     </div>
                                     <div class="row">
                                         <div class="column">
+                                            
                                             <img id="sb_20_04">
                                                 <xsl:attribute name="src">
                                                   <xsl:value-of
@@ -911,6 +947,7 @@
                             </div>
                         </div>
                     </div>
+                   
                 </main>
                 <footer> Disclaimer: No copyright infringement intended. All content displayed is
                     part of a personal scrapbook made by the subject. The copyright ownership
@@ -944,7 +981,7 @@
         </h4>
 
     </xsl:template>
-    <xsl:template match="tei:head[@type = 'subhead', 'section_head']">
+    <xsl:template match="tei:head[@type = 'subhead']">
         <h5>
             <xsl:apply-templates/>
         </h5>
@@ -979,11 +1016,19 @@
         </b>
 
     </xsl:template>
+    
+  
     <xsl:template match="tei:hi[@rend = 'italics']">
 
         <i>
             <xsl:apply-templates/>
         </i>
+    </xsl:template>
+    
+    <xsl:template match="tei:add">
+        <sup>
+            <xsl:apply-templates/>
+        </sup>
     </xsl:template>
 
 
