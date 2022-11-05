@@ -204,10 +204,23 @@
                     <div class="container" id="page_2">
                         <h2>Page 2</h2>
                         <div class="row">
-                            <img id="sb_04_full">
-                                <xsl:apply-templates select="/TEI/facsimile[2]/@facs"/>
+                            <img id="sb_04_01">
+                                <xsl:attribute name="src">
+                                    <xsl:value-of
+                                        select="/tei:TEI/tei:facsimile[2]/tei:surfaceGrp[1]/tei:surface[1]/tei:figure[1]/tei:graphic[@xml:id = 'sb_04_jpg']/@url"
+                                    />
+                                </xsl:attribute>
+                                <xsl:attribute name="title">
+                                    <xsl:value-of
+                                        select="/tei:TEI/tei:facsimile[2]/tei:surfaceGrp[1]/tei:surface[1]/tei:figure[1]/tei:label[1]"
+                                    />
+                                </xsl:attribute>
+                                <xsl:attribute name="alt">
+                                    <xsl:value-of
+                                        select="/tei:TEI/tei:facsimile[2]/tei:surfaceGrp[1]/tei:surface[1]/tei:figure[1]/tei:figDesc[1]"
+                                    />
+                                </xsl:attribute>
                             </img>
-
                         </div>
                         <div class="row">
                             <div class="column">
