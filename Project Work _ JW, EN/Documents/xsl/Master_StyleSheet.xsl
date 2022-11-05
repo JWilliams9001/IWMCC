@@ -148,9 +148,10 @@
                         <div class="row">
                             <div class="column">
                                 <img id="sb_03_04">
+                                    
                                     <xsl:attribute name="src">
                                         <xsl:value-of
-                                            select="/tei:TEI/tei:facsimile[1]/tei:surfaceGrp[1]/tei:surface[5]/tei:figure[1]/tei:graphic[@xml:id ='photo_1.4_thumb']/@url"
+                                            select="/tei:TEI/tei:facsimile[1]/tei:surfaceGrp[1]/tei:surface[5]/tei:figure[1]/tei:graphic[@xml:id = 'photo_1.4_thumb']/@url"
                                         />
                                     </xsl:attribute>
                                     <xsl:attribute name="title">
@@ -164,6 +165,8 @@
                                         />
                                     </xsl:attribute>
                                 </img>
+                                
+                      
                             </div>
                             <div class="column">
                                 <img id="sb_03_05">
