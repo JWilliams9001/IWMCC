@@ -489,13 +489,13 @@
          <div facs="#surface_1_2">
             <p>
                <hi rend="ul">"B.B.. RUSSEL" TROPHY</hi>: The winner this year is <persName ref="#IW"
-                     >Ia<supplied>n</supplied></persName><damage type="missing"/><add> [missing text]</add><lb/> deserved,he
-               was placed at every<lb/> meeting except the <damage type="missing"/><add> [missing text]</add><lb/> 20 1/2
+                  >Ia<supplied>n</supplied></persName><damage type="missing"/> <add>[missing text] </add> <lb/> deserved,he
+               was placed at every meeting except the <add> [missing text] </add> <damage type="missing"/><lb/> 20 1/2
                points. Runner-up is <persName>Ernie Lyons</persName> who won the 
-               cu<supplied>p</supplied><damage type="missing"/><add> [missing text]</add><lb/> with 15 1/2 points;
-               followed by <persName>D. C. Ewen</persName>, 8 points; F<damage type="missing"/><add> [missing text]</add><lb/>
+               cu<supplied>p</supplied><damage type="missing"/> <add> [missing text] </add> <lb/> with 15 1/2 points;
+               followed by <persName>D. C. Ewen</persName>, 8 points; F<damage type="missing"/> <add> [missing text] </add><lb/>
                <persName>C. Coard</persName>, <persName>E. Callaghan</persName> and <persName>M.
-                  Tracey</persName> with 6 points.<add> [missing text]</add></p>
+                  Tracey</persName> with 6 points.</p>
          </div>
 
 
@@ -1544,8 +1544,18 @@
 
    <!--page 8 (sb_15) -->
 
-   <facsimile xml:id="page_08" facs="sb_15_TN_C_FULL.png">
+   <facsimile xml:id="page_08">
       <surfaceGrp>
+         
+         <surface xml:id="surface_8_full">
+            <figure type="fullPageFacs">
+               <label>Surface 8_full of page 8 (sb_15)</label>
+               <figDesc> Full page of page 8 of scrapbook featuring 3 clippings</figDesc>
+               <graphic xml:id="sb_15_jpg" url="../img/JPG/sb_15_FULL.jpg"/>
+               <graphic xml:id="sb_15_thumb"
+                  url="../img/Thumbnails/sb_15_TN_C_FULL.png"/>
+            </figure>
+         </surface>
 
          <surface xml:id="surface_8_1">
             <figure type="photograph">
@@ -1785,9 +1795,20 @@
 
    <!--page 9 (sb_17) -->
 
-   <facsimile xml:id="page_09" facs="sb_17_TN_C_FULL.png">
+   <facsimile xml:id="page_09">
       <surfaceGrp>
 
+         <surface xml:id="surface_9_full">
+            <figure type="fullPageFacs">
+               <label>Surface 9_full of page 9 (sb_17)</label>
+               <figDesc> Full page of page 7 of scrapbook featuring 3 clippings</figDesc>
+               <graphic xml:id="sb_17_jpg" url="../img/JPG/sb_17_FULL.jpg"/>
+               <graphic xml:id="sb_17_thumb"
+                  url="../img/Thumbnails/sb_17_TN_C_FULL.png"/>
+            </figure>
+         </surface>
+         
+         
          <surface xml:id="surface_9_1">
             <figure type="article">
                <label>Surface 9_1 of page 9 (sb_17)</label>
@@ -2055,9 +2076,19 @@
 
    <!--page 10 (sb_20) -->
 
-   <facsimile xml:id="page_10" facs="sb_20_TN_C_FULL.png">
+   <facsimile xml:id="page_10">
       <surfaceGrp>
 
+         <surface xml:id="surface_10_full">
+            <figure type="fullPageFacs">
+               <label>Surface 10_full of page 10 (sb_20)</label>
+               <figDesc> Full page of page 7 of scrapbook featuring 4 clippings</figDesc>
+               <graphic xml:id="sb_20_jpg" url="../img/JPG/sb_20_FULL.jpg"/>
+               <graphic xml:id="sb_20_thumb"
+                  url="../img/Thumbnails/sb_20_TN_C_FULL.png"/>
+            </figure>
+         </surface>
+         
          <surface xml:id="surface_10_1">
             <figure type="article">
                <label>Surface 10_1 of page 10 (sb_20)</label>

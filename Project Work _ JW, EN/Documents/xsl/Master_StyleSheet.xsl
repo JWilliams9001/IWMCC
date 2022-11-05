@@ -126,23 +126,23 @@
                                 <img id="sb_03_03">
                                     <xsl:attribute name="src">
                                         <xsl:value-of
-                                            select="/TEI/facsimile[1]/surfaceGrp[1]/surface[3]/figure[1]/graphic[2][@xml:id = 'sb_03_03']/@url"
+                                            select="/tei:TEI/tei:facsimile[1]/tei:surfaceGrp[1]/tei:surface[4]/tei:figure[1]/tei:graphic[@xml:id ='sb_03_03_thumb']/@url"
                                         />
                                     </xsl:attribute>
                                     <xsl:attribute name="title">
                                         <xsl:value-of
-                                            select="/TEI/facsimile[1]/surfaceGrp[1]/surface[3]/figure[1]/label[1]"
+                                            select="/tei:TEI/tei:facsimile[1]/tei:surfaceGrp[1]/tei:surface[4]/tei:figure[1]/tei:label[1]"
                                         />
                                     </xsl:attribute>
                                     <xsl:attribute name="alt">
                                         <xsl:value-of
-                                            select="/TEI/facsimile[1]/surfaceGrp[1]/surface[3]/figure[1]/figDesc[1]"
+                                            select="/tei:TEI/tei:facsimile[1]/tei:surfaceGrp[1]/tei:surface[4]/tei:figure[1]/tei:figDesc[1]"
                                         />
                                     </xsl:attribute>
                                 </img>
                             </div>
                             <div class="column easyRead" id="transcription_03_03">
-                                <xsl:apply-templates select="/TEI/text[1]/body[1]/div[3]/@facs"/>
+                                <xsl:apply-templates select="/tei:TEI/tei:text[1]/tei:body[1]/tei:div[3]"/>
                             </div>
                         </div>
                         <div class="row">
@@ -150,17 +150,17 @@
                                 <img id="sb_03_04">
                                     <xsl:attribute name="src">
                                         <xsl:value-of
-                                            select="/TEI/facsimile[1]/surfaceGrp[1]/surface[4]/figure[1]/graphic[2][@xml:id = 'sb_03_04']/@url"
+                                            select="/tei:TEI/tei:facsimile[1]/tei:surfaceGrp[1]/tei:surface[5]/tei:figure[1]/tei:graphic[@xml:id ='photo_1.4_thumb']/@url"
                                         />
                                     </xsl:attribute>
                                     <xsl:attribute name="title">
                                         <xsl:value-of
-                                            select="/TEI/facsimile[1]/surfaceGrp[1]/surface[4]/figure[1]/label[1]"
+                                            select="/tei:TEI/tei:facsimile[1]/tei:surfaceGrp[1]/tei:surface[5]/tei:figure[1]/tei:label[1]"
                                         />
                                     </xsl:attribute>
                                     <xsl:attribute name="alt">
                                         <xsl:value-of
-                                            select="/TEI/facsimile[1]/surfaceGrp[1]/surface[4]/figure[1]/figDesc[1]"
+                                            select="/tei:TEI/tei:facsimile[1]/tei:surfaceGrp[1]/tei:surface[5]/tei:figure[1]/tei:figDesc[1]"
                                         />
                                     </xsl:attribute>
                                 </img>
@@ -169,17 +169,17 @@
                                 <img id="sb_03_05">
                                     <xsl:attribute name="src">
                                         <xsl:value-of
-                                            select="/TEI/facsimile[1]/surfaceGrp[1]/surface[5]/figure[1]/graphic[2][@xml:id = 'sb_03_05']/@url"
+                                            select="/tei:TEI/tei:facsimile[1]/tei:surfaceGrp[1]/tei:surface[6]/tei:figure[1]/tei:graphic[@xml:id = 'photo_1.5_thumb']/@url"
                                         />
                                     </xsl:attribute>
                                     <xsl:attribute name="title">
                                         <xsl:value-of
-                                            select="/TEI/facsimile[1]/surfaceGrp[1]/surface[5]/figure[1]/label[1]"
+                                            select="/tei:TEI/tei:facsimile[1]/tei:surfaceGrp[1]/tei:surface[6]/tei:figure[1]/tei:label[1]"
                                         />
                                     </xsl:attribute>
                                     <xsl:attribute name="alt">
                                         <xsl:value-of
-                                            select="/TEI/facsimile[1]/surfaceGrp[1]/surface[5]/figure[1]/figDesc[1]"
+                                            select="/tei:TEI/tei:facsimile[1]/tei:surfaceGrp[1]/tei:surface[6]/tei:figure[1]/tei:figDesc[1]"
                                         />
                                     </xsl:attribute>
                                 </img>
@@ -995,6 +995,7 @@
         <sup>
             <xsl:apply-templates/>
         </sup>
+        
     </xsl:template>
 
     <xsl:template match="tei:hi[@rend = 'ul']">
@@ -1019,11 +1020,6 @@
         </i>
     </xsl:template>
 
-    <xsl:template match="tei:add">
-        <sup>
-            <xsl:apply-templates/>
-        </sup>
-    </xsl:template>
 
 
 </xsl:stylesheet>
