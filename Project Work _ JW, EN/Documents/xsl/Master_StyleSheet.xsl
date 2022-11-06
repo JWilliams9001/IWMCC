@@ -10,6 +10,7 @@
 
         <html lang="en" xml:lang="en">
             <head>
+               
                 <title> The Ian Williams Motocross Collection: A Digital Transcription </title>
                 <link rel="stylesheet"
                     href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -23,7 +24,7 @@
 
             <body>
                 <header>
-                    <h1>The Ian Williams Motocross Collection</h1>
+                    <h1> <xsl:apply-templates select="/tei:TEI/tei:teiHeader[1]/tei:fileDesc[1]/tei:titleStmt[1]/tei:title[1]"/></h1>
                 </header>
 
                 <nav><a href="home.html">Home</a> | <a href="gallery.html">Gallery</a> | <a
@@ -90,7 +91,7 @@
                                 </img>
 
                             </div>
-                            <div class="column easyRead" id="surface_1_1">
+                            <div class="column easyRead" id="surface_1_1_txt">
                                 <xsl:apply-templates
                                     select="//tei:text[1]/tei:body[1]/tei:div[1]/tei:div[2]"/>
                             </div>
@@ -116,7 +117,7 @@
                                     </xsl:attribute>
                                 </img>
                             </div>
-                            <div class="column easyRead" id="surface_1_2">
+                            <div class="column easyRead" id="surface_1_2_txt">
                                 <xsl:apply-templates
                                     select="/tei:TEI/tei:text[1]/tei:body[1]/tei:div[2]"/>
                             </div>
@@ -141,7 +142,7 @@
                                     </xsl:attribute>
                                 </img>
                             </div>
-                            <div class="column easyRead" id="surface_1_3">
+                            <div class="column easyRead" id="surface_1_3_txt">
                                 <xsl:apply-templates select="/tei:TEI/tei:text[1]/tei:body[1]/tei:div[3]"/>
                             </div>
                         </div>
@@ -261,7 +262,7 @@
                                 </img>
 
                             </div>
-                            <div class="column easyRead" id="surface_2_2">
+                            <div class="column easyRead" id="surface_2_2_txt">
                                 <xsl:apply-templates select="/tei:TEI/tei:text[2]/tei:body[1]/tei:div[2]"/>
                             </div>
                         </div>
@@ -363,7 +364,7 @@
                                     </img>
                                 </div>
                             </div>
-                            <div class="column easyRead" id="#surface_3_2">
+                            <div class="column easyRead" id="surface_3_2_txt">
                                 <xsl:apply-templates select="/tei:TEI/tei:text[3]/tei:body[1]/tei:div[2]"/>
                             </div>
                         </div>
@@ -437,7 +438,7 @@
                     <div class="container" id="page_5">
                         <h2>Page 5</h2>
                         <div class="row">
-                            <img facs="surface_5_full">
+                            <img id="surface_5_full">
                                 <xsl:attribute name="src">
                                     <xsl:value-of
                                         select="/tei:TEI/tei:facsimile[5]/tei:surfaceGrp[1]/tei:surface[1]/tei:figure[1]/tei:graphic[@xml:id = 'sb_09_jpg']/@url"
@@ -1111,7 +1112,9 @@
 
 
     </xsl:template>
-
+    
+    <xsl:template match="tei:teiHeader"/>
+    
     <xsl:template match="tei:byline">
         <h5>
             <xsl:apply-templates/>

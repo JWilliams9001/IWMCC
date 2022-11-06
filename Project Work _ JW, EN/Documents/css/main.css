@@ -2,12 +2,12 @@ body {
   padding: 1vw;
   font-family: 'Courier New', Courier, monospace;
   line-height: 1.5;
-  font-size: 12;
+  font-size: 0.75em;
   width: 100%;
   background-color: #fffafa;
 }
 
-nav {
+#siteNav  {
   text-align: center;
   padding: 1.5vw;
   margin-bottom: 2vw;
@@ -25,25 +25,25 @@ a {color: #494c45}
 h1
 {text-align: center;
   padding: 1vw;
-  font-size: 24;
-  font-weight: medium;
+  font-size: 40px;
+  font-weight: 500;
   color: #494c45;
 }
 h2 {
-  font-size: 18;
+  font-size: 30px;
   text-align: center;
   color: #494c45;
   padding: 1.5vw;
 }
 
 h3, h4{
-  font-size: 16;
+  font-size: 25px;
   text-align: center;
   color: #494c45;
   padding: 1vw;
 }
 h5 {
-  font-size: 14;
+  font-size: 25px;
   text-align: center;
   color: #494c45;
   padding: 1vw; 
@@ -51,7 +51,7 @@ h5 {
 
 p {
   line-height: 1.5;
-  font-size: 12;
+  font-size: 20px;
   width: 100%;
 text-align: left;
 }
@@ -66,7 +66,7 @@ img {
 
 .easyRead {font-family: Arial, Helvetica, sans-serif !important;
   line-height: 1.6!important;
-  font-size: 14!important;
+  font-size: 22px!important;
 }
 
 .backToTop {
@@ -205,6 +205,19 @@ img {
 } 
 
 footer {
+  text-align: center;
+  padding: 1.5vw;
+  background-color: #e6cfa6;
+  border-top: double;
+  border-bottom: double;
+  border-width: thick;
+  padding-top: 1vw;
+  margin-top: 1vw;
+  color: #494c45; 
+  font-size: 1vw;
+}
+
+#footer {
   text-align: center;
   padding: 1.5vw;
   background-color: #e6cfa6;
